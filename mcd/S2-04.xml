@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <Database>
-   <Name>S1-04</Name>
+   <Name>S2-04</Name>
    <Table>
       <Name>Organisme</Name>
       <Column>
@@ -48,16 +48,6 @@
       </PK>
    </Table>
    <Table>
-      <Name>GradeInferieur</Name>
-      <Column>
-         <Name>gradeInf</Name>
-         <Type>VARCHAR(50)</Type>
-      </Column>
-      <PK>
-         <Key>gradeInf</Key>
-      </PK>
-   </Table>
-   <Table>
       <Name>Rang</Name>
       <Column>
          <Name>rang</Name>
@@ -85,16 +75,6 @@
       </Column>
       <PK>
          <Key>dignite</Key>
-      </PK>
-   </Table>
-   <Table>
-      <Name>GradeSuperieur</Name>
-      <Column>
-         <Name>gradeSup</Name>
-         <Type>VARCHAR(50)</Type>
-      </Column>
-      <PK>
-         <Key>gradeSup</Key>
       </PK>
    </Table>
    <Table>
@@ -185,6 +165,16 @@
       </PK>
    </Table>
    <Table>
+      <Name>Grade</Name>
+      <Column>
+         <Name>grade</Name>
+         <Type>VARCHAR(50)</Type>
+      </Column>
+      <PK>
+         <Key>grade</Key>
+      </PK>
+   </Table>
+   <Table>
       <Name>Tenrac</Name>
       <Column>
          <Name>numero</Name>
@@ -224,11 +214,7 @@
          <Property>NOT NULL</Property>
       </Column>
       <Column>
-         <Name>gradeSup</Name>
-         <Type>VARCHAR(50)</Type>
-      </Column>
-      <Column>
-         <Name>gradeInf</Name>
+         <Name>grade</Name>
          <Type>VARCHAR(50)</Type>
       </Column>
       <Column>
@@ -255,12 +241,8 @@
          <Reference>Organisme(refOrganisme)</Reference>
       </FK>
       <FK>
-         <Key>gradeSup</Key>
-         <Reference>GradeSuperieur(gradeSup)</Reference>
-      </FK>
-      <FK>
-         <Key>gradeInf</Key>
-         <Reference>GradeInferieur(gradeInf)</Reference>
+         <Key>grade</Key>
+         <Reference>Grade(grade)</Reference>
       </FK>
       <FK>
          <Key>dignite</Key>
@@ -340,6 +322,50 @@
       <FK>
          <Key>numero, refOrganisme, codeMembre</Key>
          <Reference>Tenrac(numero, refOrganisme, codeMembre)</Reference>
+      </FK>
+   </Table>
+   <Table>
+      <Name>GradeInferieur</Name>
+      <Column>
+         <Name>gradeInf</Name>
+         <Type>VARCHAR(50)</Type>
+      </Column>
+      <Column>
+         <Name>grade</Name>
+         <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>gradeInf</Key>
+      </PK>
+      <AK>
+         <Key>grade</Key>
+      </AK>
+      <FK>
+         <Key>grade</Key>
+         <Reference>Grade(grade)</Reference>
+      </FK>
+   </Table>
+   <Table>
+      <Name>GradeSuperieur</Name>
+      <Column>
+         <Name>gradeSup</Name>
+         <Type>VARCHAR(50)</Type>
+      </Column>
+      <Column>
+         <Name>grade</Name>
+         <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>gradeSup</Key>
+      </PK>
+      <AK>
+         <Key>grade</Key>
+      </AK>
+      <FK>
+         <Key>grade</Key>
+         <Reference>Grade(grade)</Reference>
       </FK>
    </Table>
    <Table>

@@ -298,7 +298,7 @@
    <Table>
       <Name>Reunion</Name>
       <Column>
-         <Name>idRenion</Name>
+         <Name>idReunion</Name>
          <Type>INT</Type>
       </Column>
       <Column>
@@ -317,7 +317,7 @@
          <Property>NOT NULL</Property>
       </Column>
       <PK>
-         <Key>idRenion</Key>
+         <Key>idReunion</Key>
       </PK>
       <FK>
          <Key>numero, refOrganisme, codeMembre</Key>
@@ -480,11 +480,11 @@
          <Type>DATETIME</Type>
       </Column>
       <Column>
-         <Name>idRenion</Name>
+         <Name>idReunion</Name>
          <Type>INT</Type>
       </Column>
       <PK>
-         <Key>adresse, date_, idRenion</Key>
+         <Key>adresse, date_, idReunion</Key>
       </PK>
       <FK>
          <Key>adresse</Key>
@@ -495,8 +495,8 @@
          <Reference>Date_(date_)</Reference>
       </FK>
       <FK>
-         <Key>idRenion</Key>
-         <Reference>Reunion(idRenion)</Reference>
+         <Key>idReunion</Key>
+         <Reference>Reunion(idReunion)</Reference>
       </FK>
    </Table>
    <Table>
@@ -514,19 +514,19 @@
          <Type>INT</Type>
       </Column>
       <Column>
-         <Name>idRenion</Name>
+         <Name>idReunion</Name>
          <Type>INT</Type>
       </Column>
       <PK>
-         <Key>numero, refOrganisme, codeMembre, idRenion</Key>
+         <Key>numero, refOrganisme, codeMembre, idReunion</Key>
       </PK>
       <FK>
          <Key>numero, refOrganisme, codeMembre</Key>
          <Reference>Tenrac(numero, refOrganisme, codeMembre)</Reference>
       </FK>
       <FK>
-         <Key>idRenion</Key>
-         <Reference>Reunion(idRenion)</Reference>
+         <Key>idReunion</Key>
+         <Reference>Reunion(idReunion)</Reference>
       </FK>
    </Table>
    <Table>
@@ -624,7 +624,7 @@
          <Type>DATETIME</Type>
       </Column>
       <Column>
-         <Name>idRenion</Name>
+         <Name>idReunion</Name>
          <Type>INT</Type>
       </Column>
       <Column>
@@ -632,15 +632,15 @@
          <Type>INT</Type>
       </Column>
       <PK>
-         <Key>date_, idRenion, idRepas</Key>
+         <Key>date_, idReunion, idRepas</Key>
       </PK>
       <FK>
          <Key>date_</Key>
          <Reference>Date_(date_)</Reference>
       </FK>
       <FK>
-         <Key>idRenion</Key>
-         <Reference>Reunion(idRenion)</Reference>
+         <Key>idReunion</Key>
+         <Reference>Reunion(idReunion)</Reference>
       </FK>
       <FK>
          <Key>idRepas</Key>

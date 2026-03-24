@@ -1,0 +1,29 @@
+--Insertion des données dans la base : 
+INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) 
+VALUES (1,9,5391,'Stevens','Rachel','rhill@perez-jackson.com','+1-639-969-6597x0429','USCGC White FPO AE 42155','Affilié','Grand chancelier','Honorable','Novice')
+INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES (2,1,4208,'Medina','Erica','justin92@kennedy.biz','433-760-0689x965','834 Rogers Lake Apt. 127
+South Josephchester, NH 49212','Grand’Croix','Grand Maître','Philantrope','Compagnon')
+INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES (3,7,6706,'Curtis','Darren','jeremy39@farley-armstrong.org','(730)767-7200x8780','Unit 9344 Box 6155
+DPO AP 04690','Chevalier','Grand chancelier','Honorable','Novice')
+INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES (4,7,7459,'Middleton','Aaron','usmith@becker.org','001-220-762-4435','473 Powell Path Suite 870
+Contreraston, AK 11990','HauteDame','Grand chancelier','Philantrope','Compagnon')
+INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES (5,7,7427,'Jackson','Stephen','loganshaw@macdonald.info','+1-657-483-4907x209','992 Brooks Knoll Suite 294
+Port Oliviaburgh, NM 10282','Sympathisant','Maître','Honorable','Novice')
+INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES (6,1,4559,'Aguirre','Patricia','wmiller@johnson.info','(889)283-4357','7995 Theresa Point Suite 472
+New Allison, KY 69454','Grand’Croix','Maître','Honorable','Compagnon')
+INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES (7,2,2008,'Howard','Shannon','thenry@banks.com','001-910-839-0832x39286','88421 Angela Hill Suite 131
+Port Williamshire, KY 81030','Sympathisant','Grand Maître','Protecteur','Novice')
+INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES (8,5,6100,'Dudley','Diane','danieljohnson@stewart-medina.org','(683)813-1227x63958','53782 Tom Roads Apt. 785
+North Shannon, VT 47442','Commandeur','Maître','Honorable','Novice')
+INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES (9,10,8088,'Bartlett','Brett','shannonmoody@allen.com','3449539041','998 Jeremiah Field Suite 759
+Katherineland, PA 03434','Dame','Maître','Honorable','Compagnon')
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (665,'Association','pouletFrit_poulet_',62776759142417)
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (820,'Entreprise','pizza_',85321363723936)
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (154,'Entreprise','saumon_',37143442557359)
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (417,'Entreprise','pouletFrit_',32531126885826)
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (727,'Entreprise','beurre_kebab_ananas_',18282242647935)
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (889,'Entreprise','beurre_kebab_',81127365468541)
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (326,'Association','pizza_pouletFrit_beurre_',69828961866536)
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (34,'Entreprise','beurre_sauce_',83553569684521)
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (753,'Organisme de formation','sauce_',29558313513373)
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (133,'Organisme de formation','quiche_quiche_',67455129179822)

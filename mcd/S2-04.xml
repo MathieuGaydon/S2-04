@@ -48,6 +48,16 @@
       </PK>
    </Table>
    <Table>
+      <Name>Reunion</Name>
+      <Column>
+         <Name>idReunion</Name>
+         <Type>INT</Type>
+      </Column>
+      <PK>
+         <Key>idReunion</Key>
+      </PK>
+   </Table>
+   <Table>
       <Name>Rang</Name>
       <Column>
          <Name>rang</Name>
@@ -293,35 +303,6 @@
       <FK>
          <Key>numero</Key>
          <Reference>Ordre(numero)</Reference>
-      </FK>
-   </Table>
-   <Table>
-      <Name>Reunion</Name>
-      <Column>
-         <Name>idReunion</Name>
-         <Type>INT</Type>
-      </Column>
-      <Column>
-         <Name>numero</Name>
-         <Type>INT</Type>
-         <Property>NOT NULL</Property>
-      </Column>
-      <Column>
-         <Name>refOrganisme</Name>
-         <Type>INT</Type>
-         <Property>NOT NULL</Property>
-      </Column>
-      <Column>
-         <Name>codeMembre</Name>
-         <Type>INT</Type>
-         <Property>NOT NULL</Property>
-      </Column>
-      <PK>
-         <Key>idReunion</Key>
-      </PK>
-      <FK>
-         <Key>numero, refOrganisme, codeMembre</Key>
-         <Reference>Tenrac(numero, refOrganisme, codeMembre)</Reference>
       </FK>
    </Table>
    <Table>
@@ -779,6 +760,28 @@
       <FK>
          <Key>idEntretient</Key>
          <Reference>Entretient(idEntretient)</Reference>
+      </FK>
+   </Table>
+   <Table>
+      <Name>Dirige</Name>
+      <Column>
+         <Name>idReunion</Name>
+         <Type>INT</Type>
+      </Column>
+      <Column>
+         <Name>gradeSup</Name>
+         <Type>VARCHAR(50)</Type>
+      </Column>
+      <PK>
+         <Key>idReunion, gradeSup</Key>
+      </PK>
+      <FK>
+         <Key>idReunion</Key>
+         <Reference>Reunion(idReunion)</Reference>
+      </FK>
+      <FK>
+         <Key>gradeSup</Key>
+         <Reference>GradeSuperieur(gradeSup)</Reference>
       </FK>
    </Table>
 </Database>

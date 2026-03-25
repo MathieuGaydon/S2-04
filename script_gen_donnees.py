@@ -40,14 +40,14 @@ for i in range(1,10):
         Nom = nom()
         Prenom = prenom()
         courriel = fake.company_email()
-        numeroTel = fake.phone_number()
-        adresse_postale = fake.address()
+        numeroTel = fake.phone_number()                                                                                                                                                                                             
+        adresse_postale = fake.address().replace("\n", ", ")
         grade = fake.random_element(elements=Grades_possibles)
         dignite = fake.random_element(elements=Dignités_possibles)
         titre = fake.random_element(elements=Titres_possibles)
         rang = fake.random_element(elements=Rang_possibles)
         with open("resultat.txt","a") as file:
-            file.write("INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES (" 
+            file.write("INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES " + "\n" + "(" 
                        + str(numero) + ',' + str(refOrganisme) + ',' + str(Code_membre) + ',' 
                        + "'" + Nom + "'" + ',' + "'" + Prenom + "'" + ',' + "'" + courriel + "'" + ',' + "'" + numeroTel + "'" 
                        + ',' + "'" + adresse_postale + "'" + ',' + "'" + grade + "'" + ',' 

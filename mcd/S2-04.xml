@@ -88,6 +88,16 @@
       </PK>
    </Table>
    <Table>
+      <Name>GradeSuperieur</Name>
+      <Column>
+         <Name>gradeSup</Name>
+         <Type>VARCHAR(50)</Type>
+      </Column>
+      <PK>
+         <Key>gradeSup</Key>
+      </PK>
+   </Table>
+   <Table>
       <Name>Repas</Name>
       <Column>
          <Name>idRepas</Name>
@@ -224,6 +234,10 @@
          <Property>NOT NULL</Property>
       </Column>
       <Column>
+         <Name>gradeSup</Name>
+         <Type>VARCHAR(50)</Type>
+      </Column>
+      <Column>
          <Name>grade</Name>
          <Type>VARCHAR(50)</Type>
       </Column>
@@ -249,6 +263,10 @@
       <FK>
          <Key>refOrganisme</Key>
          <Reference>Organisme(refOrganisme)</Reference>
+      </FK>
+      <FK>
+         <Key>gradeSup</Key>
+         <Reference>GradeSuperieur(gradeSup)</Reference>
       </FK>
       <FK>
          <Key>grade</Key>
@@ -303,28 +321,6 @@
       <FK>
          <Key>numero</Key>
          <Reference>Ordre(numero)</Reference>
-      </FK>
-   </Table>
-   <Table>
-      <Name>GradeSuperieur</Name>
-      <Column>
-         <Name>gradeSup</Name>
-         <Type>VARCHAR(50)</Type>
-      </Column>
-      <Column>
-         <Name>grade</Name>
-         <Type>VARCHAR(50)</Type>
-         <Property>NOT NULL</Property>
-      </Column>
-      <PK>
-         <Key>gradeSup</Key>
-      </PK>
-      <AK>
-         <Key>grade</Key>
-      </AK>
-      <FK>
-         <Key>grade</Key>
-         <Reference>Grade(grade)</Reference>
       </FK>
    </Table>
    <Table>
@@ -741,7 +737,7 @@
       </FK>
    </Table>
    <Table>
-      <Name>Dirige1</Name>
+      <Name>Dirige</Name>
       <Column>
          <Name>numero</Name>
          <Type>INT</Type>

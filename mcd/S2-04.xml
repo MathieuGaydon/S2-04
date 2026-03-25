@@ -306,28 +306,6 @@
       </FK>
    </Table>
    <Table>
-      <Name>GradeInferieur</Name>
-      <Column>
-         <Name>gradeInf</Name>
-         <Type>VARCHAR(50)</Type>
-      </Column>
-      <Column>
-         <Name>grade</Name>
-         <Type>VARCHAR(50)</Type>
-         <Property>NOT NULL</Property>
-      </Column>
-      <PK>
-         <Key>gradeInf</Key>
-      </PK>
-      <AK>
-         <Key>grade</Key>
-      </AK>
-      <FK>
-         <Key>grade</Key>
-         <Reference>Grade(grade)</Reference>
-      </FK>
-   </Table>
-   <Table>
       <Name>GradeSuperieur</Name>
       <Column>
          <Name>gradeSup</Name>
@@ -763,25 +741,33 @@
       </FK>
    </Table>
    <Table>
-      <Name>Dirige</Name>
+      <Name>Dirige1</Name>
+      <Column>
+         <Name>numero</Name>
+         <Type>INT</Type>
+      </Column>
+      <Column>
+         <Name>refOrganisme</Name>
+         <Type>INT</Type>
+      </Column>
+      <Column>
+         <Name>codeMembre</Name>
+         <Type>INT</Type>
+      </Column>
       <Column>
          <Name>idReunion</Name>
          <Type>INT</Type>
       </Column>
-      <Column>
-         <Name>gradeSup</Name>
-         <Type>VARCHAR(50)</Type>
-      </Column>
       <PK>
-         <Key>idReunion, gradeSup</Key>
+         <Key>numero, refOrganisme, codeMembre, idReunion</Key>
       </PK>
+      <FK>
+         <Key>numero, refOrganisme, codeMembre</Key>
+         <Reference>Tenrac(numero, refOrganisme, codeMembre)</Reference>
+      </FK>
       <FK>
          <Key>idReunion</Key>
          <Reference>Reunion(idReunion)</Reference>
-      </FK>
-      <FK>
-         <Key>gradeSup</Key>
-         <Reference>GradeSuperieur(gradeSup)</Reference>
       </FK>
    </Table>
 </Database>

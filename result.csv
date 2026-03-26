@@ -1,0 +1,360 @@
+--Insertion des données dans la base : 
+Tenrac
+numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,gradeSup,grade,dignite,titre,rang
+1,7,75732,Haynes,Tasha,jimenezerica@maynard-brown.com,650.580.1628,"160 Barnes Creek, West Adam, TX 37525",NULL,Affilié,Grand chancelier,Honorable,Compagnon
+2,10,27676,Ramirez,Brittany,kimberlypowell@braun.org,435-747-4282x05087,"10508 Pacheco Neck, Richardmouth, ND 26393",Commandeur,NULL,Grand chancelier,Honorable,Compagnon
+3,4,59657,Foley,Devon,jason49@garcia.info,(244)386-5161x1655,"1815 Sandra Rue Suite 495, Ramirezview, LA 81784",NULL,Affilié,Maître,Honorable,Compagnon
+4,1,84754,Villegas,Raymond,qhowell@maldonado-williams.org,778.703.7609x66070,"628 Amber Spurs, West Christine, KY 90412",Grand’Croix,NULL,Grand chancelier,Honorable,Compagnon
+5,10,22872,Strong,Mark,lukepotter@taylor-dawson.com,404.771.0664x49984,"19335 Jacob Neck, New Christophertown, KS 87246",NULL,Sympathisant,Grand Maître,Protecteur,Novice
+6,8,52968,Kidd,Morgan,douglasgarcia@garcia.com,001-970-738-6439x00606,"4494 Miller Orchard, Patricialand, ME 82093",Grand’Croix,NULL,Grand Maître,Philantrope,Compagnon
+7,3,88402,Garcia,Nancy,fergusonmatthew@hart.biz,+1-974-390-0217x5314,"21783 Cherry Island, North Pamelaburgh, OH 83718",NULL,Sympathisant,Grand Maître,Philantrope,Novice
+8,7,82147,Torres DDS,Kimberly,rhondarodriguez@clark.com,753.334.7995x473,"125 Susan Court Apt. 568, Lake Tiffanyfurt, DC 05030",Chevalier / Dame,NULL,Grand Maître,Protecteur,Novice
+9,3,34620,Salas,Natalie,paigecarr@chapman-tran.com,+1-302-318-4977,"97941 Melissa Street Apt. 836, Lake Sherrychester, PW 34244",NULL,Sympathisant,Maître,Honorable,Compagnon
+Organisme
+refOrganisme,typeOrganisme,raisonSociale,numeroSIRET
+30,Association,SaucePouletFritSauce,74834365774842
+125,Entreprise,Legume,67214587324898
+556,Association,Legume,32351543771684
+234,Entreprise,Sauce,48226841571624
+672,Organisme de formation,Ananas,43682995525594
+128,Association,PizzaRaclette,79467692272934
+643,Association,KebabBeurre,77363625139892
+32,Entreprise,LegumeAnanas,82889775288922
+350,Association,RacletteQuiche,72297376596281
+201,Entreprise,TendersBeurre,85827346256555
+Date
+date_
+2016-02-27
+1972-03-01
+1991-08-24
+2017-11-21
+1994-12-10
+2009-09-20
+1985-08-21
+1998-11-22
+2000-04-26
+1983-01-25
+Organisation
+numero
+320
+830
+584
+581
+1053
+299
+1094
+998
+256
+946
+1102
+1150
+507
+588
+773
+Entretien
+idEntretient,periodeEntretient,typeEntretient,numero
+0,2017-09-24,mécanique,320
+1,2000-02-06,mécanique,946
+2,1996-07-08,détergent,581
+3,1991-08-14,dégraissant,773
+4,2021-03-01,à l'eau,299
+5,1974-09-26,dégraissant,507
+6,2018-04-30,désinfectant,1150
+7,2006-07-15,désinfectant,1094
+8,2018-03-30,à l'eau,1053
+9,2002-07-03,désinfectant,581
+Ordre
+numero,nomOrdre
+320,Amateurs de Pizza
+773,Kiffeurs de Pizza
+1150,EnjoyersPoulet
+830,Apprécieurs de Beurre
+581,Apprécieurs de PouletFrit
+588,Kiffeurs de Kebab
+507,Amateurs de Raclette
+1053,EnjoyersRaclette
+946,Kiffeurs de Pizza
+998,Kiffeurs de Poulet
+Club
+numero_1,nomClub,numero
+299,TendersGoutuSauce,581
+256,TendersSaumon,320
+1102,DivinSaucePoulet,1150
+1094,Raclette,946
+584,QuicheRaclette,998
+Partenaire
+adresse,numero
+"94368 Durham Loaf, Lake Matthewmouth, ME 73441",1053
+"9707 Ann Port, Marcchester, KY 61633",256
+"456 Hamilton Way Apt. 061, New Dana, NM 76269",588
+"7147 Theodore Park, North Darren, CO 03760",998
+"870 Perkins Causeway Suite 490, Scottborough, NE 01817",946
+"8115 Alison Mission Apt. 523, Darrenbury, WA 51132",584
+"PSC 4844, Box 7784, APO AA 93484",830
+"USNV Molina, FPO AE 33281",256
+"39311 Wagner Mountain, Gordonmouth, AR 87725",1150
+"791 Singh Square, Robinsonland, KS 42930",299
+Modele
+idModele,nomModele,idEntretient
+17,OJ 593,6
+1,zs 741,8
+15,My 063,0
+21,mm 043,3
+45,XB 662,1
+53,jW 463,6
+23,Td 020,5
+89,nA 389,0
+5,Gi 199,2
+54,pD 534,2
+Reunion
+idReunion
+695
+2048
+686
+1763
+1315
+1762
+404
+1816
+861
+960
+Repas
+idRepas,nomRepas
+1382,Encas
+686,Dîner
+3930,Petit-Déjeuner
+1273,Dîner
+2146,Goûter
+760,Petit-Déjeuner
+4571,Dîner
+4769,Déjeuner
+3242,Déjeuner
+1741,Petit-Déjeuner
+Legume
+idLegume,nomLegume
+967,Carotte
+161,Oignon
+15,Radis
+662,Pomme de terre
+848,Topinambour
+313,Radis
+724,Maïs
+677,Maïs
+880,Pomme de terre
+333,Carotte
+Plat
+idPlat,nomPlat,idLegume
+79,Saumon,677
+825,Kebab,724
+600,Tenders,662
+223,Poulet,15
+571,Choucroute,848
+354,Saumon,662
+773,Choucroute,724
+52,Fondue savoyarde,333
+137,Choucroute,333
+190,Choucroute,15
+Sauce
+idSauce,nomSauce
+396,Poivre
+577,Beurre
+585,Ketchup
+165,Moutarde
+916,Sauce Fromagère
+750,Blanche
+243,Pesto
+633,Tartare
+251,Poivre
+686,Poivre
+Ingredient
+idIngredient,nomIngredient
+17,Poulet pané
+33,Guanciale
+112,Guanciale
+938,Saucisse
+334,Saucisse
+101,Pâtes
+457,Fromage à raclette
+994,Poulet pané
+587,Poulet pané
+862,Bacon
+Aliment
+idAliment,nomAliment
+264,Lait
+940,Lait
+953,Sel
+18,Sel
+964,Lait
+712,Cheddar
+555,Frites
+985,Cheddar
+978,Sel
+754,Sel
+Compose
+idRepas,idPlat
+3930,773
+3930,354
+3242,825
+686,773
+686,52
+2146,600
+1741,825
+3930,773
+3242,190
+760,773
+Constitue
+idPlat,idAliment
+137,754
+825,953
+825,964
+52,940
+52,264
+773,940
+223,940
+223,953
+223,264
+600,964
+Accompagne
+idPlat,idSauce
+223,396
+600,585
+79,251
+571,577
+52,251
+354,686
+190,686
+190,633
+354,686
+773,585
+forme
+idSauce,idIngredient
+750,334
+396,587
+686,101
+165,587
+577,112
+750,938
+165,33
+916,17
+396,938
+633,334
+Mange
+date_,idReunion,idRepas
+2017-11-21,404,2146
+1994-12-10,1816,4571
+2009-09-20,404,686
+1998-11-22,2048,3930
+1972-03-01,861,3930
+1994-12-10,960,1382
+1983-01-25,686,3930
+2000-04-26,1763,4769
+1994-12-10,960,2146
+1985-08-21,2048,4571
+Machine
+idMachine,nomMachine
+0,electrique
+1,traditionnelle
+2,pierrade-fondue
+3,traditionnelle
+4,electrique
+5,multifonction
+6,familiale
+7,de table
+8,individuelle
+9,multifonction
+Utilisation Officielle
+idRepas,idMachine
+1273,5
+4571,2
+686,1
+2146,8
+1741,0
+3930,0
+3930,1
+3930,7
+4769,8
+3242,0
+Intolerance
+numero,refOrganisme,codeMembre,idLegume
+1236,3,75732,967
+272,1,52968,15
+1694,3,22872,15
+1706,8,27676,967
+78,2,75732,161
+1564,7,84754,313
+1750,1,82147,333
+594,3,82147,333
+480,4,59657,161
+1207,1,75732,161
+Dirige
+numero,refOrganisme,codeMembre,idReunion
+4,9,22872,695
+4,7,82147,1762
+7,9,84754,861
+3,6,82147,1816
+2,9,59657,1763
+4,4,27676,1763
+5,9,75732,1315
+1,6,52968,960
+7,5,59657,1816
+7,8,34620,1762
+Enregistre1
+numero,idEntretien
+1102,8
+299,2
+584,2
+256,0
+299,3
+299,9
+256,1
+1102,8
+256,5
+256,2
+SeGroupe
+adresse,date_,idReunion
+"870 Perkins Causeway Suite 490, Scottborough, NE 01817",1972-03-01,1762
+"94368 Durham Loaf, Lake Matthewmouth, ME 73441",1985-08-21,2048
+"870 Perkins Causeway Suite 490, Scottborough, NE 01817",1991-08-24,1816
+"USNV Molina, FPO AE 33281",1991-08-24,960
+"7147 Theodore Park, North Darren, CO 03760",1972-03-01,1763
+"94368 Durham Loaf, Lake Matthewmouth, ME 73441",1985-08-21,1763
+"USNV Molina, FPO AE 33281",1991-08-24,695
+"456 Hamilton Way Apt. 061, New Dana, NM 76269",1972-03-01,960
+"USNV Molina, FPO AE 33281",1985-08-21,1763
+"8115 Alison Mission Apt. 523, Darrenbury, WA 51132",1998-11-22,1816
+Rejoint
+numero,refOrganisme,codeMembre,idReunion
+5,10,22872,861
+3,10,82147,1762
+2,8,75732,861
+7,7,27676,1763
+5,4,52968,1762
+2,3,34620,404
+1,3,84754,686
+1,8,82147,686
+2,7,88402,2048
+2,3,34620,695
+Caracterise
+idMachine,idModele
+2,23
+5,23
+3,1
+2,89
+9,1
+1,15
+4,1
+5,21
+9,23
+3,21
+Realise
+numero,refOrganisme,codeMembre,idMachine,idEntretient
+7,7,82147,2,0
+4,7,27676,4,2
+2,3,27676,6,1
+1,3,59657,9,3
+1,3,84754,7,4
+4,8,84754,2,8
+3,3,84754,4,7
+9,4,27676,9,8
+9,1,34620,1,1
+8,10,84754,6,7

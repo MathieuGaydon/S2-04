@@ -61,9 +61,9 @@ with open("resultat.txt","w") as file:
             titre = fake.random_element(elements=Titres_possibles)
             rang = fake.random_element(elements=Rang_possibles)
             if(grade == 'NULL'):
-                text = f"INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,gradeSuperieur,grade,dignite,titre,rang) VALUES \n({numero},{refOrganisme},{Code_membre},'{Nom}','{Prenom}','{courriel}','{numeroTel}','{adresse_postale}','{gradeSup}',{grade},'{dignite}','{titre}','{rang}');\n"
+                text = f"INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,gradeSup,grade,dignite,titre,rang) VALUES \n({numero},{refOrganisme},{Code_membre},'{Nom}','{Prenom}','{courriel}','{numeroTel}','{adresse_postale}','{gradeSup}',{grade},'{dignite}','{titre}','{rang}');\n"
             if(gradeSup == 'NULL'):
-                text = f"INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,gradeSuperieur,grade,dignite,titre,rang) VALUES \n({numero},{refOrganisme},{Code_membre},'{Nom}','{Prenom}','{courriel}','{numeroTel}','{adresse_postale}',{gradeSup},'{grade}','{dignite}','{titre}','{rang}');\n"
+                text = f"INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,gradeSup,grade,dignite,titre,rang) VALUES \n({numero},{refOrganisme},{Code_membre},'{Nom}','{Prenom}','{courriel}','{numeroTel}','{adresse_postale}',{gradeSup},'{grade}','{dignite}','{titre}','{rang}');\n"
             file.write(text)
             
     list_numer = tuple(list_numer)

@@ -1,276 +1,297 @@
+PROMPT "Création de la base de données S2.04";
+
+
+-- **************************************************************************** Définition des données
+
+
+PROMPT "Définition des données";
+
 CREATE TABLE Organisme(
-   refOrganisme INT,
-   typeOrganisme VARCHAR(50) NOT NULL,
-   raisonSociale VARCHAR(50) NOT NULL,
-   numeroSIRET INT NOT NULL,
-   PRIMARY KEY(refOrganisme)
+  refOrganisme NUMBER,
+  typeOrganisme VARCHAR(50) NOT NULL,
+  raisonSociale VARCHAR(50) NOT NULL,
+  numeroSIRET NUMBER NOT NULL,
+  PRIMARY KEY(refOrganisme)
 );
 
 CREATE TABLE Organisation(
-   numero INT,
-   PRIMARY KEY(numero)
+  numero NUMBER,
+  PRIMARY KEY(numero)
 );
 
 CREATE TABLE Date_(
-   date_ DATE,
-   PRIMARY KEY(date_)
+  date_ DATE,
+  PRIMARY KEY(date_)
 );
 
 CREATE TABLE Rang(
-   rang VARCHAR(50),
-   PRIMARY KEY(rang)
+  rang VARCHAR(50),
+  PRIMARY KEY(rang)
 );
 
 CREATE TABLE Titre(
-   titre VARCHAR(50),
-   PRIMARY KEY(titre)
+  titre VARCHAR(50),
+  PRIMARY KEY(titre)
 );
 
 CREATE TABLE Dignite(
-   dignite VARCHAR(50),
-   PRIMARY KEY(dignite)
+  dignite VARCHAR(50),
+  PRIMARY KEY(dignite)
 );
 
 CREATE TABLE Repas(
-   idRepas INT,
-   nomRepas VARCHAR(50) NOT NULL,
-   PRIMARY KEY(idRepas)
+  idRepas NUMBER,
+  nomRepas VARCHAR(50) NOT NULL,
+  PRIMARY KEY(idRepas)
 );
 
+
 CREATE TABLE Aliment(
-   idAliment INT,
-   nomAliment VARCHAR(50) NOT NULL,
-   PRIMARY KEY(idAliment)
+  idAliment NUMBER,
+  nomAliment VARCHAR(50) NOT NULL,
+  PRIMARY KEY(idAliment)
 );
 
 CREATE TABLE Legume(
-   idLegume INT,
-   nomLegume VARCHAR(50),
-   PRIMARY KEY(idLegume)
+  idLegume NUMBER,
+  nomLegume VARCHAR(50),
+  PRIMARY KEY(idLegume)
 );
 
 CREATE TABLE Sauce(
-   idSauce INT,
-   nomSauce VARCHAR(50) NOT NULL,
-   PRIMARY KEY(idSauce)
+  idSauce NUMBER,
+  nomSauce VARCHAR(50) NOT NULL,
+  PRIMARY KEY(idSauce)
 );
 
 CREATE TABLE Ingredient(
-   idIngredient INT,
-   nomIngredient VARCHAR(50),
-   PRIMARY KEY(idIngredient)
+  idIngredient NUMBER,
+  nomIngredient VARCHAR(50),
+  PRIMARY KEY(idIngredient)
 );
 
+
 CREATE TABLE Machine(
-   idMachine INT,
-   nomMachine VARCHAR(50),
-   PRIMARY KEY(idMachine)
+  idMachine NUMBER,
+  nomMachine VARCHAR(50),
+  PRIMARY KEY(idMachine)
 );
 
 CREATE TABLE Grade(
-   grade VARCHAR(50),
-   PRIMARY KEY(grade)
-);
-
-CREATE TABLE Tenrac(
-   numero INT,
-   refOrganisme INT,
-   codeMembre INT,
-   nom VARCHAR(50) NOT NULL,
-   prenom VARCHAR(50) NOT NULL,
-   courriel VARCHAR(50) NOT NULL,
-   numeroTel VARCHAR(50) NOT NULL,
-   adressePostale VARCHAR(50) NOT NULL,
-   grade VARCHAR(50),
-   dignite VARCHAR(50),
-   titre VARCHAR(50),
-   rang VARCHAR(50),
-   PRIMARY KEY(numero, refOrganisme, codeMembre),
-   FOREIGN KEY(numero) REFERENCES Organisation(numero),
-   FOREIGN KEY(refOrganisme) REFERENCES Organisme(refOrganisme),
-   FOREIGN KEY(grade) REFERENCES Grade(grade),
-   FOREIGN KEY(dignite) REFERENCES Dignite(dignite),
-   FOREIGN KEY(titre) REFERENCES Titre(titre),
-   FOREIGN KEY(rang) REFERENCES Rang(rang)
-);
-
-CREATE TABLE Ordre(
-   numero INT,
-   nomOrdre VARCHAR(50) NOT NULL,
-   PRIMARY KEY(numero),
-   FOREIGN KEY(numero) REFERENCES Organisation(numero)
-);
-
-CREATE TABLE Partenaire(
-   adresse VARCHAR(50),
-   numero INT NOT NULL,
-   PRIMARY KEY(adresse),
-   FOREIGN KEY(numero) REFERENCES Ordre(numero)
-);
-
-CREATE TABLE Reunion(
-   idRenion INT,
-   numero INT NOT NULL,
-   refOrganisme INT NOT NULL,
-   codeMembre INT NOT NULL,
-   PRIMARY KEY(idRenion),
-   FOREIGN KEY(numero, refOrganisme, codeMembre) REFERENCES Tenrac(numero, refOrganisme, codeMembre)
-);
-
-CREATE TABLE GradeInferieur(
-   gradeInf VARCHAR(50),
-   grade VARCHAR(50) NOT NULL,
-   PRIMARY KEY(gradeInf),
-   UNIQUE(grade),
-   FOREIGN KEY(grade) REFERENCES Grade(grade)
+  grade VARCHAR(50),
+  PRIMARY KEY(grade)
 );
 
 CREATE TABLE GradeSuperieur(
-   gradeSup VARCHAR(50),
-   grade VARCHAR(50) NOT NULL,
-   PRIMARY KEY(gradeSup),
-   UNIQUE(grade),
-   FOREIGN KEY(grade) REFERENCES Grade(grade)
+  gradeSup VARCHAR(50),
+  PRIMARY KEY(gradeSup)
+);
+
+CREATE TABLE Tenrac(
+  numero NUMBER,
+  refOrganisme NUMBER,
+  codeMembre NUMBER,
+  nom VARCHAR(50) NOT NULL,
+  prenom VARCHAR(50) NOT NULL,
+  courriel VARCHAR(50) NOT NULL,
+  numeroTel VARCHAR(50) NOT NULL,
+  adressePostale VARCHAR(70) NOT NULL,
+  gradeSup VARCHAR(50),
+  grade VARCHAR(50),
+  dignite VARCHAR(50),
+  titre VARCHAR(50),
+  rang VARCHAR(50),
+  PRIMARY KEY(numero, refOrganisme, codeMembre),
+  FOREIGN KEY(numero) REFERENCES Organisation(numero),
+  FOREIGN KEY(refOrganisme) REFERENCES Organisme(refOrganisme),
+  FOREIGN KEY(gradeSup) REFERENCES GradeSuperieur(gradeSup),
+  FOREIGN KEY(grade) REFERENCES Grade(grade),
+  FOREIGN KEY(dignite) REFERENCES Dignite(dignite),
+  FOREIGN KEY(titre) REFERENCES Titre(titre),
+  FOREIGN KEY(rang) REFERENCES Rang(rang)
+);
+
+CREATE TABLE Ordre(
+  numero NUMBER,
+  nomOrdre VARCHAR(50) NOT NULL,
+  PRIMARY KEY(numero),
+  FOREIGN KEY(numero) REFERENCES Organisation(numero)
+);
+
+CREATE TABLE Partenaire(
+  adresse VARCHAR(50),
+  numero NUMBER NOT NULL,
+  PRIMARY KEY(adresse),
+  FOREIGN KEY(numero) REFERENCES Ordre(numero)
+);
+
+CREATE TABLE Reunion(
+  idReunion NUMBER,
+  PRIMARY KEY(idReunion)
 );
 
 CREATE TABLE Plat(
-   idPlat INT,
-   nomPlat VARCHAR(50) NOT NULL,
-   idLegume INT,
-   PRIMARY KEY(idPlat),
-   FOREIGN KEY(idLegume) REFERENCES Legume(idLegume)
+  idPlat NUMBER,
+  nomPlat VARCHAR(50) NOT NULL,
+  idLegume NUMBER,
+  PRIMARY KEY(idPlat),
+  FOREIGN KEY(idLegume) REFERENCES Legume(idLegume)
 );
 
 CREATE TABLE Entretient(
-   idEntretient INT,
-   periodeEntretient DATE NOT NULL,
-   typeEntretient VARCHAR(50) NOT NULL,
-   numero INT,
-   PRIMARY KEY(idEntretient),
-   FOREIGN KEY(numero) REFERENCES Ordre(numero)
+  idEntretient NUMBER,
+  periodeEntretient DATE NOT NULL,
+  typeEntretient VARCHAR(50) NOT NULL,
+  numero NUMBER,
+  PRIMARY KEY(idEntretient),
+  FOREIGN KEY(numero) REFERENCES Ordre(numero)
 );
 
 CREATE TABLE Club(
-   numero_1 INT,
-   nomClub VARCHAR(50) NOT NULL,
-   numero INT,
-   PRIMARY KEY(numero_1),
-   FOREIGN KEY(numero_1) REFERENCES Organisation(numero),
-   FOREIGN KEY(numero) REFERENCES Ordre(numero)
+  numero_1 NUMBER,
+  nomClub VARCHAR(50) NOT NULL,
+  numero NUMBER,
+  PRIMARY KEY(numero_1),
+  FOREIGN KEY(numero_1) REFERENCES Organisation(numero),
+  FOREIGN KEY(numero) REFERENCES Ordre(numero)
 );
+
 
 CREATE TABLE Modele(
-   idModele INT,
-   nomModele VARCHAR(50),
-   idEntretient INT NOT NULL,
-   PRIMARY KEY(idModele),
-   FOREIGN KEY(idEntretient) REFERENCES Entretient(idEntretient)
+  idModele NUMBER,
+  nomModele VARCHAR(50),
+  idEntretient NUMBER NOT NULL,
+  PRIMARY KEY(idModele),
+  FOREIGN KEY(idEntretient) REFERENCES Entretient(idEntretient)
 );
+
 
 CREATE TABLE SeGroupe(
-   adresse VARCHAR(50),
-   date_ DATE,
-   idRenion INT,
-   PRIMARY KEY(adresse, date_, idRenion),
-   FOREIGN KEY(adresse) REFERENCES Partenaire(adresse),
-   FOREIGN KEY(date_) REFERENCES Date_(date_),
-   FOREIGN KEY(idRenion) REFERENCES Reunion(idRenion)
+  adresse VARCHAR(50),
+  date_ DATE,
+  idReunion NUMBER,
+  PRIMARY KEY(adresse, date_, idReunion),
+  FOREIGN KEY(adresse) REFERENCES Partenaire(adresse),
+  FOREIGN KEY(date_) REFERENCES Date_(date_),
+  FOREIGN KEY(idReunion) REFERENCES Reunion(idReunion)
 );
+
 
 CREATE TABLE Rejoint(
-   numero INT,
-   refOrganisme INT,
-   codeMembre INT,
-   idRenion INT,
-   PRIMARY KEY(numero, refOrganisme, codeMembre, idRenion),
-   FOREIGN KEY(numero, refOrganisme, codeMembre) REFERENCES Tenrac(numero, refOrganisme, codeMembre),
-   FOREIGN KEY(idRenion) REFERENCES Reunion(idRenion)
+  numero NUMBER,
+  refOrganisme NUMBER,
+  codeMembre NUMBER,
+  idReunion NUMBER,
+  PRIMARY KEY(numero, refOrganisme, codeMembre, idReunion),
+  FOREIGN KEY(numero, refOrganisme, codeMembre) REFERENCES Tenrac(numero, refOrganisme, codeMembre),
+  FOREIGN KEY(idReunion) REFERENCES Reunion(idReunion)
 );
+
 
 CREATE TABLE Compose(
-   idRepas INT,
-   idPlat INT,
-   PRIMARY KEY(idRepas, idPlat),
-   FOREIGN KEY(idRepas) REFERENCES Repas(idRepas),
-   FOREIGN KEY(idPlat) REFERENCES Plat(idPlat)
+  idRepas NUMBER,
+  idPlat NUMBER,
+  PRIMARY KEY(idRepas, idPlat),
+  FOREIGN KEY(idRepas) REFERENCES Repas(idRepas),
+  FOREIGN KEY(idPlat) REFERENCES Plat(idPlat)
 );
+
 
 CREATE TABLE Constitue(
-   idPlat INT,
-   idAliment INT,
-   PRIMARY KEY(idPlat, idAliment),
-   FOREIGN KEY(idPlat) REFERENCES Plat(idPlat),
-   FOREIGN KEY(idAliment) REFERENCES Aliment(idAliment)
+  idPlat NUMBER,
+  idAliment NUMBER,
+  PRIMARY KEY(idPlat, idAliment),
+  FOREIGN KEY(idPlat) REFERENCES Plat(idPlat),
+  FOREIGN KEY(idAliment) REFERENCES Aliment(idAliment)
 );
+
 
 CREATE TABLE Accompagne(
-   idPlat INT,
-   idSauce INT,
-   PRIMARY KEY(idPlat, idSauce),
-   FOREIGN KEY(idPlat) REFERENCES Plat(idPlat),
-   FOREIGN KEY(idSauce) REFERENCES Sauce(idSauce)
+  idPlat NUMBER,
+  idSauce NUMBER,
+  PRIMARY KEY(idPlat, idSauce),
+  FOREIGN KEY(idPlat) REFERENCES Plat(idPlat),
+  FOREIGN KEY(idSauce) REFERENCES Sauce(idSauce)
 );
+
 
 CREATE TABLE forme(
-   idSauce INT,
-   idIngredient INT,
-   PRIMARY KEY(idSauce, idIngredient),
-   FOREIGN KEY(idSauce) REFERENCES Sauce(idSauce),
-   FOREIGN KEY(idIngredient) REFERENCES Ingredient(idIngredient)
+  idSauce NUMBER,
+  idIngredient NUMBER,
+  PRIMARY KEY(idSauce, idIngredient),
+  FOREIGN KEY(idSauce) REFERENCES Sauce(idSauce),
+  FOREIGN KEY(idIngredient) REFERENCES Ingredient(idIngredient)
 );
+
 
 CREATE TABLE Mange(
-   date_ DATE,
-   idRenion INT,
-   idRepas INT,
-   PRIMARY KEY(date_, idRenion, idRepas),
-   FOREIGN KEY(date_) REFERENCES Date_(date_),
-   FOREIGN KEY(idRenion) REFERENCES Reunion(idRenion),
-   FOREIGN KEY(idRepas) REFERENCES Repas(idRepas)
+  date_ DATE,
+  idReunion NUMBER,
+  idRepas NUMBER,
+  PRIMARY KEY(date_, idReunion, idRepas),
+  FOREIGN KEY(date_) REFERENCES Date_(date_),
+  FOREIGN KEY(idReunion) REFERENCES Reunion(idReunion),
+  FOREIGN KEY(idRepas) REFERENCES Repas(idRepas)
 );
+
 
 CREATE TABLE Caracterise(
-   idMachine INT,
-   idModele INT,
-   PRIMARY KEY(idMachine, idModele),
-   FOREIGN KEY(idMachine) REFERENCES Machine(idMachine),
-   FOREIGN KEY(idModele) REFERENCES Modele(idModele)
+  idMachine NUMBER,
+  idModele NUMBER,
+  PRIMARY KEY(idMachine, idModele),
+  FOREIGN KEY(idMachine) REFERENCES Machine(idMachine),
+  FOREIGN KEY(idModele) REFERENCES Modele(idModele)
 );
+
 
 CREATE TABLE Realise(
-   numero INT,
-   refOrganisme INT,
-   codeMembre INT,
-   idMachine INT,
-   idEntretient INT,
-   PRIMARY KEY(numero, refOrganisme, codeMembre, idMachine, idEntretient),
-   FOREIGN KEY(numero, refOrganisme, codeMembre) REFERENCES Tenrac(numero, refOrganisme, codeMembre),
-   FOREIGN KEY(idMachine) REFERENCES Machine(idMachine),
-   FOREIGN KEY(idEntretient) REFERENCES Entretient(idEntretient)
+  numero NUMBER,
+  refOrganisme NUMBER,
+  codeMembre NUMBER,
+  idMachine NUMBER,
+  idEntretient NUMBER,
+  PRIMARY KEY(numero, refOrganisme, codeMembre, idMachine, idEntretient),
+  FOREIGN KEY(numero, refOrganisme, codeMembre) REFERENCES Tenrac(numero, refOrganisme, codeMembre),
+  FOREIGN KEY(idMachine) REFERENCES Machine(idMachine),
+  FOREIGN KEY(idEntretient) REFERENCES Entretient(idEntretient)
 );
+
 
 CREATE TABLE UtilisationOfficielle(
-   idRepas INT,
-   idMachine INT,
-   PRIMARY KEY(idRepas, idMachine),
-   FOREIGN KEY(idRepas) REFERENCES Repas(idRepas),
-   FOREIGN KEY(idMachine) REFERENCES Machine(idMachine)
+  idRepas NUMBER,
+  idMachine NUMBER,
+  PRIMARY KEY(idRepas, idMachine),
+  FOREIGN KEY(idRepas) REFERENCES Repas(idRepas),
+  FOREIGN KEY(idMachine) REFERENCES Machine(idMachine)
 );
+
 
 CREATE TABLE Intolerance(
-   numero INT,
-   refOrganisme INT,
-   codeMembre INT,
-   idLegume INT,
-   PRIMARY KEY(numero, refOrganisme, codeMembre, idLegume),
-   FOREIGN KEY(numero, refOrganisme, codeMembre) REFERENCES Tenrac(numero, refOrganisme, codeMembre),
-   FOREIGN KEY(idLegume) REFERENCES Legume(idLegume)
+  numero NUMBER,
+  refOrganisme NUMBER,
+  codeMembre NUMBER,
+  idLegume NUMBER,
+  PRIMARY KEY(numero, refOrganisme, codeMembre, idLegume),
+  FOREIGN KEY(numero, refOrganisme, codeMembre) REFERENCES Tenrac(numero, refOrganisme, codeMembre),
+  FOREIGN KEY(idLegume) REFERENCES Legume(idLegume)
 );
 
+
 CREATE TABLE Enregistre1(
-   numero INT,
-   idEntretient INT,
-   PRIMARY KEY(numero, idEntretient),
-   FOREIGN KEY(numero) REFERENCES Club(numero_1),
-   FOREIGN KEY(idEntretient) REFERENCES Entretient(idEntretient)
+  numero NUMBER,
+  idEntretient NUMBER,
+  PRIMARY KEY(numero, idEntretient),
+  FOREIGN KEY(numero) REFERENCES Club(numero_1),
+  FOREIGN KEY(idEntretient) REFERENCES Entretient(idEntretient)
+);
+
+
+CREATE TABLE Dirige(
+  numero NUMBER,
+  refOrganisme NUMBER,
+  codeMembre NUMBER,
+  idReunion NUMBER,
+  PRIMARY KEY(idReunion, numero , refOrganisme, codeMembre),
+  FOREIGN KEY(idReunion) REFERENCES Reunion(idReunion),
+  FOREIGN KEY(numero, refOrganisme, codeMembre) REFERENCES Tenrac (numero, refOrganisme, codeMembre)
 );

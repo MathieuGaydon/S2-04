@@ -1,249 +1,269 @@
 --Insertion des données dans la base : 
 INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES 
-(1,3,3478,'Melissa Mckee','Matthew','rwilliams@glass.com','534-928-9094x3580','082 Timothy Corners, New Rachel, MT 16538','Grand’Croix','Grand Maître','Honorable','Compagnon')
+(1,6,5871,'Bonilla','Taylor','timothy50@welch.com','850.824.3525x903','PSC 2184, Box 2836, APO AA 41217','Sympathisant','Maître','Protecteur','Novice');
 INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES 
-(2,2,9828,'Mcdonald','Steven','vatkinson@church-sexton.info','+1-753-842-9135x1823','6651 Denise Island Apt. 046, Humphreyshire, LA 34354','Affilié','Maître','Honorable','Novice')
+(2,6,4617,'Taylor','Andrea','curryhayden@lane.org','730-279-3645','16316 Scott Extensions, Benjaminport, NE 15817','Grand Chevalier / HauteDame','Maître','Protecteur','Novice');
 INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES 
-(3,6,2934,'Parker','Ricky','taylorkevin@bush-young.com','553.603.4591x4329','598 Kramer Pine, Davisport, AK 46715','Grand Chevalier / HauteDame','Maître','Honorable','Novice')
+(3,3,8539,'Fritz','Tami','danieldavis@caldwell.com','251.485.5902','62619 Daniel Alley, New Eric, SC 15688','Affilié','Grand Maître','Protecteur','Novice');
 INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES 
-(4,4,6411,'White','John','ssmith@ford.biz','+1-284-964-2298x235','264 John Forge Apt. 729, Darleneberg, VT 25123','Commandeur','Maître','Philantrope','Compagnon')
+(4,5,5448,'Lopez','Adrian','nwright@collier.com','221-670-4619x78094','60451 Santos Crest Suite 473, Port Omar, UT 96350','Affilié','Maître','Protecteur','Compagnon');
 INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES 
-(5,9,2116,'Miller','Thomas','elizabethclark@nash-giles.org','275-971-8809','235 John Rapids, West Darrenmouth, WY 55905','Adhérent','Grand chancelier','Protecteur','Compagnon')
+(5,10,3061,'Robert Salinas MD','Patricia','ijohnson@ballard.com','781-846-3954x270','1532 Gray Port Suite 145, South Arthur, IA 16341','Grand’Croix','Maître','Honorable','Compagnon');
 INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES 
-(6,7,1564,'Smith','Joseph','soneill@smith.com','3652661134','39541 Nelson Branch Suite 857, North Sarahtown, MS 07832','Sympathisant','Maître','Philantrope','Compagnon')
+(6,8,8073,'Sullivan','Darrell','john21@nguyen.com','001-407-612-3505x607','16636 Ayala Islands, West Maureenfurt, GA 93253','Adhérent','Maître','Honorable','Compagnon');
 INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES 
-(7,6,1747,'Smith','Joshua','valdezamanda@johnson-ortiz.com','(281)293-4223x849','146 Andrew Squares, North Brandon, VI 72293','Grand Chevalier / HauteDame','Maître','Protecteur','Compagnon')
+(7,7,7526,'Turner','Gabrielle','richard82@haley-mitchell.biz','+1-900-573-8539x186','2272 Murphy Divide Apt. 967, East George, DE 74086','Grand’Croix','Maître','Protecteur','Novice');
 INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES 
-(8,10,5205,'Pierce','Alexis','lance14@gonzalez-howard.com','+1-470-482-3618x1425','90130 Sarah Turnpike, Lake Chris, TX 72230','Affilié','Grand chancelier','Philantrope','Novice')
+(8,4,2164,'Kelly','William','joneskenneth@gomez.biz','+1-268-984-8929','2690 Sloan Crest Apt. 830, South Cynthiashire, MT 36249','Commandeur','Grand chancelier','Honorable','Compagnon');
 INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES 
-(9,5,3123,'Bryant','Matthew','jaclyn89@patrick.com','(417)425-5530','13347 Colleen Green Apt. 415, Ericfurt, PW 05798','Grand’Croix','Grand chancelier','Honorable','Novice')
-INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (771,'Association','BeurreRaclette',97621996961472)
-INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (600,'Association','BeurreAnanas',84396998711323)
-INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (309,'Organisme de formation','RacletteTendersPouletFrit',77252267673152)
-INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (978,'Entreprise','RacletteSaumonPouletFrit',37672672536136)
-INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (536,'Association','Sauce',55474615135726)
-INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (912,'Association','Raclette',98899926189286)
-INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (272,'Organisme de formation','AnanasSauceBeurre',75192582123546)
-INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (597,'Association','SaumonPizza',66164447747742)
-INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (206,'Organisme de formation','PouletFritAnanasPouletFrit',85289477345998)
-INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (560,'Association','PouletAnanas',56941771635237)
-INSERT INTO Date(date_) VALUES (TO_DATE('2014-12-13','YYYY-MM-DD' ))
-INSERT INTO Date(date_) VALUES (TO_DATE('1996-06-15','YYYY-MM-DD' ))
-INSERT INTO Date(date_) VALUES (TO_DATE('1983-08-26','YYYY-MM-DD' ))
-INSERT INTO Date(date_) VALUES (TO_DATE('1986-03-25','YYYY-MM-DD' ))
-INSERT INTO Date(date_) VALUES (TO_DATE('2024-03-27','YYYY-MM-DD' ))
-INSERT INTO Date(date_) VALUES (TO_DATE('2018-08-20','YYYY-MM-DD' ))
-INSERT INTO Date(date_) VALUES (TO_DATE('1985-05-13','YYYY-MM-DD' ))
-INSERT INTO Date(date_) VALUES (TO_DATE('2023-03-01','YYYY-MM-DD' ))
-INSERT INTO Date(date_) VALUES (TO_DATE('1982-04-18','YYYY-MM-DD' ))
-INSERT INTO Date(date_) VALUES (TO_DATE('1983-08-29','YYYY-MM-DD' ))
-INSERT INTO Organisation(numero) VALUES (806)
-INSERT INTO Organisation(numero) VALUES (661)
-INSERT INTO Organisation(numero) VALUES (710)
-INSERT INTO Organisation(numero) VALUES (749)
-INSERT INTO Organisation(numero) VALUES (337)
-INSERT INTO Organisation(numero) VALUES (258)
-INSERT INTO Organisation(numero) VALUES (257)
-INSERT INTO Organisation(numero) VALUES (236)
-INSERT INTO Organisation(numero) VALUES (431)
-INSERT INTO Organisation(numero) VALUES (331)
-INSERT INTO Organisation(numero) VALUES (523)
-INSERT INTO Organisation(numero) VALUES (293)
-INSERT INTO Organisation(numero) VALUES (513)
-INSERT INTO Organisation(numero) VALUES (101)
-INSERT INTO Organisation(numero) VALUES (499)
-INSERT INTO Organisation(numero) VALUES (385)
-INSERT INTO Organisation(numero) VALUES (462)
-INSERT INTO Organisation(numero) VALUES (794)
-INSERT INTO Organisation(numero) VALUES (878)
-INSERT INTO Organisation(numero) VALUES (568)
-INSERT INTO Organisation(numero) VALUES (419)
-INSERT INTO Organisation(numero) VALUES (781)
-INSERT INTO Organisation(numero) VALUES (92)
-INSERT INTO Organisation(numero) VALUES (869)
-INSERT INTO Organisation(numero) VALUES (933)
-INSERT INTO Organisation(numero) VALUES (134)
-INSERT INTO Organisation(numero) VALUES (632)
-INSERT INTO Organisation(numero) VALUES (619)
-INSERT INTO Organisation(numero) VALUES (772)
-INSERT INTO Organisation(numero) VALUES (910)
-INSERT INTO Organisation(numero) VALUES (921)
-INSERT INTO Organisation(numero) VALUES (320)
-INSERT INTO Organisation(numero) VALUES (871)
-INSERT INTO Organisation(numero) VALUES (231)
-INSERT INTO Organisation(numero) VALUES (763)
-INSERT INTO Organisation(numero) VALUES (493)
-INSERT INTO Organisation(numero) VALUES (902)
-INSERT INTO Organisation(numero) VALUES (685)
-INSERT INTO Organisation(numero) VALUES (764)
-INSERT INTO Organisation(numero) VALUES (449)
-INSERT INTO Organisation(numero) VALUES (335)
-INSERT INTO Organisation(numero) VALUES (198)
-INSERT INTO Organisation(numero) VALUES (608)
-INSERT INTO Organisation(numero) VALUES (843)
-INSERT INTO Organisation(numero) VALUES (495)
-INSERT INTO Organisation(numero) VALUES (817)
-INSERT INTO Organisation(numero) VALUES (677)
-INSERT INTO Organisation(numero) VALUES (875)
-INSERT INTO Organisation(numero) VALUES (622)
-INSERT INTO Organisation(numero) VALUES (703)
-INSERT INTO Entretien(idEntretient,periodeEntretien,typeEntretien,numero) VALUES (0,TO_DATE('YYYY-MM-DD', '1977-02-12'),'mécanique',523)
-INSERT INTO Entretien(idEntretient,periodeEntretien,typeEntretien,numero) VALUES (1,TO_DATE('YYYY-MM-DD', '2016-07-14'),'mécanique',419)
-INSERT INTO Entretien(idEntretient,periodeEntretien,typeEntretien,numero) VALUES (2,TO_DATE('YYYY-MM-DD', '1982-01-01'),'détergent',632)
-INSERT INTO Entretien(idEntretient,periodeEntretien,typeEntretien,numero) VALUES (3,TO_DATE('YYYY-MM-DD', '2022-04-28'),'dégraissant',335)
-INSERT INTO Entretien(idEntretient,periodeEntretien,typeEntretien,numero) VALUES (4,TO_DATE('YYYY-MM-DD', '1995-07-20'),'mécanique',568)
-INSERT INTO Entretien(idEntretient,periodeEntretien,typeEntretien,numero) VALUES (5,TO_DATE('YYYY-MM-DD', '1973-09-15'),'mécanique',335)
-INSERT INTO Entretien(idEntretient,periodeEntretien,typeEntretien,numero) VALUES (6,TO_DATE('YYYY-MM-DD', '2013-09-03'),'détergent',231)
-INSERT INTO Entretien(idEntretient,periodeEntretien,typeEntretien,numero) VALUES (7,TO_DATE('YYYY-MM-DD', '1981-09-16'),'dégraissant',449)
-INSERT INTO Entretien(idEntretient,periodeEntretien,typeEntretien,numero) VALUES (8,TO_DATE('YYYY-MM-DD', '1989-08-21'),'détergent',320)
-INSERT INTO Entretien(idEntretient,periodeEntretien,typeEntretien,numero) VALUES (9,TO_DATE('YYYY-MM-DD', '2014-08-06'),'mécanique',337)
-INSERT INTO Club(numero_1,nomClub,numero) VALUES (608,'Sauce',703)
-INSERT INTO Club(numero_1,nomClub,numero) VALUES (134,'Tenders',258)
-INSERT INTO Club(numero_1,nomClub,numero) VALUES (499,'KebabKebab',875)
-INSERT INTO Club(numero_1,nomClub,numero) VALUES (875,'PizzaPoulet',875)
-INSERT INTO Club(numero_1,nomClub,numero) VALUES (622,'TendersA se damnerLegume',231)
-INSERT INTO Club(numero_1,nomClub,numero) VALUES (419,'LegumeQuiche',449)
-INSERT INTO Club(numero_1,nomClub,numero) VALUES (843,'DivinPouletPizza',875)
-INSERT INTO Club(numero_1,nomClub,numero) VALUES (933,'PizzaA se damnerBeurre',92)
-INSERT INTO Club(numero_1,nomClub,numero) VALUES (231,'Quiche',677)
-INSERT INTO Club(numero_1,nomClub,numero) VALUES (198,'AnanasRacletteDivin',661)
-INSERT INTO Ordre(numero,nomOrdre) VALUES (92,'Amateurs de Tenders')
-INSERT INTO Ordre(numero,nomOrdre) VALUES (513,'Kiffeurs de Kebab')
-INSERT INTO Ordre(numero,nomOrdre) VALUES (258,'Amateurs de Saumon')
-INSERT INTO Ordre(numero,nomOrdre) VALUES (236,'Amateurs de Ananas')
-INSERT INTO Ordre(numero,nomOrdre) VALUES (763,'Apprécieurs de Legume')
-INSERT INTO Ordre(numero,nomOrdre) VALUES (101,'Apprécieurs de Beurre')
-INSERT INTO Ordre(numero,nomOrdre) VALUES (257,'Kiffeurs de Tenders')
-INSERT INTO Ordre(numero,nomOrdre) VALUES (661,'Kiffeurs de Kebab')
-INSERT INTO Ordre(numero,nomOrdre) VALUES (910,'Kiffeurs de Ananas')
-INSERT INTO Ordre(numero,nomOrdre) VALUES (703,'Amateurs de Poulet')
-INSERT INTO Partenaire(adresse, numero) VALUES ('6984 Edwin Port Apt. 628, Monicatown, CA 74887',499)
-INSERT INTO Partenaire(adresse, numero) VALUES ('USNS Hart, FPO AP 17207',632)
-INSERT INTO Partenaire(adresse, numero) VALUES ('7987 Jeffery Square Apt. 056, Deniseton, TN 52092',806)
-INSERT INTO Partenaire(adresse, numero) VALUES ('3099 David Inlet, New Michaelstad, WY 90442',794)
-INSERT INTO Partenaire(adresse, numero) VALUES ('543 Michael Springs Apt. 115, Hornemouth, UT 46913',101)
-INSERT INTO Partenaire(adresse, numero) VALUES ('3435 Hahn Freeway, New Morganfurt, MP 27151',331)
-INSERT INTO Partenaire(adresse, numero) VALUES ('6221 Charles Fort, West Stephenburgh, MH 82184',619)
-INSERT INTO Partenaire(adresse, numero) VALUES ('28679 Travis Estate Suite 397, Lake Bradleyfort, NY 88387',331)
-INSERT INTO Partenaire(adresse, numero) VALUES ('237 Nicole Forest, Philipmouth, NM 11407',677)
-INSERT INTO Partenaire(adresse, numero) VALUES ('9026 Michael Dale Suite 920, Peterview, IN 59952',335)
-INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (14,'ON 901',6)
-INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (15,'rM 886',9)
-INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (54,'eT 062',4)
-INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (77,'MU 524',4)
-INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (98,'WS 451',1)
-INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (62,'OI 584',5)
-INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (33,'MG 968',6)
-INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (14,'ts 503',8)
-INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (40,'XB 863',0)
-INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (78,'XO 541',1)
-INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (14,3,9,3123)
-INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (92,1,9,3478)
-INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (89,3,10,2934)
-INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (2,6,2,3478)
-INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (16,2,6,9828)
-INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (72,1,10,3123)
-INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (99,7,5,2934)
-INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (25,4,7,3123)
-INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (41,4,5,6411)
-INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (15,7,5,9828)
-INSERT INTO Repas(idRepas,nomRepas) VALUES (247,'Petit-Déjeuner')
-INSERT INTO Repas(idRepas,nomRepas) VALUES (234,'Déjeuner')
-INSERT INTO Repas(idRepas,nomRepas) VALUES (107,'Petit-Déjeuner')
-INSERT INTO Repas(idRepas,nomRepas) VALUES (113,'Encas')
-INSERT INTO Repas(idRepas,nomRepas) VALUES (638,'Petit-Déjeuner')
-INSERT INTO Repas(idRepas,nomRepas) VALUES (73,'Encas')
-INSERT INTO Repas(idRepas,nomRepas) VALUES (108,'Dîner')
-INSERT INTO Repas(idRepas,nomRepas) VALUES (786,'Petit-Déjeuner')
-INSERT INTO Repas(idRepas,nomRepas) VALUES (464,'Encas')
-INSERT INTO Repas(idRepas,nomRepas) VALUES (308,'Encas')
-INSERT INTO Legume(idLegume,nomLegume) VALUES (222,'Chou Rouge')
-INSERT INTO Legume(idLegume,nomLegume) VALUES (808,'Topinambour')
-INSERT INTO Legume(idLegume,nomLegume) VALUES (961,'Maïs')
-INSERT INTO Legume(idLegume,nomLegume) VALUES (61,'Melon')
-INSERT INTO Legume(idLegume,nomLegume) VALUES (445,'Topinambour')
-INSERT INTO Legume(idLegume,nomLegume) VALUES (297,'Pomme de terre')
-INSERT INTO Legume(idLegume,nomLegume) VALUES (525,'Melon')
-INSERT INTO Legume(idLegume,nomLegume) VALUES (96,'Chou Rouge')
-INSERT INTO Legume(idLegume,nomLegume) VALUES (255,'Pomme de terre')
-INSERT INTO Legume(idLegume,nomLegume) VALUES (669,'Melon')
-INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (405,'Fondue savoyarde',669)
-INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (805,'Raclette',808)
-INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (640,'Foie gras',525)
-INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (314,'Fondue savoyarde',255)
-INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (433,'Tenders',222)
-INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (637,'Kebab',222)
-INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (727,'Beurre',96)
-INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (42,'Kebab',96)
-INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (329,'Fondue savoyarde',61)
-INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (123,'Poulet',297)
-INSERT INTO Sauce(idSauce,nomSauce) VALUES (774,'Sauce Fromagère')
-INSERT INTO Sauce(idSauce,nomSauce) VALUES (183,'Sauce Fromagère')
-INSERT INTO Sauce(idSauce,nomSauce) VALUES (527,'Sauce Fromagère')
-INSERT INTO Sauce(idSauce,nomSauce) VALUES (829,'BBQ')
-INSERT INTO Sauce(idSauce,nomSauce) VALUES (242,'Sauce du chef')
-INSERT INTO Sauce(idSauce,nomSauce) VALUES (14,'Sauce Fromagère')
-INSERT INTO Sauce(idSauce,nomSauce) VALUES (302,'Moutarde')
-INSERT INTO Sauce(idSauce,nomSauce) VALUES (891,'Tartare')
-INSERT INTO Sauce(idSauce,nomSauce) VALUES (993,'Blanche')
-INSERT INTO Sauce(idSauce,nomSauce) VALUES (905,'Beurre')
-INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (203,'Bacon')
-INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (322,'Fromage à raclette')
-INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (726,'Fromage à raclette')
-INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (443,'Reblochon')
-INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (814,'Boeuf')
-INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (11,'Reblochon')
-INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (233,'Boeuf')
-INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (138,'Lardons')
-INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (404,'Reblochon')
-INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (532,'Pâtes')
-INSERT INTO Aliment(idAliment,nomAliment) VALUES (450,'Sel')
-INSERT INTO Aliment(idAliment,nomAliment) VALUES (670,'Frites')
-INSERT INTO Aliment(idAliment,nomAliment) VALUES (893,'Cheddar')
-INSERT INTO Aliment(idAliment,nomAliment) VALUES (288,'Pain')
-INSERT INTO Aliment(idAliment,nomAliment) VALUES (870,'Tenders')
-INSERT INTO Aliment(idAliment,nomAliment) VALUES (967,'Tenders')
-INSERT INTO Aliment(idAliment,nomAliment) VALUES (355,'Frites')
-INSERT INTO Aliment(idAliment,nomAliment) VALUES (287,'Tenders')
-INSERT INTO Aliment(idAliment,nomAliment) VALUES (66,'Pain')
-INSERT INTO Aliment(idAliment,nomAliment) VALUES (780,'Lait')
-INSERT INTO Compose(idRepas,idPlat) VALUES (107,42)
-INSERT INTO Compose(idRepas,idPlat) VALUES (234,314)
-INSERT INTO Compose(idRepas,idPlat) VALUES (73,640)
-INSERT INTO Compose(idRepas,idPlat) VALUES (464,329)
-INSERT INTO Compose(idRepas,idPlat) VALUES (234,637)
-INSERT INTO Compose(idRepas,idPlat) VALUES (247,314)
-INSERT INTO Compose(idRepas,idPlat) VALUES (108,637)
-INSERT INTO Compose(idRepas,idPlat) VALUES (73,805)
-INSERT INTO Compose(idRepas,idPlat) VALUES (638,640)
-INSERT INTO Compose(idRepas,idPlat) VALUES (247,329)
-INSERT INTO Constitue(idPlat,idAliment) VALUES (805,780)
-INSERT INTO Constitue(idPlat,idAliment) VALUES (727,287)
-INSERT INTO Constitue(idPlat,idAliment) VALUES (123,893)
-INSERT INTO Constitue(idPlat,idAliment) VALUES (805,287)
-INSERT INTO Constitue(idPlat,idAliment) VALUES (329,780)
-INSERT INTO Constitue(idPlat,idAliment) VALUES (42,670)
-INSERT INTO Constitue(idPlat,idAliment) VALUES (727,967)
-INSERT INTO Constitue(idPlat,idAliment) VALUES (329,870)
-INSERT INTO Constitue(idPlat,idAliment) VALUES (805,66)
-INSERT INTO Constitue(idPlat,idAliment) VALUES (314,450)
-INSERT INTO Accompagne(idPlat,idSauce) VALUES (314,183)
-INSERT INTO Accompagne(idPlat,idSauce) VALUES (637,14)
-INSERT INTO Accompagne(idPlat,idSauce) VALUES (433,829)
-INSERT INTO Accompagne(idPlat,idSauce) VALUES (433,527)
-INSERT INTO Accompagne(idPlat,idSauce) VALUES (42,993)
-INSERT INTO Accompagne(idPlat,idSauce) VALUES (42,183)
-INSERT INTO Accompagne(idPlat,idSauce) VALUES (637,993)
-INSERT INTO Accompagne(idPlat,idSauce) VALUES (42,14)
-INSERT INTO Accompagne(idPlat,idSauce) VALUES (433,829)
-INSERT INTO Accompagne(idPlat,idSauce) VALUES (405,302)
-INSERT INTO forme(idSauce,idIngredient) VALUES (829,532)
-INSERT INTO forme(idSauce,idIngredient) VALUES (242,138)
-INSERT INTO forme(idSauce,idIngredient) VALUES (993,443)
-INSERT INTO forme(idSauce,idIngredient) VALUES (891,11)
-INSERT INTO forme(idSauce,idIngredient) VALUES (905,203)
-INSERT INTO forme(idSauce,idIngredient) VALUES (302,532)
-INSERT INTO forme(idSauce,idIngredient) VALUES (993,532)
-INSERT INTO forme(idSauce,idIngredient) VALUES (242,322)
-INSERT INTO forme(idSauce,idIngredient) VALUES (774,726)
-INSERT INTO forme(idSauce,idIngredient) VALUES (14,726)
+(9,4,1435,'Lawrence','Elizabeth','david45@perez.com','653-256-3655x9011','593 Brian Port Apt. 642, North David, IA 85058','Affilié','Grand Maître','Philantrope','Novice');
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (45,'Association,'AnanasRaclette','91525354282614');
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (432,'Organisme de formation,'Raclette','43314912792244');
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (94,'Organisme de formation,'Saumon','98877472765834');
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (89,'Organisme de formation,'SaumonSaumon','63453225221135');
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (313,'Entreprise,'SaumonSauce','85743186484528');
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (143,'Organisme de formation,'Legume','76377353446166');
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (946,'Association,'Ananas','97982291841734');
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (386,'Association,'RacletteAnanas','58419282565997');
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (499,'Entreprise,'BeurrePouletFrit','91637618176143');
+INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (652,'Organisme de formation,'Pizza','21982285176963');
+INSERT INTO Date(date_) VALUES (TO_DATE('1971-09-20','YYYY-MM-DD'));
+INSERT INTO Date(date_) VALUES (TO_DATE('1992-07-24','YYYY-MM-DD'));
+INSERT INTO Date(date_) VALUES (TO_DATE('1990-11-27','YYYY-MM-DD'));
+INSERT INTO Date(date_) VALUES (TO_DATE('1988-02-08','YYYY-MM-DD'));
+INSERT INTO Date(date_) VALUES (TO_DATE('2004-11-10','YYYY-MM-DD'));
+INSERT INTO Date(date_) VALUES (TO_DATE('2015-11-15','YYYY-MM-DD'));
+INSERT INTO Date(date_) VALUES (TO_DATE('2006-11-14','YYYY-MM-DD'));
+INSERT INTO Date(date_) VALUES (TO_DATE('2003-11-22','YYYY-MM-DD'));
+INSERT INTO Date(date_) VALUES (TO_DATE('1982-10-01','YYYY-MM-DD'));
+INSERT INTO Date(date_) VALUES (TO_DATE('2001-03-05','YYYY-MM-DD'));
+INSERT INTO Organisation(numero) VALUES (330);
+INSERT INTO Organisation(numero) VALUES (969);
+INSERT INTO Organisation(numero) VALUES (787);
+INSERT INTO Organisation(numero) VALUES (843);
+INSERT INTO Organisation(numero) VALUES (29);
+INSERT INTO Organisation(numero) VALUES (127);
+INSERT INTO Organisation(numero) VALUES (914);
+INSERT INTO Organisation(numero) VALUES (459);
+INSERT INTO Organisation(numero) VALUES (219);
+INSERT INTO Organisation(numero) VALUES (107);
+INSERT INTO Organisation(numero) VALUES (264);
+INSERT INTO Organisation(numero) VALUES (553);
+INSERT INTO Organisation(numero) VALUES (428);
+INSERT INTO Organisation(numero) VALUES (445);
+INSERT INTO Organisation(numero) VALUES (609);
+INSERT INTO Organisation(numero) VALUES (529);
+INSERT INTO Organisation(numero) VALUES (844);
+INSERT INTO Organisation(numero) VALUES (625);
+INSERT INTO Organisation(numero) VALUES (572);
+INSERT INTO Organisation(numero) VALUES (523);
+INSERT INTO Organisation(numero) VALUES (444);
+INSERT INTO Organisation(numero) VALUES (132);
+INSERT INTO Organisation(numero) VALUES (62);
+INSERT INTO Organisation(numero) VALUES (367);
+INSERT INTO Organisation(numero) VALUES (640);
+INSERT INTO Organisation(numero) VALUES (741);
+INSERT INTO Organisation(numero) VALUES (828);
+INSERT INTO Organisation(numero) VALUES (513);
+INSERT INTO Organisation(numero) VALUES (944);
+INSERT INTO Organisation(numero) VALUES (536);
+INSERT INTO Organisation(numero) VALUES (938);
+INSERT INTO Organisation(numero) VALUES (404);
+INSERT INTO Organisation(numero) VALUES (466);
+INSERT INTO Organisation(numero) VALUES (564);
+INSERT INTO Organisation(numero) VALUES (390);
+INSERT INTO Organisation(numero) VALUES (737);
+INSERT INTO Organisation(numero) VALUES (679);
+INSERT INTO Organisation(numero) VALUES (129);
+INSERT INTO Organisation(numero) VALUES (781);
+INSERT INTO Organisation(numero) VALUES (593);
+INSERT INTO Organisation(numero) VALUES (712);
+INSERT INTO Organisation(numero) VALUES (357);
+INSERT INTO Organisation(numero) VALUES (371);
+INSERT INTO Organisation(numero) VALUES (812);
+INSERT INTO Organisation(numero) VALUES (294);
+INSERT INTO Organisation(numero) VALUES (869);
+INSERT INTO Organisation(numero) VALUES (191);
+INSERT INTO Organisation(numero) VALUES (465);
+INSERT INTO Organisation(numero) VALUES (76);
+INSERT INTO Organisation(numero) VALUES (231);
+INSERT INTO Entretien(idEntretient,periodeEntretient,typeEntretient,numero) VALUES (0,TO_DATE('1980-12-13''YYYY-MM-DD'),'à l'eau',294);
+INSERT INTO Entretien(idEntretient,periodeEntretient,typeEntretient,numero) VALUES (1,TO_DATE('1985-03-05''YYYY-MM-DD'),'dégraissant',781);
+INSERT INTO Entretien(idEntretient,periodeEntretient,typeEntretient,numero) VALUES (2,TO_DATE('2001-06-07''YYYY-MM-DD'),'désinfectant',465);
+INSERT INTO Entretien(idEntretient,periodeEntretient,typeEntretient,numero) VALUES (3,TO_DATE('2006-06-16''YYYY-MM-DD'),'détergent',127);
+INSERT INTO Entretien(idEntretient,periodeEntretient,typeEntretient,numero) VALUES (4,TO_DATE('1975-02-13''YYYY-MM-DD'),'dégraissant',127);
+INSERT INTO Entretien(idEntretient,periodeEntretient,typeEntretient,numero) VALUES (5,TO_DATE('1973-01-04''YYYY-MM-DD'),'à l'eau',459);
+INSERT INTO Entretien(idEntretient,periodeEntretient,typeEntretient,numero) VALUES (6,TO_DATE('1971-02-21''YYYY-MM-DD'),'mécanique',513);
+INSERT INTO Entretien(idEntretient,periodeEntretient,typeEntretient,numero) VALUES (7,TO_DATE('1998-09-01''YYYY-MM-DD'),'détergent',844);
+INSERT INTO Entretien(idEntretient,periodeEntretient,typeEntretient,numero) VALUES (8,TO_DATE('1995-08-26''YYYY-MM-DD'),'détergent',330);
+INSERT INTO Entretien(idEntretient,periodeEntretient,typeEntretient,numero) VALUES (9,TO_DATE('2004-01-25''YYYY-MM-DD'),'détergent',844);
+INSERT INTO Club(numero_1,nomClub,numero) VALUES (465,'BeurreKebab',737);
+INSERT INTO Club(numero_1,nomClub,numero) VALUES (564,'DélicieuxA se damner',127);
+INSERT INTO Club(numero_1,nomClub,numero) VALUES (129,'TendersTendersDivin',231);
+INSERT INTO Club(numero_1,nomClub,numero) VALUES (914,'AnanasQuichePizza',536);
+INSERT INTO Club(numero_1,nomClub,numero) VALUES (513,'QuicheQuiche',444);
+INSERT INTO Club(numero_1,nomClub,numero) VALUES (844,'RacletteKebabKebab',625);
+INSERT INTO Club(numero_1,nomClub,numero) VALUES (76,'SauceSauceBeurre',938);
+INSERT INTO Club(numero_1,nomClub,numero) VALUES (593,'SauceKebab',371);
+INSERT INTO Club(numero_1,nomClub,numero) VALUES (944,'GoutuQuiche',593);
+INSERT INTO Club(numero_1,nomClub,numero) VALUES (609,'PizzaKebabDélicieux',712);
+INSERT INTO Partenaire(adresse,numero) VALUES ('316 Matthew Alley, Port Carl, GA 33545',367);
+INSERT INTO Partenaire(adresse,numero) VALUES ('Unit 5542 Box 1352, DPO AE 90006',737);
+INSERT INTO Partenaire(adresse,numero) VALUES ('61920 Curry Lake, New Jack, WY 69229',132);
+INSERT INTO Partenaire(adresse,numero) VALUES ('722 Park Road, Sherrystad, CA 66783',107);
+INSERT INTO Partenaire(adresse,numero) VALUES ('Unit 2508 Box 7885, DPO AA 34467',465);
+INSERT INTO Partenaire(adresse,numero) VALUES ('53888 Parsons Inlet Apt. 106, New Nathaniel, MP 16305',445);
+INSERT INTO Partenaire(adresse,numero) VALUES ('USNV Mendoza, FPO AA 16932',444);
+INSERT INTO Partenaire(adresse,numero) VALUES ('Unit 0296 Box 3662, DPO AP 23501',553);
+INSERT INTO Partenaire(adresse,numero) VALUES ('9842 Scott Divide Suite 221, Patriciafurt, MN 20339',944);
+INSERT INTO Partenaire(adresse,numero) VALUES ('638 Haas Mountain, Lake Davidchester, OK 58310',523);
+INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (45,'qm 075',9);
+INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (50,'qg 603',8);
+INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (59,'vQ 703',8);
+INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (10,'Wm 438',4);
+INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (23,'mT 745',2);
+INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (57,'er 739',1);
+INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (70,'WT 233',8);
+INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (21,'sc 513',7);
+INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (17,'sg 410',1);
+INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (77,'rM 046',9);
+INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (76,2,8,5871);
+INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (97,8,3,2164);
+INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (46,9,5,1435);
+INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (45,4,6,5871);
+INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (87,7,6,2164);
+INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (84,9,4,8073);
+INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (82,5,4,8539);
+INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (10,8,8,7526);
+INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (74,1,3,7526);
+INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (78,9,8,5871);
+INSERT INTO Repas(idRepas,nomRepas) VALUES (754,'Petit-Déjeuner');
+INSERT INTO Repas(idRepas,nomRepas) VALUES (591,'Encas');
+INSERT INTO Repas(idRepas,nomRepas) VALUES (78,'Déjeuner');
+INSERT INTO Repas(idRepas,nomRepas) VALUES (75,'Petit-Déjeuner');
+INSERT INTO Repas(idRepas,nomRepas) VALUES (149,'Dîner');
+INSERT INTO Repas(idRepas,nomRepas) VALUES (977,'Dîner');
+INSERT INTO Repas(idRepas,nomRepas) VALUES (697,'Dîner');
+INSERT INTO Repas(idRepas,nomRepas) VALUES (994,'Petit-Déjeuner');
+INSERT INTO Repas(idRepas,nomRepas) VALUES (732,'Petit-Déjeuner');
+INSERT INTO Repas(idRepas,nomRepas) VALUES (304,'Goûter');
+INSERT INTO Legume(idLegume,nomLegume) VALUES (571,'Brocoli');
+INSERT INTO Legume(idLegume,nomLegume) VALUES (97,'Ail');
+INSERT INTO Legume(idLegume,nomLegume) VALUES (145,'Chou Rouge');
+INSERT INTO Legume(idLegume,nomLegume) VALUES (416,'Pomme de terre');
+INSERT INTO Legume(idLegume,nomLegume) VALUES (947,'Oignon');
+INSERT INTO Legume(idLegume,nomLegume) VALUES (165,'Chou Rouge');
+INSERT INTO Legume(idLegume,nomLegume) VALUES (224,'Melon');
+INSERT INTO Legume(idLegume,nomLegume) VALUES (220,'Maïs');
+INSERT INTO Legume(idLegume,nomLegume) VALUES (161,'Chou Rouge');
+INSERT INTO Legume(idLegume,nomLegume) VALUES (133,'Topinambour');
+INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (849,'Poulet',571);
+INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (286,'Kebab',947);
+INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (429,'Foie gras',947);
+INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (233,'Pizza',133);
+INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (245,'Raclette',224);
+INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (34,'Raclette',416);
+INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (287,'Quiche',145);
+INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (706,'Beurre',97);
+INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (98,'Quiche',161);
+INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (876,'Beurre',571);
+INSERT INTO Sauce(idSauce,nomSauce) VALUES (199,'Mayonnaise');
+INSERT INTO Sauce(idSauce,nomSauce) VALUES (972,'Ketchup');
+INSERT INTO Sauce(idSauce,nomSauce) VALUES (731,'Sauce Fromagère');
+INSERT INTO Sauce(idSauce,nomSauce) VALUES (629,'Moutarde');
+INSERT INTO Sauce(idSauce,nomSauce) VALUES (663,'Sauce du chef');
+INSERT INTO Sauce(idSauce,nomSauce) VALUES (641,'Moutarde');
+INSERT INTO Sauce(idSauce,nomSauce) VALUES (506,'Blanche');
+INSERT INTO Sauce(idSauce,nomSauce) VALUES (722,'Beurre');
+INSERT INTO Sauce(idSauce,nomSauce) VALUES (575,'Blanche');
+INSERT INTO Sauce(idSauce,nomSauce) VALUES (525,'Tartare');
+INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (358,'Lardons');
+INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (872,'Boeuf');
+INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (714,'Guanciale');
+INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (494,'Saucisse');
+INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (185,'Saucisse');
+INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (997,'Saucisse');
+INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (937,'Fromage à raclette');
+INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (155,'Guanciale');
+INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (263,'Fromage à raclette');
+INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (417,'Bacon');
+INSERT INTO Aliment(idAliment,nomAliment) VALUES (380,'Tenders');
+INSERT INTO Aliment(idAliment,nomAliment) VALUES (855,'Frites');
+INSERT INTO Aliment(idAliment,nomAliment) VALUES (742,'Cheddar');
+INSERT INTO Aliment(idAliment,nomAliment) VALUES (256,'Tenders');
+INSERT INTO Aliment(idAliment,nomAliment) VALUES (125,'Huile');
+INSERT INTO Aliment(idAliment,nomAliment) VALUES (642,'Huile');
+INSERT INTO Aliment(idAliment,nomAliment) VALUES (487,'Tenders');
+INSERT INTO Aliment(idAliment,nomAliment) VALUES (768,'Lait');
+INSERT INTO Aliment(idAliment,nomAliment) VALUES (393,'Lait');
+INSERT INTO Aliment(idAliment,nomAliment) VALUES (719,'Frites');
+INSERT INTO Compose(idRepas,idPlat) VALUES (732,233);
+INSERT INTO Compose(idRepas,idPlat) VALUES (591,98);
+INSERT INTO Compose(idRepas,idPlat) VALUES (994,849);
+INSERT INTO Compose(idRepas,idPlat) VALUES (591,286);
+INSERT INTO Compose(idRepas,idPlat) VALUES (78,245);
+INSERT INTO Compose(idRepas,idPlat) VALUES (149,245);
+INSERT INTO Compose(idRepas,idPlat) VALUES (304,287);
+INSERT INTO Compose(idRepas,idPlat) VALUES (732,286);
+INSERT INTO Compose(idRepas,idPlat) VALUES (75,287);
+INSERT INTO Compose(idRepas,idPlat) VALUES (591,233);
+INSERT INTO Constitue(idPlat,idAliment) VALUES (287,855);
+INSERT INTO Constitue(idPlat,idAliment) VALUES (34,393);
+INSERT INTO Constitue(idPlat,idAliment) VALUES (429,380);
+INSERT INTO Constitue(idPlat,idAliment) VALUES (706,855);
+INSERT INTO Constitue(idPlat,idAliment) VALUES (429,125);
+INSERT INTO Constitue(idPlat,idAliment) VALUES (876,642);
+INSERT INTO Constitue(idPlat,idAliment) VALUES (245,855);
+INSERT INTO Constitue(idPlat,idAliment) VALUES (287,719);
+INSERT INTO Constitue(idPlat,idAliment) VALUES (706,487);
+INSERT INTO Constitue(idPlat,idAliment) VALUES (429,256);
+INSERT INTO Accompagne(idPlat,idSauce) VALUES (706,972);
+INSERT INTO Accompagne(idPlat,idSauce) VALUES (429,731);
+INSERT INTO Accompagne(idPlat,idSauce) VALUES (706,525);
+INSERT INTO Accompagne(idPlat,idSauce) VALUES (286,972);
+INSERT INTO Accompagne(idPlat,idSauce) VALUES (849,506);
+INSERT INTO Accompagne(idPlat,idSauce) VALUES (98,199);
+INSERT INTO Accompagne(idPlat,idSauce) VALUES (233,722);
+INSERT INTO Accompagne(idPlat,idSauce) VALUES (233,972);
+INSERT INTO Accompagne(idPlat,idSauce) VALUES (429,641);
+INSERT INTO Accompagne(idPlat,idSauce) VALUES (706,199);
+INSERT INTO forme(idSauce,idIngredient) VALUES (525,263);
+INSERT INTO forme(idSauce,idIngredient) VALUES (663,937);
+INSERT INTO forme(idSauce,idIngredient) VALUES (525,872);
+INSERT INTO forme(idSauce,idIngredient) VALUES (972,155);
+INSERT INTO forme(idSauce,idIngredient) VALUES (641,263);
+INSERT INTO forme(idSauce,idIngredient) VALUES (641,417);
+INSERT INTO forme(idSauce,idIngredient) VALUES (722,937);
+INSERT INTO forme(idSauce,idIngredient) VALUES (731,417);
+INSERT INTO forme(idSauce,idIngredient) VALUES (629,358);
+INSERT INTO forme(idSauce,idIngredient) VALUES (506,872);
+INSERT INTO Mange(date_,idReunion,idRepas) VALUES (TO_DATE('1988-02-08','YYYY-MM-DD'),10,149);
+INSERT INTO Mange(date_,idReunion,idRepas) VALUES (TO_DATE('2001-03-05','YYYY-MM-DD'),46,697);
+INSERT INTO Mange(date_,idReunion,idRepas) VALUES (TO_DATE('2015-11-15','YYYY-MM-DD'),10,977);
+INSERT INTO Mange(date_,idReunion,idRepas) VALUES (TO_DATE('1992-07-24','YYYY-MM-DD'),46,78);
+INSERT INTO Mange(date_,idReunion,idRepas) VALUES (TO_DATE('1992-07-24','YYYY-MM-DD'),97,977);
+INSERT INTO Mange(date_,idReunion,idRepas) VALUES (TO_DATE('2015-11-15','YYYY-MM-DD'),97,994);
+INSERT INTO Mange(date_,idReunion,idRepas) VALUES (TO_DATE('2003-11-22','YYYY-MM-DD'),78,754);
+INSERT INTO Mange(date_,idReunion,idRepas) VALUES (TO_DATE('1988-02-08','YYYY-MM-DD'),46,732);
+INSERT INTO Mange(date_,idReunion,idRepas) VALUES (TO_DATE('1992-07-24','YYYY-MM-DD'),76,591);
+INSERT INTO Mange(date_,idReunion,idRepas) VALUES (TO_DATE('2006-11-14','YYYY-MM-DD'),84,754);
+INSERT INTO UtilisationOfficielle(idRepas,idMachine) VALUES (977,TO_DATE('2006-11-14','YYYY-MM-DD'));
+INSERT INTO UtilisationOfficielle(idRepas,idMachine) VALUES (994,TO_DATE('2006-11-14','YYYY-MM-DD'));
+INSERT INTO UtilisationOfficielle(idRepas,idMachine) VALUES (754,TO_DATE('1971-09-20','YYYY-MM-DD'));
+INSERT INTO UtilisationOfficielle(idRepas,idMachine) VALUES (977,TO_DATE('2003-11-22','YYYY-MM-DD'));
+INSERT INTO UtilisationOfficielle(idRepas,idMachine) VALUES (304,TO_DATE('1990-11-27','YYYY-MM-DD'));
+INSERT INTO UtilisationOfficielle(idRepas,idMachine) VALUES (754,TO_DATE('1988-02-08','YYYY-MM-DD'));
+INSERT INTO UtilisationOfficielle(idRepas,idMachine) VALUES (75,TO_DATE('2006-11-14','YYYY-MM-DD'));
+INSERT INTO UtilisationOfficielle(idRepas,idMachine) VALUES (994,TO_DATE('1971-09-20','YYYY-MM-DD'));
+INSERT INTO UtilisationOfficielle(idRepas,idMachine) VALUES (149,TO_DATE('2006-11-14','YYYY-MM-DD'));
+INSERT INTO UtilisationOfficielle(idRepas,idMachine) VALUES (78,TO_DATE('2015-11-15','YYYY-MM-DD'));
+INSERT INTO Machine(idMachine,nomMachine) VALUES (0,'combinée');
+INSERT INTO Machine(idMachine,nomMachine) VALUES (1,'multifonction');
+INSERT INTO Machine(idMachine,nomMachine) VALUES (2,'mini raclette');
+INSERT INTO Machine(idMachine,nomMachine) VALUES (3,'bon marché');
+INSERT INTO Machine(idMachine,nomMachine) VALUES (4,'combinée');
+INSERT INTO Machine(idMachine,nomMachine) VALUES (5,'familiale');
+INSERT INTO Machine(idMachine,nomMachine) VALUES (6,'mini raclette');
+INSERT INTO Machine(idMachine,nomMachine) VALUES (7,'electrique');
+INSERT INTO Machine(idMachine,nomMachine) VALUES (8,'mini raclette');
+INSERT INTO Machine(idMachine,nomMachine) VALUES (9,'multifonction');

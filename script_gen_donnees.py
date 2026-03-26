@@ -52,12 +52,9 @@ with open("resultat.txt","w") as file:
             dignite = fake.random_element(elements=Dignités_possibles)
             titre = fake.random_element(elements=Titres_possibles)
             rang = fake.random_element(elements=Rang_possibles)
-            file.write("INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES " + "\n" + "(" 
-                       + str(numero) + ',' + str(refOrganisme) + ',' + str(Code_membre) + ',' 
-                       + "'" + Nom + "'" + ',' + "'" + Prenom + "'" + ',' + "'" + courriel + "'" + ',' + "'" + numeroTel + "'" 
-                       + ',' + "'" + adresse_postale + "'" + ',' + "'" + grade + "'" + ',' 
-                       + "'" + dignite + "'" + ',' + "'" + titre + "'" + ',' + "'" + rang + "'" 
-                       + ")" + "\n")
+            text = f"INSERT INTO Tenrac(numero,refOrganisme,codeMembre,nom,prenom,courriel,numeroTel,adressePostale,grade,dignite,titre,rang) VALUES \n({numero},{refOrganisme},{Code_membre},'{Nom}','{Prenom}','{courriel}','{numeroTel}','{adresse_postale}','{grade}','{dignite}','{titre}','{rang}');\n"
+            file.write(text)
+            
     list_numer = tuple(list_numer)
     list_ref = tuple(list_ref)
     list_cod = tuple(list_cod)
@@ -86,25 +83,27 @@ with open("resultat.txt","w") as file:
         Raisons_sociale = raisons_soc()
         numero_SIRET = num_siret()
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES (" 
-                   + str(RefOrganisme) + ',' + "'" + TypeOrganisme + "'" + ',' + "'" 
-                   + Raisons_sociale + "'" + ',' + str(numero_SIRET) + ")" + "\n")
-        
+        textOrg = f"INSERT INTO Organisme(refOrganisme,typeOrganisme,raisonSociale,numeroSIRET) VALUES ({RefOrganisme},'{TypeOrganisme},'{Raisons_sociale}','{numero_SIRET}');\n"
+        file.write(textOrg)
     
     #--------------------------Date------------------------------------------------
     Date=[]
     for i in range(10):
         dat = fake.date()
         Date.append(dat)
-        file.write("INSERT INTO Date(date_) VALUES (" + "TO_DATE('" + dat + "','YYYY-MM-DD' )" +  ")" + "\n")
-            
+        textDate = f"INSERT INTO Date(date_) VALUES (TO_DATE('{dat}','YYYY-MM-DD'));\n"
+        file.write(textDate)
+    Date = tuple(Date)
+    
     #------------------------Organisation------------------------------------------
     list_num = []
     for i in range(50):
         num = fake.unique.random_int(1,1000,1);
         list_num.append(num)
-        file.write("INSERT INTO Organisation(numero) VALUES (" + str(num) + ")" + "\n")
+        textOrga = f"INSERT INTO Organisation(numero) VALUES ({num});\n"
+        file.write(textOrga)
     nv_list_num = tuple(list_num)
+    
     #-------------------------Entretien--------------------------------------------
     
     Entretients_possibles = ["mécanique","désinfectant","dégraissant","détergent","à l'eau"]
@@ -115,9 +114,10 @@ with open("resultat.txt","w") as file:
         periodeEntretien = fake.date()
         typeEntretien = fake.random_element(elements=Entretients_possibles)
         numero = fake.random_element(elements=nv_list_num)
-        file.write("INSERT INTO Entretien(idEntretient,periodeEntretien,typeEntretien,numero) VALUES (" + str(idEntretient) + "," + "TO_DATE('YYYY-MM-DD', '" 
-                   + periodeEntretien + "')" + "," + "'" + typeEntretien + "'" + "," + str(numero) + ")" + "\n")
+        textEntre = f"INSERT INTO Entretien(idEntretient,periodeEntretient,typeEntretient,numero) VALUES ({idEntretient},TO_DATE('{periodeEntretien}''YYYY-MM-DD'),'{typeEntretien}',{numero});\n"
+        file.write(textEntre)
     list_E = tuple(list_E)
+    
     #------------------------------Club--------------------------------------------
     
     mots_en_plus = ["Raclette","Poulet","Tenders","Legume","Sauce","Kebab","Pizza","Quiche","Saumon","Ananas","Beurre","Divin","Goutu","Délicieux","A se damner"]
@@ -133,8 +133,9 @@ with open("resultat.txt","w") as file:
         numero1 = fake.unique.random_element(elements=nv_list_num)
         nomClub = nomclub()
         numero = fake.random_element(elements=nv_list_num)
-        file.write("INSERT INTO Club(numero_1,nomClub,numero) VALUES (" + str(numero1) + "," + "'" + nomClub + "'" + "," + str(numero) + ")" + "\n") 
-     
+        textClub = f"INSERT INTO Club(numero_1,nomClub,numero) VALUES ({numero1},'{nomClub}',{numero});\n"
+        file.write(textClub)
+    
     #------------------------------Ordre-------------------------------------------
     
     nom_Ordre = ["Enjoyers","Amateurs de ","Apprécieurs de ","Kiffeurs de "]
@@ -142,7 +143,7 @@ with open("resultat.txt","w") as file:
     for i in range(10):
         numero = fake.unique.random_element(elements=nv_list_num)
         nomOrdre = fake.random_element(elements=nom_Ordre) + fake.random_element(elements=mots)
-        file.write("INSERT INTO Ordre(numero,nomOrdre) VALUES (" + str(numero) + "," + "'" + nomOrdre + "'" + ")" + "\n")
+        textOrdre = f"INSERT INTO Ordre(numero,nomOrdre) VALUES ({numero},'{nomOrdre}');\n"
     
     #-------------------------------Partenaire-------------------------------------
     
@@ -151,7 +152,8 @@ with open("resultat.txt","w") as file:
         adresse = fake.address().replace("\n", ", ")
         adresses.append(adresses)
         numero = fake.random_element(elements=nv_list_num)
-        file.write("INSERT INTO Partenaire(adresse, numero) VALUES (" + "'" + adresse + "'" + "," + str(numero) + ")" + "\n")
+        textPart = f"INSERT INTO Partenaire(adresse,numero) VALUES ('{adresse}',{numero});\n"
+        file.write(textPart)
     
     #--------------------------------Modele----------------------------------------
     
@@ -159,9 +161,9 @@ with open("resultat.txt","w") as file:
         idModele = fake.random_int(1,100,1)
         nomModele = fake.random_letter() + fake.random_letter() + ' ' + str(fake.random_digit()) + str(fake.random_digit()) + str(fake.random_digit())
         idEntretient = fake.random_element(elements=list_E)
-        file.write("INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES (" + str(idModele) + "," + "'" + nomModele + "'" + "," + str(idEntretient) 
-                   + ")" + "\n")
-      
+        textModele = f"INSERT INTO Modele(idModele,nomModele,idEntretient) VALUES ({idModele},'{nomModele}',{idEntretient});\n"
+        file.write(textModele)
+    
     #--------------------------------Reunion---------------------------------------
     num_reunion_list=[]
     for i in range(10):
@@ -170,18 +172,9 @@ with open("resultat.txt","w") as file:
         refOrganisme = fake.random_element(elements=list_ref)
         codeMembre = fake.random_element(elements=list_cod)
         num_reunion_list.append(idReunion)
-        file.write("INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES (" + str(idReunion) + "," + str(numero) + "," 
-                   + str(refOrganisme) + "," + str(codeMembre) + ")" + "\n")
- 
-    #--------------------------Date------------------------------------------------
-    Date = []
-    for i in range(10):
-        dat = [
-            fake.date()
-            ]
-        Date.append(dat)
-        
-        
+        textReu = f"INSERT INTO Reunion(idReunion,numero,refOrganisme,codeMembre) VALUES ({idReunion},{numero},{refOrganisme},{codeMembre});\n"
+        file.write(textReu)
+    
     #--------------Repas----------
     nom_repas_possible=["Petit-Déjeuner","Déjeuner","Goûter","Dîner", "Encas"]
     num_repas_list=[]
@@ -190,9 +183,10 @@ with open("resultat.txt","w") as file:
         nomRepas = fake.random_element(elements=nom_repas_possible)
         num_repas_list.append(idRepas)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO Repas(idRepas,nomRepas) VALUES (" 
-                   + str(idRepas) + ',' + "'" + nomRepas + "'" + ")" + "\n")
-           
+        textRepas = f"INSERT INTO Repas(idRepas,nomRepas) VALUES ({idRepas},'{nomRepas}');\n"
+        file.write(textRepas)
+        
+    
     #--------------Legume----------
     nom_legume_possible=["Ail", "Brocoli", "Carotte", "Chou Rouge", "Epinard", "Maïs", "Melon", "Oignon", "Pomme de terre", "Radis", "Tomate", "Topinambour"]
     num_legume_list=[]
@@ -201,9 +195,9 @@ with open("resultat.txt","w") as file:
         nomLegume = fake.random_element(elements=nom_legume_possible)
         num_legume_list.append(idLegume)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO Legume(idLegume,nomLegume) VALUES (" 
-                   + str(idLegume) + ',' + "'" + nomLegume + "'" + ")" + "\n")
-           
+        textLegume = f"INSERT INTO Legume(idLegume,nomLegume) VALUES ({idLegume},'{nomLegume}');\n"
+        file.write(textLegume)
+    
     #--------------Plat----------
     nom_plat_possible=["Tenders", "Kebab", "Pizza", "Quiche", "Saumon", "Ananas", "Beurre", "Raclette", "Pasta Carbonara", "Poulet", "Fondue savoyarde", "Choucroute", "Foie gras"]
     num_plat_list=[]
@@ -213,9 +207,9 @@ with open("resultat.txt","w") as file:
         idLegume = fake.random_element(elements=num_legume_list)
         num_plat_list.append(idPlat)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES (" 
-                   + str(idPlat) + ',' + "'" + nomPlat + "'" + ',' + str(idLegume) + ")" + "\n")
-            
+        textPlat = f"INSERT INTO Plat(idPlat,nomPlat,idLegume) VALUES ({idPlat},'{nomPlat}',{idLegume});\n"
+        file.write(textPlat)
+    
     #--------------Sauce----------
     nom_sauce_possible=["Mayonnaise", "Blanche", "Moutarde", "Sauce du chef", "Ketchup", "Beurre", "BBQ", "Tartare", "Poivre", "Pesto", "Sauce Fromagère"]
     num_sauce_list=[]
@@ -224,9 +218,9 @@ with open("resultat.txt","w") as file:
         nomSauce = fake.random_element(elements=nom_sauce_possible)
         num_sauce_list.append(idSauce)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO Sauce(idSauce,nomSauce) VALUES (" 
-                   + str(idSauce) + ',' + "'" + nomSauce + "'" + ")" + "\n")
-            
+        textSauce = f"INSERT INTO Sauce(idSauce,nomSauce) VALUES ({idSauce},'{nomSauce}');\n"
+        file.write(textSauce)
+    
     #--------------Ingredient----------
     nom_ingredient_possible=["Poulet pané", "Fromage à raclette", "Reblochon", "Lardons", "Bacon", "Guanciale", "Pâtes", "Boeuf", "Poisson", "Saucisse"]
     num_ingredient_list=[]
@@ -235,8 +229,8 @@ with open("resultat.txt","w") as file:
         nomIngredient = fake.random_element(elements=nom_ingredient_possible)
         num_ingredient_list.append(idIngredient)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES (" 
-                   + str(idIngredient) + ',' + "'" + nomIngredient + "'" + ")" + "\n")
+        textIngredient = f"INSERT INTO Ingredient(idIngredient,nomIngredient) VALUES ({idIngredient},'{nomIngredient}');\n"
+        file.write(textIngredient)
     
     #--------------Aliment----------
     nom_aliment_possible=["Pain", "Tenders", "Frites", "Cheddar", "Sel", "Huile", "Lait"]
@@ -246,54 +240,68 @@ with open("resultat.txt","w") as file:
         nomAliment = fake.random_element(elements=nom_aliment_possible)
         num_aliment_list.append(idAliment)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO Aliment(idAliment,nomAliment) VALUES (" 
-                   + str(idAliment) + ',' + "'" + nomAliment + "'" + ")" + "\n")
+        textAliment = f"INSERT INTO Aliment(idAliment,nomAliment) VALUES ({idAliment},'{nomAliment}');\n"
+        file.write(textAliment)
     
     #--------------Compose----------
     for i in range(10):
         idRepas = fake.random_element(elements=num_repas_list)
         idPlat = fake.random_element(elements=num_plat_list)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO Compose(idRepas,idPlat) VALUES (" 
-                   + str(idRepas) + ',' + str(idPlat) + ")" + "\n")
+        textCompo = f"INSERT INTO Compose(idRepas,idPlat) VALUES ({idRepas},{idPlat});\n"
+        file.write(textCompo)
+        
     
     #--------------Constitue----------
     for i in range(10):
         idPlat = fake.random_element(elements=num_plat_list)
         idAliment = fake.random_element(elements=num_aliment_list)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO Constitue(idPlat,idAliment) VALUES (" 
-                   + str(idPlat) + ',' + str(idAliment) + ")" + "\n")
-            
+        textConstitue = f"INSERT INTO Constitue(idPlat,idAliment) VALUES ({idPlat},{idAliment});\n"
+        file.write(textConstitue)
+    
     #--------------Accompagne----------
     for i in range(10):
         idPlat = fake.random_element(elements=num_plat_list)
         idSauce = fake.random_element(elements=num_sauce_list)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO Accompagne(idPlat,idSauce) VALUES (" 
-                   + str(idPlat) + ',' + str(idSauce) + ")" + "\n")
-    
+        textAcc = f"INSERT INTO Accompagne(idPlat,idSauce) VALUES ({idPlat},{idSauce});\n"
+        file.write(textAcc)
+        
     #--------------forme----------
     for i in range(10):
         idSauce = fake.random_element(elements=num_sauce_list)
         idIngredient = fake.random_element(elements=num_ingredient_list)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO forme(idSauce,idIngredient) VALUES (" 
-                   + str(idSauce) + ',' + str(idIngredient) + ")" + "\n")
-            
-    '''#--------------Mange----------
+        textForme = f"INSERT INTO forme(idSauce,idIngredient) VALUES ({idSauce},{idIngredient});\n"
+        file.write(textForme)
+    
+    #--------------Mange----------
     for i in range(10):
         date = fake.random_element(elements=Date)
         idReunion = fake.random_element(elements=num_reunion_list)
         idRepas = fake.random_element(elements=num_repas_list)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO Mange(date_,idReunion,idRepas) VALUES ( TO_DATE('" 
-                   + date + "','YYYY-MM-DD' )" + ',' + str(idReunion) + ',' + str(idRepas) + ")" + "\n")'''
-        
-    '''#--------------Utilisation Officielle----------
+        textMange = f"INSERT INTO Mange(date_,idReunion,idRepas) VALUES (TO_DATE('{date}','YYYY-MM-DD'),{idReunion},{idRepas});\n"
+        file.write(textMange)
+    
+    #--------------Utilisation Officielle----------
     for i in range(10):
         idRepas = fake.random_element(elements=num_repas_list)
-
+        date = fake.random_element(elements=Date)
         #On met les Insert into dans un fichier 
-        file.write("INSERT INTO forme(date_,idPlat,idAliment) VALUES (" 
-                   + str(date_) + ',' + str(idRepas) + ")" + "\n")'''
+        textUtil = f"INSERT INTO UtilisationOfficielle(idRepas,idMachine) VALUES ({idRepas},TO_DATE('{date}','YYYY-MM-DD'));\n"
+        file.write(textUtil)
+        
+    #------------------Machine-------------------------------------------------
+    Machines_possibles = ["familiale","individuelle","multifonction","combinée","mini raclette","de table","electrique","bon marché","traditionnelle","pierrade-fondue"]
+    for i in range(10):
+        idMachine = i
+        nomMachine = fake.random_element(elements=Machines_possibles)
+        textMachine = f"INSERT INTO Machine(idMachine,nomMachine) VALUES ({idMachine},'{nomMachine}');\n"
+        file.write(textMachine)
+    
+    
+    
+        
+print("Script éxécuté")

@@ -1,0 +1,252 @@
+Plat
+idPlat,nomPlat,idLegume
+505,Ananas,123
+221,Kebab,344
+118,Pasta Carbonara,646
+702,Kebab,925
+74,Choucroute,469
+672,Ananas,376
+808,Beurre,690
+962,Beurre,369
+896,Pasta Carbonara,736
+178,Poulet,704
+361,Pasta Carbonara,711
+568,Kebab,588
+411,Poulet,546
+478,Beurre,811
+142,Quiche,704
+853,Poulet,899
+772,Raclette,590
+623,Raclette,711
+670,Choucroute,764
+944,Poulet,811
+617,Choucroute,301
+525,Raclette,863
+695,Poulet,690
+922,Quiche,861
+310,Choucroute,439
+391,Beurre,872
+460,Raclette,198
+305,Choucroute,717
+38,Kebab,370
+459,Ananas,5
+604,Ananas,159
+677,Ananas,770
+831,Pizza,537
+413,Pasta Carbonara,611
+935,Foie gras,884
+374,Choucroute,450
+2,Beurre,789
+409,Kebab,225
+392,Raclette,415
+900,Choucroute,720
+730,Ananas,974
+938,Beurre,680
+449,Pasta Carbonara,899
+613,Quiche,899
+799,Quiche,764
+205,Tenders,344
+472,Poulet,198
+882,Poulet,137
+577,Kebab,450
+715,Saumon,717
+530,Foie gras,540
+815,Ananas,974
+701,Quiche,415
+930,Ananas,872
+581,Saumon,198
+521,Saumon,711
+589,Kebab,375
+112,Quiche,332
+608,Raclette,884
+348,Pizza,246
+793,Foie gras,632
+776,Quiche,913
+384,Choucroute,397
+675,Kebab,450
+140,Poulet,997
+915,Kebab,537
+988,Raclette,840
+244,Tenders,778
+236,Pasta Carbonara,844
+102,Ananas,226
+575,Ananas,909
+839,Ananas,711
+383,Poulet,316
+992,Poulet,742
+919,Quiche,369
+169,Choucroute,123
+63,Tenders,227
+966,Kebab,717
+295,Pasta Carbonara,590
+337,Tenders,161
+797,Poulet,370
+402,Saumon,736
+231,Choucroute,877
+841,Pizza,137
+555,Fondue savoyarde,546
+705,Poulet,419
+921,Ananas,469
+625,Saumon,344
+780,Raclette,909
+687,Quiche,789
+158,Foie gras,281
+347,Foie gras,611
+633,Beurre,540
+952,Saumon,373
+790,Tenders,704
+602,Saumon,844
+508,Raclette,419
+698,Ananas,198
+89,Beurre,855
+458,Poulet,925
+381,Pasta Carbonara,225
+300,Fondue savoyarde,316
+607,Ananas,189
+946,Foie gras,547
+167,Beurre,19
+827,Foie gras,172
+432,Tenders,897
+476,Foie gras,869
+759,Choucroute,913
+330,Pasta Carbonara,207
+786,Beurre,519
+240,Ananas,756
+635,Saumon,375
+691,Saumon,764
+618,Foie gras,752
+388,Pizza,139
+68,Poulet,648
+622,Pizza,717
+888,Beurre,646
+771,Beurre,711
+679,Fondue savoyarde,375
+738,Tenders,323
+867,Foie gras,327
+520,Pasta Carbonara,913
+182,Kebab,301
+457,Ananas,125
+87,Pasta Carbonara,246
+910,Saumon,861
+220,Saumon,648
+674,Raclette,327
+828,Pizza,415
+655,Kebab,226
+616,Foie gras,346
+72,Pasta Carbonara,913
+535,Pasta Carbonara,327
+657,Raclette,995
+494,Tenders,765
+232,Quiche,764
+916,Beurre,5
+726,Beurre,632
+539,Saumon,5
+249,Quiche,574
+57,Pizza,316
+782,Beurre,439
+468,Choucroute,648
+190,Choucroute,519
+783,Pizza,323
+77,Fondue savoyarde,789
+584,Pizza,728
+191,Poulet,376
+600,Saumon,884
+210,Tenders,842
+357,Pasta Carbonara,680
+903,Beurre,764
+199,Tenders,756
+235,Beurre,632
+59,Saumon,246
+93,Foie gras,778
+37,Tenders,720
+554,Raclette,537
+360,Fondue savoyarde,546
+64,Pizza,571
+681,Foie gras,20
+972,Ananas,540
+639,Tenders,469
+650,Kebab,187
+22,Poulet,207
+860,Kebab,925
+682,Choucroute,855
+289,Foie gras,913
+668,Kebab,711
+79,Raclette,332
+917,Beurre,863
+382,Ananas,680
+597,Raclette,997
+692,Quiche,884
+747,Tenders,637
+73,Pizza,189
+467,Saumon,225
+785,Pasta Carbonara,376
+336,Pizza,690
+627,Ananas,978
+665,Raclette,978
+999,Saumon,984
+98,Pizza,843
+171,Tenders,473
+865,Kebab,842
+493,Raclette,281
+66,Tenders,187
+152,Poulet,144
+147,Pasta Carbonara,369
+208,Choucroute,172
+315,Foie gras,512
+422,Foie gras,596
+138,Beurre,519
+579,Pasta Carbonara,855
+145,Foie gras,778
+33,Fondue savoyarde,840
+953,Ananas,404
+258,Saumon,327
+342,Tenders,257
+624,Tenders,512
+260,Pasta Carbonara,843
+486,Ananas,845
+592,Kebab,301
+482,Raclette,765
+214,Foie gras,371
+656,Pasta Carbonara,375
+269,Kebab,323
+961,Fondue savoyarde,540
+121,Fondue savoyarde,877
+451,Fondue savoyarde,323
+661,Ananas,424
+107,Choucroute,717
+440,Choucroute,974
+830,Choucroute,424
+296,Foie gras,207
+95,Ananas,974
+156,Ananas,925
+76,Ananas,596
+923,Ananas,226
+610,Pizza,512
+223,Tenders,139
+975,Choucroute,419
+605,Ananas,286
+50,Poulet,327
+503,Pasta Carbonara,884
+777,Tenders,327
+443,Fondue savoyarde,728
+987,Beurre,519
+628,Tenders,590
+362,Saumon,5
+213,Ananas,755
+491,Tenders,728
+396,Pizza,376
+606,Saumon,546
+603,Quiche,844
+26,Choucroute,899
+111,Foie gras,144
+856,Pasta Carbonara,974
+14,Pasta Carbonara,174
+456,Pizza,942
+761,Ananas,690
+809,Quiche,427
+556,Pasta Carbonara,546
+82,Pasta Carbonara,843
+749,Pizza,596
+801,Quiche,299
+878,Pasta Carbonara,159
+186,Choucroute,590

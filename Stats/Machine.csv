@@ -1,2502 +1,2502 @@
 Machine
 idMachine,nomMachine
-0,electrique
-1,traditionnelle
-2,bon marché
+0,multifonction
+1,multifonction
+2,individuelle
 3,combinée
-4,mini raclette
-5,de table
-6,de table
+4,multifonction
+5,pierrade-fondue
+6,familiale
 7,traditionnelle
-8,multifonction
-9,individuelle
-10,de table
-11,pierrade-fondue
-12,de table
-13,individuelle
+8,mini raclette
+9,pierrade-fondue
+10,electrique
+11,familiale
+12,bon marché
+13,electrique
 14,traditionnelle
-15,electrique
-16,de table
-17,pierrade-fondue
-18,de table
-19,pierrade-fondue
-20,traditionnelle
-21,combinée
-22,individuelle
-23,familiale
-24,de table
-25,electrique
-26,traditionnelle
+15,de table
+16,pierrade-fondue
+17,bon marché
+18,individuelle
+19,de table
+20,mini raclette
+21,bon marché
+22,combinée
+23,mini raclette
+24,bon marché
+25,pierrade-fondue
+26,individuelle
 27,pierrade-fondue
 28,de table
-29,individuelle
-30,traditionnelle
-31,multifonction
-32,individuelle
-33,combinée
-34,traditionnelle
-35,multifonction
-36,de table
-37,combinée
-38,familiale
-39,individuelle
-40,de table
-41,bon marché
-42,mini raclette
-43,multifonction
-44,electrique
-45,combinée
-46,mini raclette
-47,familiale
-48,mini raclette
-49,familiale
-50,multifonction
-51,familiale
-52,familiale
-53,bon marché
-54,pierrade-fondue
-55,bon marché
-56,bon marché
-57,pierrade-fondue
-58,electrique
-59,pierrade-fondue
+29,familiale
+30,de table
+31,electrique
+32,pierrade-fondue
+33,individuelle
+34,de table
+35,combinée
+36,bon marché
+37,bon marché
+38,multifonction
+39,pierrade-fondue
+40,pierrade-fondue
+41,pierrade-fondue
+42,traditionnelle
+43,combinée
+44,combinée
+45,familiale
+46,familiale
+47,traditionnelle
+48,combinée
+49,electrique
+50,pierrade-fondue
+51,individuelle
+52,individuelle
+53,multifonction
+54,mini raclette
+55,individuelle
+56,combinée
+57,individuelle
+58,combinée
+59,bon marché
 60,familiale
 61,de table
-62,de table
-63,bon marché
-64,pierrade-fondue
-65,combinée
-66,individuelle
-67,traditionnelle
-68,multifonction
-69,familiale
-70,electrique
-71,combinée
-72,individuelle
-73,individuelle
-74,traditionnelle
-75,bon marché
-76,bon marché
-77,electrique
-78,individuelle
-79,multifonction
-80,combinée
+62,individuelle
+63,familiale
+64,familiale
+65,pierrade-fondue
+66,pierrade-fondue
+67,mini raclette
+68,de table
+69,traditionnelle
+70,individuelle
+71,individuelle
+72,bon marché
+73,bon marché
+74,familiale
+75,pierrade-fondue
+76,mini raclette
+77,bon marché
+78,familiale
+79,electrique
+80,de table
 81,bon marché
-82,de table
-83,electrique
-84,electrique
-85,multifonction
-86,electrique
-87,bon marché
-88,multifonction
-89,electrique
-90,electrique
-91,de table
-92,individuelle
-93,bon marché
-94,familiale
-95,electrique
-96,combinée
-97,bon marché
-98,electrique
-99,combinée
-100,pierrade-fondue
+82,traditionnelle
+83,individuelle
+84,mini raclette
+85,electrique
+86,mini raclette
+87,mini raclette
+88,mini raclette
+89,de table
+90,bon marché
+91,combinée
+92,combinée
+93,de table
+94,de table
+95,de table
+96,electrique
+97,multifonction
+98,combinée
+99,electrique
+100,de table
 101,multifonction
-102,traditionnelle
-103,mini raclette
-104,traditionnelle
-105,mini raclette
+102,combinée
+103,traditionnelle
+104,multifonction
+105,multifonction
 106,electrique
-107,de table
-108,multifonction
-109,multifonction
-110,familiale
-111,multifonction
-112,pierrade-fondue
-113,bon marché
-114,electrique
-115,traditionnelle
-116,electrique
+107,traditionnelle
+108,traditionnelle
+109,bon marché
+110,individuelle
+111,electrique
+112,multifonction
+113,familiale
+114,mini raclette
+115,mini raclette
+116,familiale
 117,familiale
 118,individuelle
-119,mini raclette
-120,combinée
-121,multifonction
+119,electrique
+120,electrique
+121,individuelle
 122,bon marché
-123,electrique
-124,familiale
-125,combinée
-126,traditionnelle
-127,pierrade-fondue
-128,electrique
-129,bon marché
-130,combinée
-131,bon marché
-132,multifonction
-133,combinée
-134,de table
-135,mini raclette
-136,pierrade-fondue
-137,traditionnelle
-138,individuelle
-139,familiale
-140,bon marché
-141,electrique
-142,pierrade-fondue
-143,mini raclette
-144,combinée
-145,electrique
-146,traditionnelle
-147,multifonction
-148,pierrade-fondue
-149,familiale
-150,multifonction
-151,pierrade-fondue
-152,multifonction
-153,multifonction
-154,traditionnelle
-155,combinée
-156,traditionnelle
-157,pierrade-fondue
-158,individuelle
+123,mini raclette
+124,de table
+125,de table
+126,bon marché
+127,combinée
+128,multifonction
+129,mini raclette
+130,individuelle
+131,combinée
+132,pierrade-fondue
+133,electrique
+134,familiale
+135,electrique
+136,individuelle
+137,multifonction
+138,traditionnelle
+139,pierrade-fondue
+140,mini raclette
+141,traditionnelle
+142,bon marché
+143,combinée
+144,electrique
+145,bon marché
+146,pierrade-fondue
+147,electrique
+148,familiale
+149,multifonction
+150,combinée
+151,combinée
+152,pierrade-fondue
+153,de table
+154,bon marché
+155,individuelle
+156,combinée
+157,familiale
+158,combinée
 159,bon marché
-160,combinée
-161,familiale
-162,traditionnelle
-163,mini raclette
-164,bon marché
-165,traditionnelle
-166,pierrade-fondue
-167,electrique
-168,traditionnelle
-169,bon marché
-170,individuelle
-171,pierrade-fondue
-172,combinée
-173,mini raclette
-174,familiale
-175,familiale
-176,bon marché
+160,bon marché
+161,combinée
+162,bon marché
+163,combinée
+164,electrique
+165,electrique
+166,combinée
+167,pierrade-fondue
+168,bon marché
+169,pierrade-fondue
+170,familiale
+171,de table
+172,mini raclette
+173,individuelle
+174,de table
+175,electrique
+176,pierrade-fondue
 177,bon marché
-178,pierrade-fondue
-179,mini raclette
-180,multifonction
-181,pierrade-fondue
-182,pierrade-fondue
-183,de table
-184,traditionnelle
-185,combinée
-186,traditionnelle
-187,familiale
-188,electrique
-189,de table
-190,mini raclette
+178,multifonction
+179,de table
+180,de table
+181,de table
+182,traditionnelle
+183,pierrade-fondue
+184,familiale
+185,electrique
+186,bon marché
+187,mini raclette
+188,bon marché
+189,electrique
+190,de table
 191,combinée
-192,bon marché
-193,bon marché
-194,de table
-195,pierrade-fondue
+192,mini raclette
+193,electrique
+194,familiale
+195,mini raclette
 196,traditionnelle
-197,de table
-198,combinée
-199,de table
-200,combinée
-201,familiale
-202,individuelle
-203,pierrade-fondue
-204,familiale
-205,traditionnelle
-206,traditionnelle
-207,de table
-208,individuelle
-209,individuelle
-210,de table
-211,de table
-212,individuelle
+197,electrique
+198,de table
+199,familiale
+200,pierrade-fondue
+201,individuelle
+202,traditionnelle
+203,multifonction
+204,combinée
+205,pierrade-fondue
+206,familiale
+207,electrique
+208,de table
+209,bon marché
+210,mini raclette
+211,bon marché
+212,bon marché
 213,individuelle
-214,multifonction
+214,bon marché
 215,familiale
-216,de table
-217,familiale
-218,individuelle
-219,de table
-220,traditionnelle
-221,bon marché
-222,individuelle
-223,combinée
-224,traditionnelle
-225,multifonction
-226,traditionnelle
+216,multifonction
+217,pierrade-fondue
+218,familiale
+219,traditionnelle
+220,multifonction
+221,electrique
+222,mini raclette
+223,de table
+224,bon marché
+225,bon marché
+226,mini raclette
 227,de table
-228,multifonction
-229,familiale
-230,bon marché
-231,multifonction
-232,de table
-233,pierrade-fondue
-234,electrique
+228,electrique
+229,pierrade-fondue
+230,electrique
+231,individuelle
+232,multifonction
+233,familiale
+234,de table
 235,combinée
-236,de table
-237,traditionnelle
-238,de table
-239,mini raclette
-240,mini raclette
-241,combinée
+236,individuelle
+237,combinée
+238,mini raclette
+239,pierrade-fondue
+240,combinée
+241,individuelle
 242,pierrade-fondue
-243,mini raclette
-244,familiale
-245,electrique
-246,de table
-247,traditionnelle
-248,traditionnelle
-249,multifonction
-250,electrique
-251,combinée
-252,pierrade-fondue
-253,pierrade-fondue
-254,mini raclette
-255,bon marché
+243,pierrade-fondue
+244,pierrade-fondue
+245,familiale
+246,traditionnelle
+247,de table
+248,familiale
+249,traditionnelle
+250,familiale
+251,multifonction
+252,combinée
+253,traditionnelle
+254,electrique
+255,individuelle
 256,bon marché
-257,de table
-258,electrique
-259,bon marché
+257,individuelle
+258,de table
+259,pierrade-fondue
 260,electrique
-261,bon marché
-262,pierrade-fondue
-263,traditionnelle
-264,traditionnelle
-265,mini raclette
-266,familiale
-267,bon marché
-268,bon marché
-269,traditionnelle
-270,bon marché
-271,bon marché
+261,mini raclette
+262,individuelle
+263,multifonction
+264,bon marché
+265,combinée
+266,combinée
+267,multifonction
+268,mini raclette
+269,mini raclette
+270,de table
+271,mini raclette
 272,mini raclette
-273,mini raclette
+273,de table
 274,traditionnelle
-275,individuelle
-276,pierrade-fondue
-277,pierrade-fondue
-278,familiale
-279,de table
-280,combinée
-281,bon marché
-282,de table
+275,de table
+276,mini raclette
+277,individuelle
+278,combinée
+279,bon marché
+280,familiale
+281,individuelle
+282,individuelle
 283,bon marché
-284,multifonction
-285,de table
-286,pierrade-fondue
-287,individuelle
-288,combinée
-289,familiale
-290,individuelle
-291,bon marché
-292,pierrade-fondue
-293,electrique
-294,bon marché
-295,electrique
-296,combinée
-297,de table
-298,electrique
-299,individuelle
-300,combinée
-301,bon marché
-302,bon marché
-303,individuelle
-304,pierrade-fondue
-305,familiale
-306,multifonction
-307,familiale
-308,electrique
-309,individuelle
-310,pierrade-fondue
-311,combinée
-312,familiale
-313,combinée
-314,electrique
-315,mini raclette
-316,electrique
-317,mini raclette
+284,bon marché
+285,combinée
+286,multifonction
+287,traditionnelle
+288,multifonction
+289,de table
+290,combinée
+291,individuelle
+292,familiale
+293,combinée
+294,mini raclette
+295,individuelle
+296,individuelle
+297,multifonction
+298,combinée
+299,de table
+300,familiale
+301,de table
+302,individuelle
+303,traditionnelle
+304,familiale
+305,electrique
+306,combinée
+307,pierrade-fondue
+308,de table
+309,de table
+310,combinée
+311,familiale
+312,pierrade-fondue
+313,bon marché
+314,individuelle
+315,pierrade-fondue
+316,traditionnelle
+317,bon marché
 318,de table
-319,electrique
-320,traditionnelle
-321,familiale
-322,electrique
-323,traditionnelle
-324,bon marché
+319,traditionnelle
+320,familiale
+321,pierrade-fondue
+322,multifonction
+323,multifonction
+324,multifonction
 325,electrique
-326,pierrade-fondue
-327,electrique
-328,familiale
-329,mini raclette
-330,electrique
+326,mini raclette
+327,familiale
+328,mini raclette
+329,combinée
+330,traditionnelle
 331,traditionnelle
-332,bon marché
-333,traditionnelle
-334,bon marché
-335,multifonction
-336,individuelle
+332,mini raclette
+333,de table
+334,traditionnelle
+335,pierrade-fondue
+336,electrique
 337,traditionnelle
-338,multifonction
-339,familiale
-340,multifonction
-341,electrique
-342,de table
-343,de table
-344,pierrade-fondue
-345,pierrade-fondue
-346,familiale
-347,traditionnelle
-348,familiale
-349,individuelle
-350,familiale
-351,electrique
-352,de table
-353,bon marché
+338,de table
+339,multifonction
+340,traditionnelle
+341,traditionnelle
+342,bon marché
+343,electrique
+344,multifonction
+345,combinée
+346,pierrade-fondue
+347,familiale
+348,multifonction
+349,mini raclette
+350,multifonction
+351,bon marché
+352,individuelle
+353,traditionnelle
 354,bon marché
-355,multifonction
-356,electrique
-357,multifonction
-358,familiale
-359,bon marché
-360,traditionnelle
-361,electrique
-362,multifonction
-363,familiale
-364,mini raclette
-365,combinée
-366,bon marché
-367,electrique
-368,de table
+355,familiale
+356,traditionnelle
+357,combinée
+358,electrique
+359,combinée
+360,electrique
+361,traditionnelle
+362,bon marché
+363,individuelle
+364,individuelle
+365,pierrade-fondue
+366,combinée
+367,pierrade-fondue
+368,mini raclette
 369,electrique
-370,traditionnelle
-371,combinée
-372,traditionnelle
-373,bon marché
-374,familiale
-375,de table
+370,electrique
+371,individuelle
+372,multifonction
+373,mini raclette
+374,multifonction
+375,traditionnelle
 376,traditionnelle
-377,combinée
-378,individuelle
-379,individuelle
-380,individuelle
-381,electrique
-382,mini raclette
+377,electrique
+378,electrique
+379,bon marché
+380,familiale
+381,bon marché
+382,individuelle
 383,de table
-384,mini raclette
-385,multifonction
-386,pierrade-fondue
-387,combinée
-388,individuelle
-389,combinée
+384,combinée
+385,pierrade-fondue
+386,mini raclette
+387,bon marché
+388,combinée
+389,mini raclette
 390,mini raclette
-391,bon marché
-392,electrique
-393,electrique
-394,individuelle
-395,mini raclette
-396,pierrade-fondue
-397,familiale
-398,electrique
-399,bon marché
-400,de table
-401,bon marché
-402,individuelle
-403,multifonction
-404,combinée
-405,combinée
-406,multifonction
-407,multifonction
-408,bon marché
-409,bon marché
-410,mini raclette
-411,individuelle
+391,traditionnelle
+392,bon marché
+393,individuelle
+394,mini raclette
+395,pierrade-fondue
+396,traditionnelle
+397,de table
+398,pierrade-fondue
+399,combinée
+400,multifonction
+401,pierrade-fondue
+402,traditionnelle
+403,familiale
+404,bon marché
+405,individuelle
+406,pierrade-fondue
+407,traditionnelle
+408,mini raclette
+409,de table
+410,traditionnelle
+411,electrique
 412,familiale
-413,de table
-414,pierrade-fondue
-415,mini raclette
-416,bon marché
-417,combinée
-418,combinée
-419,pierrade-fondue
-420,de table
-421,combinée
-422,traditionnelle
-423,electrique
-424,bon marché
-425,combinée
-426,bon marché
+413,pierrade-fondue
+414,bon marché
+415,familiale
+416,mini raclette
+417,bon marché
+418,familiale
+419,individuelle
+420,individuelle
+421,individuelle
+422,multifonction
+423,mini raclette
+424,pierrade-fondue
+425,mini raclette
+426,familiale
 427,electrique
-428,combinée
-429,multifonction
-430,traditionnelle
+428,multifonction
+429,familiale
+430,individuelle
 431,combinée
-432,bon marché
+432,pierrade-fondue
 433,combinée
-434,bon marché
-435,combinée
-436,traditionnelle
-437,traditionnelle
+434,familiale
+435,pierrade-fondue
+436,pierrade-fondue
+437,familiale
 438,de table
-439,electrique
-440,traditionnelle
-441,pierrade-fondue
-442,individuelle
-443,traditionnelle
-444,bon marché
-445,de table
-446,multifonction
-447,de table
-448,traditionnelle
-449,individuelle
-450,traditionnelle
-451,de table
-452,familiale
-453,mini raclette
+439,individuelle
+440,multifonction
+441,electrique
+442,pierrade-fondue
+443,combinée
+444,de table
+445,traditionnelle
+446,pierrade-fondue
+447,electrique
+448,bon marché
+449,multifonction
+450,pierrade-fondue
+451,bon marché
+452,traditionnelle
+453,de table
 454,electrique
-455,pierrade-fondue
+455,bon marché
 456,familiale
-457,combinée
-458,de table
-459,individuelle
-460,familiale
-461,mini raclette
-462,electrique
-463,de table
-464,bon marché
-465,combinée
-466,familiale
-467,combinée
-468,individuelle
-469,bon marché
-470,familiale
-471,familiale
-472,pierrade-fondue
-473,mini raclette
-474,de table
-475,bon marché
+457,pierrade-fondue
+458,familiale
+459,traditionnelle
+460,mini raclette
+461,de table
+462,multifonction
+463,familiale
+464,multifonction
+465,mini raclette
+466,electrique
+467,individuelle
+468,multifonction
+469,mini raclette
+470,bon marché
+471,bon marché
+472,de table
+473,multifonction
+474,traditionnelle
+475,de table
 476,mini raclette
-477,bon marché
-478,electrique
-479,familiale
-480,de table
-481,de table
-482,electrique
-483,multifonction
-484,combinée
-485,de table
-486,bon marché
-487,de table
-488,electrique
-489,combinée
-490,traditionnelle
-491,multifonction
-492,electrique
-493,bon marché
-494,traditionnelle
-495,pierrade-fondue
-496,electrique
-497,traditionnelle
+477,individuelle
+478,familiale
+479,multifonction
+480,electrique
+481,mini raclette
+482,combinée
+483,traditionnelle
+484,mini raclette
+485,traditionnelle
+486,multifonction
+487,mini raclette
+488,de table
+489,electrique
+490,multifonction
+491,electrique
+492,familiale
+493,de table
+494,de table
+495,multifonction
+496,multifonction
+497,combinée
 498,electrique
-499,familiale
-500,combinée
-501,mini raclette
-502,combinée
-503,mini raclette
+499,mini raclette
+500,multifonction
+501,bon marché
+502,individuelle
+503,combinée
 504,traditionnelle
-505,multifonction
-506,mini raclette
-507,combinée
-508,familiale
-509,bon marché
-510,bon marché
-511,familiale
+505,combinée
+506,pierrade-fondue
+507,bon marché
+508,multifonction
+509,mini raclette
+510,mini raclette
+511,multifonction
 512,mini raclette
-513,de table
-514,individuelle
-515,de table
-516,multifonction
-517,individuelle
-518,traditionnelle
-519,electrique
-520,pierrade-fondue
-521,familiale
-522,bon marché
-523,bon marché
-524,familiale
-525,familiale
+513,traditionnelle
+514,electrique
+515,multifonction
+516,combinée
+517,bon marché
+518,combinée
+519,de table
+520,bon marché
+521,combinée
+522,de table
+523,individuelle
+524,bon marché
+525,pierrade-fondue
 526,electrique
-527,individuelle
-528,bon marché
-529,bon marché
-530,individuelle
-531,de table
-532,familiale
-533,traditionnelle
-534,pierrade-fondue
-535,individuelle
+527,de table
+528,electrique
+529,de table
+530,de table
+531,individuelle
+532,de table
+533,bon marché
+534,de table
+535,combinée
 536,bon marché
-537,combinée
-538,electrique
-539,bon marché
-540,electrique
-541,de table
+537,mini raclette
+538,bon marché
+539,multifonction
+540,traditionnelle
+541,pierrade-fondue
 542,traditionnelle
-543,combinée
-544,multifonction
+543,traditionnelle
+544,traditionnelle
 545,familiale
-546,pierrade-fondue
-547,electrique
-548,familiale
-549,bon marché
-550,familiale
-551,individuelle
-552,electrique
+546,mini raclette
+547,pierrade-fondue
+548,de table
+549,traditionnelle
+550,multifonction
+551,familiale
+552,bon marché
 553,de table
-554,individuelle
-555,combinée
-556,multifonction
-557,pierrade-fondue
-558,familiale
+554,pierrade-fondue
+555,individuelle
+556,pierrade-fondue
+557,bon marché
+558,de table
 559,electrique
-560,mini raclette
-561,traditionnelle
-562,combinée
-563,multifonction
-564,combinée
-565,pierrade-fondue
-566,mini raclette
-567,electrique
+560,multifonction
+561,de table
+562,electrique
+563,traditionnelle
+564,traditionnelle
+565,bon marché
+566,pierrade-fondue
+567,familiale
 568,traditionnelle
-569,de table
-570,familiale
-571,mini raclette
+569,familiale
+570,individuelle
+571,multifonction
 572,bon marché
 573,de table
 574,pierrade-fondue
-575,mini raclette
-576,bon marché
+575,de table
+576,traditionnelle
 577,familiale
 578,multifonction
-579,mini raclette
-580,combinée
-581,familiale
-582,bon marché
-583,de table
-584,traditionnelle
-585,mini raclette
-586,bon marché
-587,traditionnelle
-588,traditionnelle
+579,de table
+580,familiale
+581,traditionnelle
+582,combinée
+583,individuelle
+584,individuelle
+585,combinée
+586,multifonction
+587,de table
+588,bon marché
 589,traditionnelle
 590,pierrade-fondue
-591,bon marché
-592,familiale
-593,mini raclette
-594,mini raclette
-595,individuelle
-596,familiale
-597,mini raclette
-598,individuelle
-599,individuelle
-600,bon marché
-601,combinée
-602,multifonction
-603,combinée
-604,mini raclette
-605,multifonction
+591,individuelle
+592,de table
+593,electrique
+594,familiale
+595,pierrade-fondue
+596,electrique
+597,individuelle
+598,pierrade-fondue
+599,electrique
+600,mini raclette
+601,mini raclette
+602,traditionnelle
+603,pierrade-fondue
+604,de table
+605,pierrade-fondue
 606,mini raclette
-607,bon marché
-608,electrique
-609,multifonction
-610,de table
-611,individuelle
-612,familiale
-613,individuelle
-614,multifonction
-615,combinée
-616,mini raclette
-617,traditionnelle
-618,bon marché
-619,familiale
-620,combinée
-621,multifonction
-622,familiale
-623,traditionnelle
-624,multifonction
-625,pierrade-fondue
-626,bon marché
-627,pierrade-fondue
-628,pierrade-fondue
-629,mini raclette
-630,de table
-631,electrique
-632,combinée
-633,individuelle
-634,familiale
-635,multifonction
-636,familiale
-637,electrique
-638,traditionnelle
-639,combinée
-640,de table
-641,bon marché
-642,familiale
-643,multifonction
-644,mini raclette
-645,familiale
-646,mini raclette
+607,individuelle
+608,familiale
+609,mini raclette
+610,multifonction
+611,electrique
+612,pierrade-fondue
+613,familiale
+614,combinée
+615,traditionnelle
+616,electrique
+617,mini raclette
+618,electrique
+619,electrique
+620,individuelle
+621,de table
+622,combinée
+623,mini raclette
+624,electrique
+625,traditionnelle
+626,de table
+627,bon marché
+628,traditionnelle
+629,electrique
+630,familiale
+631,bon marché
+632,electrique
+633,multifonction
+634,combinée
+635,traditionnelle
+636,multifonction
+637,bon marché
+638,combinée
+639,traditionnelle
+640,individuelle
+641,electrique
+642,mini raclette
+643,bon marché
+644,individuelle
+645,bon marché
+646,traditionnelle
 647,familiale
-648,pierrade-fondue
-649,electrique
-650,pierrade-fondue
-651,combinée
+648,individuelle
+649,individuelle
+650,bon marché
+651,familiale
 652,mini raclette
-653,individuelle
-654,pierrade-fondue
-655,de table
-656,electrique
-657,combinée
+653,electrique
+654,electrique
+655,combinée
+656,familiale
+657,individuelle
 658,multifonction
-659,combinée
-660,individuelle
-661,combinée
-662,de table
-663,combinée
-664,traditionnelle
-665,de table
-666,de table
-667,combinée
-668,mini raclette
-669,individuelle
-670,electrique
+659,bon marché
+660,familiale
+661,individuelle
+662,individuelle
+663,individuelle
+664,pierrade-fondue
+665,mini raclette
+666,combinée
+667,electrique
+668,electrique
+669,combinée
+670,mini raclette
 671,traditionnelle
-672,pierrade-fondue
-673,multifonction
-674,bon marché
-675,individuelle
-676,traditionnelle
-677,pierrade-fondue
-678,de table
-679,electrique
-680,electrique
+672,multifonction
+673,traditionnelle
+674,mini raclette
+675,mini raclette
+676,individuelle
+677,combinée
+678,familiale
+679,familiale
+680,combinée
 681,mini raclette
-682,pierrade-fondue
-683,electrique
-684,pierrade-fondue
-685,individuelle
-686,pierrade-fondue
+682,multifonction
+683,mini raclette
+684,traditionnelle
+685,mini raclette
+686,individuelle
 687,familiale
-688,traditionnelle
-689,mini raclette
-690,de table
-691,de table
-692,mini raclette
-693,electrique
-694,pierrade-fondue
-695,traditionnelle
-696,individuelle
-697,pierrade-fondue
-698,familiale
-699,combinée
-700,de table
-701,individuelle
-702,individuelle
+688,bon marché
+689,individuelle
+690,pierrade-fondue
+691,bon marché
+692,electrique
+693,familiale
+694,mini raclette
+695,familiale
+696,bon marché
+697,electrique
+698,multifonction
+699,bon marché
+700,pierrade-fondue
+701,de table
+702,bon marché
 703,de table
-704,traditionnelle
-705,electrique
-706,individuelle
-707,individuelle
-708,traditionnelle
-709,electrique
-710,combinée
-711,combinée
+704,multifonction
+705,de table
+706,traditionnelle
+707,pierrade-fondue
+708,bon marché
+709,bon marché
+710,de table
+711,pierrade-fondue
 712,bon marché
-713,familiale
-714,bon marché
-715,de table
-716,electrique
-717,multifonction
-718,individuelle
-719,mini raclette
-720,familiale
-721,mini raclette
-722,combinée
-723,pierrade-fondue
-724,multifonction
-725,pierrade-fondue
-726,bon marché
-727,multifonction
-728,traditionnelle
-729,multifonction
+713,traditionnelle
+714,electrique
+715,individuelle
+716,traditionnelle
+717,de table
+718,pierrade-fondue
+719,familiale
+720,de table
+721,bon marché
+722,bon marché
+723,traditionnelle
+724,individuelle
+725,de table
+726,electrique
+727,de table
+728,individuelle
+729,pierrade-fondue
 730,bon marché
 731,familiale
-732,familiale
-733,electrique
+732,individuelle
+733,pierrade-fondue
 734,familiale
-735,multifonction
-736,pierrade-fondue
-737,combinée
-738,mini raclette
-739,individuelle
-740,combinée
-741,electrique
-742,traditionnelle
-743,de table
-744,pierrade-fondue
+735,de table
+736,traditionnelle
+737,pierrade-fondue
+738,multifonction
+739,mini raclette
+740,electrique
+741,combinée
+742,multifonction
+743,combinée
+744,bon marché
 745,familiale
-746,traditionnelle
-747,multifonction
-748,individuelle
-749,mini raclette
+746,pierrade-fondue
+747,pierrade-fondue
+748,combinée
+749,traditionnelle
 750,electrique
-751,de table
+751,pierrade-fondue
 752,multifonction
 753,familiale
-754,mini raclette
-755,combinée
-756,pierrade-fondue
-757,electrique
-758,mini raclette
-759,multifonction
-760,combinée
-761,pierrade-fondue
-762,traditionnelle
-763,de table
-764,bon marché
-765,pierrade-fondue
-766,individuelle
+754,de table
+755,traditionnelle
+756,combinée
+757,pierrade-fondue
+758,electrique
+759,traditionnelle
+760,electrique
+761,bon marché
+762,familiale
+763,multifonction
+764,pierrade-fondue
+765,electrique
+766,electrique
 767,pierrade-fondue
-768,mini raclette
-769,combinée
-770,multifonction
-771,de table
-772,individuelle
-773,combinée
-774,mini raclette
-775,de table
-776,pierrade-fondue
-777,mini raclette
-778,combinée
-779,individuelle
-780,familiale
-781,combinée
-782,multifonction
-783,pierrade-fondue
-784,familiale
-785,de table
-786,mini raclette
-787,electrique
-788,individuelle
-789,bon marché
-790,de table
-791,multifonction
-792,multifonction
-793,individuelle
-794,traditionnelle
-795,multifonction
-796,familiale
-797,pierrade-fondue
-798,pierrade-fondue
-799,mini raclette
-800,individuelle
-801,familiale
+768,multifonction
+769,individuelle
+770,bon marché
+771,mini raclette
+772,combinée
+773,bon marché
+774,familiale
+775,familiale
+776,mini raclette
+777,multifonction
+778,de table
+779,traditionnelle
+780,traditionnelle
+781,familiale
+782,pierrade-fondue
+783,electrique
+784,traditionnelle
+785,combinée
+786,bon marché
+787,familiale
+788,combinée
+789,combinée
+790,electrique
+791,individuelle
+792,de table
+793,mini raclette
+794,familiale
+795,bon marché
+796,individuelle
+797,combinée
+798,familiale
+799,combinée
+800,traditionnelle
+801,combinée
 802,traditionnelle
-803,bon marché
+803,individuelle
 804,multifonction
 805,bon marché
-806,electrique
-807,mini raclette
-808,mini raclette
-809,mini raclette
-810,pierrade-fondue
+806,combinée
+807,combinée
+808,multifonction
+809,bon marché
+810,bon marché
 811,bon marché
-812,de table
-813,traditionnelle
-814,multifonction
-815,mini raclette
-816,de table
-817,bon marché
-818,bon marché
-819,combinée
-820,de table
-821,familiale
-822,individuelle
-823,traditionnelle
-824,bon marché
-825,bon marché
-826,combinée
-827,mini raclette
-828,mini raclette
-829,pierrade-fondue
-830,electrique
-831,traditionnelle
-832,mini raclette
-833,multifonction
-834,multifonction
-835,mini raclette
-836,bon marché
-837,pierrade-fondue
-838,mini raclette
-839,de table
-840,de table
-841,familiale
-842,electrique
-843,multifonction
-844,electrique
-845,de table
-846,bon marché
-847,individuelle
-848,familiale
-849,bon marché
-850,individuelle
-851,individuelle
-852,individuelle
-853,electrique
-854,pierrade-fondue
-855,combinée
-856,combinée
-857,de table
-858,multifonction
-859,bon marché
+812,combinée
+813,individuelle
+814,bon marché
+815,multifonction
+816,electrique
+817,pierrade-fondue
+818,traditionnelle
+819,multifonction
+820,mini raclette
+821,individuelle
+822,pierrade-fondue
+823,mini raclette
+824,electrique
+825,individuelle
+826,bon marché
+827,individuelle
+828,traditionnelle
+829,electrique
+830,pierrade-fondue
+831,pierrade-fondue
+832,pierrade-fondue
+833,mini raclette
+834,pierrade-fondue
+835,de table
+836,familiale
+837,traditionnelle
+838,de table
+839,electrique
+840,traditionnelle
+841,combinée
+842,de table
+843,individuelle
+844,mini raclette
+845,individuelle
+846,electrique
+847,familiale
+848,traditionnelle
+849,familiale
+850,traditionnelle
+851,bon marché
+852,multifonction
+853,pierrade-fondue
+854,combinée
+855,pierrade-fondue
+856,traditionnelle
+857,traditionnelle
+858,de table
+859,individuelle
 860,traditionnelle
 861,familiale
-862,individuelle
-863,electrique
-864,bon marché
-865,de table
+862,traditionnelle
+863,individuelle
+864,individuelle
+865,individuelle
 866,de table
-867,bon marché
-868,pierrade-fondue
+867,traditionnelle
+868,familiale
 869,electrique
-870,familiale
-871,familiale
-872,multifonction
-873,de table
+870,electrique
+871,multifonction
+872,individuelle
+873,bon marché
 874,de table
-875,individuelle
-876,multifonction
-877,electrique
-878,pierrade-fondue
-879,individuelle
+875,electrique
+876,traditionnelle
+877,traditionnelle
+878,bon marché
+879,multifonction
 880,bon marché
-881,traditionnelle
+881,bon marché
 882,combinée
-883,electrique
+883,de table
 884,familiale
-885,bon marché
-886,combinée
+885,familiale
+886,multifonction
 887,mini raclette
-888,de table
-889,electrique
-890,individuelle
+888,combinée
+889,bon marché
+890,bon marché
 891,mini raclette
-892,combinée
-893,traditionnelle
-894,combinée
-895,familiale
-896,traditionnelle
-897,pierrade-fondue
-898,combinée
-899,combinée
-900,familiale
-901,combinée
-902,familiale
-903,individuelle
-904,traditionnelle
-905,pierrade-fondue
-906,multifonction
-907,electrique
-908,de table
-909,de table
-910,individuelle
-911,traditionnelle
-912,electrique
-913,mini raclette
-914,traditionnelle
-915,de table
-916,familiale
-917,traditionnelle
-918,familiale
-919,multifonction
-920,multifonction
-921,bon marché
-922,bon marché
-923,individuelle
-924,de table
-925,multifonction
-926,individuelle
-927,mini raclette
-928,traditionnelle
-929,familiale
-930,pierrade-fondue
-931,familiale
-932,combinée
-933,multifonction
-934,traditionnelle
-935,multifonction
-936,mini raclette
-937,pierrade-fondue
+892,familiale
+893,de table
+894,traditionnelle
+895,de table
+896,bon marché
+897,mini raclette
+898,electrique
+899,de table
+900,individuelle
+901,individuelle
+902,pierrade-fondue
+903,pierrade-fondue
+904,familiale
+905,combinée
+906,de table
+907,individuelle
+908,pierrade-fondue
+909,combinée
+910,electrique
+911,combinée
+912,individuelle
+913,traditionnelle
+914,individuelle
+915,electrique
+916,individuelle
+917,bon marché
+918,multifonction
+919,individuelle
+920,combinée
+921,mini raclette
+922,familiale
+923,electrique
+924,multifonction
+925,individuelle
+926,traditionnelle
+927,individuelle
+928,multifonction
+929,de table
+930,de table
+931,pierrade-fondue
+932,mini raclette
+933,de table
+934,electrique
+935,combinée
+936,de table
+937,electrique
 938,traditionnelle
-939,combinée
-940,familiale
-941,individuelle
-942,de table
-943,multifonction
-944,de table
-945,traditionnelle
-946,traditionnelle
-947,multifonction
-948,bon marché
-949,mini raclette
-950,pierrade-fondue
-951,traditionnelle
-952,traditionnelle
+939,electrique
+940,multifonction
+941,mini raclette
+942,individuelle
+943,traditionnelle
+944,pierrade-fondue
+945,bon marché
+946,electrique
+947,mini raclette
+948,combinée
+949,electrique
+950,familiale
+951,de table
+952,mini raclette
 953,multifonction
-954,combinée
-955,de table
-956,electrique
-957,combinée
-958,bon marché
-959,pierrade-fondue
+954,bon marché
+955,individuelle
+956,de table
+957,multifonction
+958,familiale
+959,electrique
 960,combinée
-961,traditionnelle
-962,de table
-963,pierrade-fondue
-964,combinée
-965,pierrade-fondue
-966,pierrade-fondue
-967,de table
+961,bon marché
+962,pierrade-fondue
+963,electrique
+964,bon marché
+965,combinée
+966,de table
+967,mini raclette
 968,mini raclette
-969,electrique
-970,bon marché
-971,traditionnelle
-972,de table
-973,combinée
-974,familiale
-975,combinée
-976,pierrade-fondue
-977,traditionnelle
-978,combinée
-979,multifonction
-980,multifonction
-981,multifonction
-982,multifonction
-983,traditionnelle
-984,traditionnelle
-985,familiale
+969,mini raclette
+970,traditionnelle
+971,mini raclette
+972,individuelle
+973,bon marché
+974,bon marché
+975,mini raclette
+976,combinée
+977,electrique
+978,familiale
+979,individuelle
+980,combinée
+981,electrique
+982,traditionnelle
+983,pierrade-fondue
+984,mini raclette
+985,mini raclette
 986,mini raclette
-987,electrique
-988,individuelle
-989,de table
+987,pierrade-fondue
+988,electrique
+989,familiale
 990,de table
 991,individuelle
-992,familiale
-993,de table
-994,combinée
-995,individuelle
-996,pierrade-fondue
-997,electrique
-998,mini raclette
-999,pierrade-fondue
-1000,individuelle
-1001,pierrade-fondue
-1002,mini raclette
-1003,combinée
-1004,multifonction
-1005,familiale
-1006,bon marché
+992,bon marché
+993,pierrade-fondue
+994,traditionnelle
+995,bon marché
+996,traditionnelle
+997,pierrade-fondue
+998,bon marché
+999,mini raclette
+1000,pierrade-fondue
+1001,mini raclette
+1002,combinée
+1003,traditionnelle
+1004,electrique
+1005,de table
+1006,individuelle
 1007,mini raclette
-1008,bon marché
-1009,bon marché
-1010,combinée
-1011,electrique
-1012,mini raclette
-1013,traditionnelle
-1014,traditionnelle
-1015,pierrade-fondue
-1016,individuelle
-1017,familiale
-1018,familiale
-1019,bon marché
-1020,de table
-1021,multifonction
-1022,de table
-1023,pierrade-fondue
-1024,electrique
-1025,bon marché
+1008,electrique
+1009,traditionnelle
+1010,de table
+1011,traditionnelle
+1012,multifonction
+1013,de table
+1014,bon marché
+1015,electrique
+1016,bon marché
+1017,pierrade-fondue
+1018,de table
+1019,combinée
+1020,electrique
+1021,de table
+1022,multifonction
+1023,traditionnelle
+1024,individuelle
+1025,individuelle
 1026,de table
-1027,electrique
-1028,multifonction
+1027,pierrade-fondue
+1028,traditionnelle
 1029,de table
-1030,pierrade-fondue
-1031,multifonction
-1032,pierrade-fondue
-1033,mini raclette
-1034,pierrade-fondue
-1035,de table
+1030,multifonction
+1031,familiale
+1032,combinée
+1033,traditionnelle
+1034,familiale
+1035,pierrade-fondue
 1036,mini raclette
-1037,traditionnelle
-1038,combinée
-1039,multifonction
-1040,traditionnelle
-1041,electrique
-1042,combinée
+1037,familiale
+1038,multifonction
+1039,mini raclette
+1040,mini raclette
+1041,pierrade-fondue
+1042,pierrade-fondue
 1043,traditionnelle
-1044,pierrade-fondue
-1045,traditionnelle
-1046,pierrade-fondue
-1047,pierrade-fondue
-1048,de table
-1049,electrique
+1044,individuelle
+1045,individuelle
+1046,combinée
+1047,bon marché
+1048,electrique
+1049,multifonction
 1050,combinée
 1051,multifonction
-1052,multifonction
-1053,bon marché
-1054,mini raclette
-1055,bon marché
-1056,pierrade-fondue
-1057,familiale
-1058,familiale
-1059,pierrade-fondue
-1060,familiale
-1061,de table
-1062,bon marché
-1063,de table
-1064,traditionnelle
-1065,traditionnelle
-1066,combinée
-1067,mini raclette
-1068,electrique
-1069,traditionnelle
-1070,de table
-1071,mini raclette
-1072,de table
-1073,familiale
-1074,multifonction
-1075,electrique
+1052,traditionnelle
+1053,individuelle
+1054,individuelle
+1055,mini raclette
+1056,combinée
+1057,multifonction
+1058,bon marché
+1059,individuelle
+1060,bon marché
+1061,electrique
+1062,familiale
+1063,pierrade-fondue
+1064,electrique
+1065,multifonction
+1066,individuelle
+1067,pierrade-fondue
+1068,pierrade-fondue
+1069,electrique
+1070,familiale
+1071,multifonction
+1072,familiale
+1073,individuelle
+1074,electrique
+1075,de table
 1076,pierrade-fondue
-1077,traditionnelle
-1078,individuelle
-1079,bon marché
-1080,traditionnelle
-1081,individuelle
-1082,de table
-1083,pierrade-fondue
-1084,electrique
-1085,individuelle
-1086,pierrade-fondue
-1087,individuelle
-1088,bon marché
-1089,de table
-1090,familiale
-1091,familiale
-1092,multifonction
-1093,familiale
-1094,electrique
-1095,traditionnelle
-1096,pierrade-fondue
-1097,traditionnelle
-1098,electrique
-1099,pierrade-fondue
-1100,familiale
-1101,bon marché
-1102,de table
-1103,pierrade-fondue
-1104,familiale
-1105,individuelle
-1106,de table
-1107,mini raclette
-1108,individuelle
-1109,familiale
+1077,de table
+1078,pierrade-fondue
+1079,individuelle
+1080,pierrade-fondue
+1081,familiale
+1082,mini raclette
+1083,combinée
+1084,multifonction
+1085,mini raclette
+1086,familiale
+1087,mini raclette
+1088,mini raclette
+1089,mini raclette
+1090,bon marché
+1091,pierrade-fondue
+1092,traditionnelle
+1093,combinée
+1094,familiale
+1095,pierrade-fondue
+1096,bon marché
+1097,electrique
+1098,individuelle
+1099,individuelle
+1100,mini raclette
+1101,mini raclette
+1102,pierrade-fondue
+1103,bon marché
+1104,de table
+1105,de table
+1106,traditionnelle
+1107,combinée
+1108,familiale
+1109,pierrade-fondue
 1110,multifonction
-1111,multifonction
-1112,traditionnelle
-1113,mini raclette
-1114,traditionnelle
-1115,multifonction
-1116,individuelle
+1111,individuelle
+1112,pierrade-fondue
+1113,pierrade-fondue
+1114,electrique
+1115,electrique
+1116,bon marché
 1117,electrique
-1118,pierrade-fondue
-1119,individuelle
-1120,de table
+1118,individuelle
+1119,traditionnelle
+1120,multifonction
 1121,traditionnelle
-1122,individuelle
-1123,pierrade-fondue
-1124,individuelle
-1125,traditionnelle
-1126,combinée
-1127,pierrade-fondue
-1128,traditionnelle
-1129,mini raclette
-1130,traditionnelle
-1131,mini raclette
-1132,electrique
-1133,pierrade-fondue
-1134,electrique
-1135,multifonction
-1136,pierrade-fondue
-1137,bon marché
-1138,pierrade-fondue
-1139,combinée
-1140,familiale
-1141,traditionnelle
-1142,traditionnelle
-1143,multifonction
-1144,traditionnelle
-1145,traditionnelle
-1146,combinée
-1147,de table
-1148,traditionnelle
-1149,traditionnelle
+1122,familiale
+1123,combinée
+1124,de table
+1125,familiale
+1126,mini raclette
+1127,traditionnelle
+1128,pierrade-fondue
+1129,pierrade-fondue
+1130,de table
+1131,bon marché
+1132,bon marché
+1133,multifonction
+1134,bon marché
+1135,familiale
+1136,traditionnelle
+1137,traditionnelle
+1138,de table
+1139,pierrade-fondue
+1140,bon marché
+1141,multifonction
+1142,mini raclette
+1143,traditionnelle
+1144,de table
+1145,individuelle
+1146,individuelle
+1147,electrique
+1148,multifonction
+1149,de table
 1150,multifonction
-1151,traditionnelle
-1152,multifonction
-1153,familiale
-1154,electrique
-1155,combinée
-1156,traditionnelle
-1157,electrique
-1158,individuelle
+1151,individuelle
+1152,de table
+1153,traditionnelle
+1154,de table
+1155,electrique
+1156,multifonction
+1157,de table
+1158,multifonction
 1159,mini raclette
-1160,familiale
+1160,multifonction
 1161,pierrade-fondue
-1162,electrique
-1163,individuelle
-1164,familiale
+1162,traditionnelle
+1163,bon marché
+1164,mini raclette
 1165,bon marché
-1166,individuelle
-1167,multifonction
-1168,multifonction
-1169,familiale
-1170,traditionnelle
-1171,electrique
-1172,familiale
+1166,familiale
+1167,individuelle
+1168,electrique
+1169,combinée
+1170,mini raclette
+1171,individuelle
+1172,pierrade-fondue
 1173,pierrade-fondue
-1174,bon marché
-1175,traditionnelle
-1176,electrique
-1177,familiale
-1178,mini raclette
+1174,multifonction
+1175,multifonction
+1176,individuelle
+1177,bon marché
+1178,bon marché
 1179,individuelle
-1180,pierrade-fondue
-1181,bon marché
-1182,individuelle
-1183,electrique
+1180,de table
+1181,combinée
+1182,pierrade-fondue
+1183,traditionnelle
 1184,mini raclette
-1185,traditionnelle
-1186,pierrade-fondue
-1187,individuelle
-1188,individuelle
-1189,traditionnelle
-1190,de table
-1191,individuelle
-1192,de table
-1193,bon marché
-1194,pierrade-fondue
-1195,familiale
-1196,individuelle
+1185,combinée
+1186,individuelle
+1187,electrique
+1188,electrique
+1189,de table
+1190,traditionnelle
+1191,combinée
+1192,combinée
+1193,familiale
+1194,traditionnelle
+1195,de table
+1196,multifonction
 1197,de table
-1198,multifonction
+1198,familiale
 1199,combinée
-1200,bon marché
-1201,de table
-1202,pierrade-fondue
+1200,de table
+1201,traditionnelle
+1202,combinée
 1203,mini raclette
-1204,pierrade-fondue
-1205,multifonction
-1206,familiale
-1207,pierrade-fondue
-1208,multifonction
-1209,pierrade-fondue
-1210,traditionnelle
-1211,combinée
-1212,bon marché
-1213,traditionnelle
-1214,de table
-1215,combinée
-1216,traditionnelle
-1217,familiale
-1218,multifonction
-1219,multifonction
-1220,de table
-1221,multifonction
+1204,electrique
+1205,mini raclette
+1206,combinée
+1207,combinée
+1208,mini raclette
+1209,bon marché
+1210,bon marché
+1211,individuelle
+1212,mini raclette
+1213,mini raclette
+1214,mini raclette
+1215,de table
+1216,pierrade-fondue
+1217,multifonction
+1218,bon marché
+1219,pierrade-fondue
+1220,pierrade-fondue
+1221,individuelle
 1222,traditionnelle
-1223,familiale
-1224,electrique
-1225,multifonction
+1223,individuelle
+1224,traditionnelle
+1225,de table
 1226,individuelle
 1227,de table
-1228,pierrade-fondue
-1229,pierrade-fondue
-1230,electrique
-1231,mini raclette
-1232,de table
-1233,pierrade-fondue
-1234,pierrade-fondue
-1235,de table
-1236,mini raclette
-1237,de table
-1238,electrique
-1239,electrique
-1240,pierrade-fondue
-1241,bon marché
+1228,multifonction
+1229,combinée
+1230,individuelle
+1231,electrique
+1232,combinée
+1233,familiale
+1234,multifonction
+1235,traditionnelle
+1236,combinée
+1237,pierrade-fondue
+1238,pierrade-fondue
+1239,pierrade-fondue
+1240,traditionnelle
+1241,de table
 1242,individuelle
-1243,bon marché
-1244,bon marché
-1245,mini raclette
-1246,individuelle
+1243,multifonction
+1244,mini raclette
+1245,traditionnelle
+1246,electrique
 1247,multifonction
-1248,individuelle
-1249,combinée
-1250,multifonction
-1251,pierrade-fondue
-1252,bon marché
-1253,familiale
-1254,electrique
-1255,pierrade-fondue
-1256,individuelle
-1257,familiale
-1258,familiale
+1248,mini raclette
+1249,traditionnelle
+1250,electrique
+1251,traditionnelle
+1252,traditionnelle
+1253,mini raclette
+1254,bon marché
+1255,electrique
+1256,combinée
+1257,multifonction
+1258,individuelle
 1259,pierrade-fondue
-1260,familiale
+1260,traditionnelle
 1261,combinée
-1262,mini raclette
-1263,mini raclette
+1262,individuelle
+1263,bon marché
 1264,bon marché
-1265,mini raclette
-1266,mini raclette
-1267,pierrade-fondue
-1268,pierrade-fondue
+1265,familiale
+1266,electrique
+1267,traditionnelle
+1268,familiale
 1269,pierrade-fondue
-1270,familiale
-1271,multifonction
+1270,pierrade-fondue
+1271,bon marché
 1272,pierrade-fondue
-1273,electrique
+1273,combinée
 1274,familiale
-1275,electrique
-1276,traditionnelle
-1277,bon marché
-1278,de table
-1279,bon marché
-1280,individuelle
-1281,mini raclette
-1282,mini raclette
-1283,pierrade-fondue
-1284,mini raclette
-1285,familiale
-1286,multifonction
-1287,multifonction
-1288,individuelle
-1289,individuelle
-1290,mini raclette
-1291,mini raclette
-1292,familiale
-1293,traditionnelle
-1294,traditionnelle
-1295,pierrade-fondue
-1296,individuelle
+1275,de table
+1276,individuelle
+1277,familiale
+1278,bon marché
+1279,traditionnelle
+1280,multifonction
+1281,traditionnelle
+1282,pierrade-fondue
+1283,de table
+1284,individuelle
+1285,de table
+1286,individuelle
+1287,familiale
+1288,multifonction
+1289,pierrade-fondue
+1290,combinée
+1291,combinée
+1292,individuelle
+1293,combinée
+1294,bon marché
+1295,de table
+1296,combinée
 1297,pierrade-fondue
-1298,pierrade-fondue
-1299,multifonction
-1300,mini raclette
-1301,combinée
-1302,multifonction
-1303,electrique
-1304,de table
-1305,traditionnelle
-1306,traditionnelle
-1307,traditionnelle
-1308,de table
+1298,individuelle
+1299,individuelle
+1300,familiale
+1301,multifonction
+1302,mini raclette
+1303,mini raclette
+1304,electrique
+1305,bon marché
+1306,mini raclette
+1307,de table
+1308,bon marché
 1309,mini raclette
-1310,pierrade-fondue
-1311,multifonction
-1312,combinée
-1313,pierrade-fondue
-1314,bon marché
-1315,combinée
-1316,traditionnelle
-1317,multifonction
-1318,multifonction
-1319,multifonction
-1320,pierrade-fondue
-1321,mini raclette
-1322,traditionnelle
-1323,de table
+1310,de table
+1311,traditionnelle
+1312,familiale
+1313,individuelle
+1314,electrique
+1315,multifonction
+1316,bon marché
+1317,combinée
+1318,electrique
+1319,traditionnelle
+1320,combinée
+1321,electrique
+1322,bon marché
+1323,multifonction
 1324,electrique
-1325,combinée
-1326,electrique
-1327,multifonction
-1328,mini raclette
-1329,electrique
+1325,multifonction
+1326,de table
+1327,combinée
+1328,individuelle
+1329,mini raclette
 1330,electrique
-1331,electrique
-1332,combinée
+1331,bon marché
+1332,traditionnelle
 1333,traditionnelle
-1334,traditionnelle
-1335,traditionnelle
-1336,combinée
+1334,mini raclette
+1335,combinée
+1336,electrique
 1337,mini raclette
-1338,mini raclette
-1339,mini raclette
-1340,multifonction
-1341,individuelle
-1342,de table
-1343,traditionnelle
-1344,traditionnelle
-1345,traditionnelle
-1346,familiale
-1347,traditionnelle
-1348,mini raclette
-1349,electrique
-1350,bon marché
-1351,combinée
+1338,traditionnelle
+1339,familiale
+1340,individuelle
+1341,multifonction
+1342,pierrade-fondue
+1343,bon marché
+1344,multifonction
+1345,multifonction
+1346,multifonction
+1347,mini raclette
+1348,pierrade-fondue
+1349,pierrade-fondue
+1350,electrique
+1351,mini raclette
 1352,mini raclette
-1353,combinée
-1354,mini raclette
-1355,electrique
+1353,traditionnelle
+1354,individuelle
+1355,familiale
 1356,individuelle
-1357,traditionnelle
-1358,pierrade-fondue
-1359,pierrade-fondue
-1360,mini raclette
-1361,traditionnelle
-1362,pierrade-fondue
-1363,traditionnelle
-1364,combinée
-1365,mini raclette
-1366,de table
-1367,de table
-1368,traditionnelle
-1369,mini raclette
-1370,familiale
-1371,individuelle
-1372,individuelle
-1373,bon marché
-1374,pierrade-fondue
-1375,pierrade-fondue
-1376,bon marché
+1357,de table
+1358,de table
+1359,bon marché
+1360,combinée
+1361,de table
+1362,de table
+1363,de table
+1364,pierrade-fondue
+1365,individuelle
+1366,individuelle
+1367,combinée
+1368,bon marché
+1369,electrique
+1370,pierrade-fondue
+1371,pierrade-fondue
+1372,multifonction
+1373,electrique
+1374,electrique
+1375,individuelle
+1376,traditionnelle
 1377,individuelle
-1378,de table
-1379,traditionnelle
+1378,traditionnelle
+1379,electrique
 1380,electrique
-1381,electrique
-1382,individuelle
-1383,multifonction
+1381,de table
+1382,mini raclette
+1383,traditionnelle
 1384,multifonction
-1385,electrique
-1386,mini raclette
-1387,de table
-1388,electrique
-1389,individuelle
-1390,combinée
-1391,electrique
-1392,multifonction
-1393,electrique
-1394,individuelle
-1395,individuelle
-1396,electrique
-1397,mini raclette
-1398,familiale
-1399,bon marché
-1400,combinée
-1401,bon marché
-1402,mini raclette
-1403,pierrade-fondue
-1404,de table
-1405,combinée
-1406,individuelle
+1385,bon marché
+1386,bon marché
+1387,traditionnelle
+1388,individuelle
+1389,mini raclette
+1390,mini raclette
+1391,pierrade-fondue
+1392,traditionnelle
+1393,familiale
+1394,familiale
+1395,traditionnelle
+1396,pierrade-fondue
+1397,pierrade-fondue
+1398,de table
+1399,traditionnelle
+1400,electrique
+1401,de table
+1402,bon marché
+1403,mini raclette
+1404,familiale
+1405,pierrade-fondue
+1406,pierrade-fondue
 1407,de table
-1408,multifonction
-1409,bon marché
-1410,electrique
-1411,familiale
-1412,bon marché
-1413,pierrade-fondue
-1414,individuelle
-1415,traditionnelle
-1416,de table
-1417,bon marché
-1418,combinée
-1419,bon marché
-1420,combinée
-1421,bon marché
-1422,multifonction
-1423,mini raclette
-1424,traditionnelle
-1425,familiale
-1426,combinée
-1427,multifonction
-1428,combinée
-1429,combinée
-1430,familiale
-1431,bon marché
-1432,de table
-1433,combinée
-1434,traditionnelle
-1435,combinée
+1408,traditionnelle
+1409,combinée
+1410,traditionnelle
+1411,electrique
+1412,familiale
+1413,individuelle
+1414,bon marché
+1415,bon marché
+1416,traditionnelle
+1417,pierrade-fondue
+1418,mini raclette
+1419,electrique
+1420,traditionnelle
+1421,familiale
+1422,individuelle
+1423,multifonction
+1424,familiale
+1425,multifonction
+1426,familiale
+1427,pierrade-fondue
+1428,bon marché
+1429,bon marché
+1430,electrique
+1431,combinée
+1432,individuelle
+1433,electrique
+1434,pierrade-fondue
+1435,individuelle
 1436,familiale
-1437,familiale
+1437,multifonction
 1438,electrique
-1439,electrique
-1440,pierrade-fondue
-1441,bon marché
-1442,familiale
+1439,pierrade-fondue
+1440,mini raclette
+1441,combinée
+1442,de table
 1443,multifonction
 1444,bon marché
-1445,combinée
-1446,familiale
-1447,bon marché
+1445,traditionnelle
+1446,electrique
+1447,individuelle
 1448,mini raclette
-1449,traditionnelle
-1450,electrique
-1451,de table
-1452,de table
-1453,pierrade-fondue
-1454,electrique
-1455,traditionnelle
-1456,de table
-1457,electrique
-1458,de table
-1459,bon marché
-1460,familiale
-1461,bon marché
-1462,combinée
-1463,combinée
-1464,traditionnelle
-1465,pierrade-fondue
-1466,electrique
-1467,familiale
-1468,traditionnelle
-1469,mini raclette
-1470,multifonction
-1471,bon marché
-1472,familiale
-1473,traditionnelle
-1474,electrique
-1475,pierrade-fondue
-1476,familiale
-1477,multifonction
-1478,combinée
-1479,familiale
-1480,pierrade-fondue
-1481,familiale
-1482,traditionnelle
-1483,electrique
-1484,bon marché
-1485,bon marché
-1486,mini raclette
-1487,familiale
-1488,multifonction
-1489,mini raclette
-1490,individuelle
-1491,multifonction
-1492,de table
+1449,multifonction
+1450,pierrade-fondue
+1451,traditionnelle
+1452,traditionnelle
+1453,individuelle
+1454,de table
+1455,multifonction
+1456,combinée
+1457,mini raclette
+1458,individuelle
+1459,pierrade-fondue
+1460,individuelle
+1461,mini raclette
+1462,pierrade-fondue
+1463,bon marché
+1464,combinée
+1465,multifonction
+1466,combinée
+1467,electrique
+1468,mini raclette
+1469,multifonction
+1470,electrique
+1471,traditionnelle
+1472,de table
+1473,bon marché
+1474,familiale
+1475,combinée
+1476,de table
+1477,traditionnelle
+1478,mini raclette
+1479,pierrade-fondue
+1480,combinée
+1481,electrique
+1482,electrique
+1483,traditionnelle
+1484,traditionnelle
+1485,individuelle
+1486,de table
+1487,electrique
+1488,familiale
+1489,combinée
+1490,bon marché
+1491,traditionnelle
+1492,mini raclette
 1493,traditionnelle
-1494,multifonction
-1495,traditionnelle
-1496,bon marché
-1497,bon marché
-1498,traditionnelle
-1499,traditionnelle
-1500,electrique
-1501,combinée
-1502,mini raclette
+1494,individuelle
+1495,individuelle
+1496,traditionnelle
+1497,traditionnelle
+1498,combinée
+1499,pierrade-fondue
+1500,individuelle
+1501,traditionnelle
+1502,familiale
 1503,multifonction
-1504,traditionnelle
-1505,traditionnelle
-1506,electrique
-1507,traditionnelle
-1508,multifonction
-1509,de table
-1510,combinée
-1511,mini raclette
-1512,electrique
-1513,traditionnelle
-1514,pierrade-fondue
-1515,pierrade-fondue
-1516,pierrade-fondue
-1517,electrique
-1518,de table
-1519,mini raclette
-1520,individuelle
-1521,mini raclette
-1522,traditionnelle
+1504,de table
+1505,bon marché
+1506,bon marché
+1507,de table
+1508,individuelle
+1509,combinée
+1510,electrique
+1511,de table
+1512,combinée
+1513,electrique
+1514,bon marché
+1515,de table
+1516,combinée
+1517,individuelle
+1518,familiale
+1519,multifonction
+1520,mini raclette
+1521,multifonction
+1522,combinée
 1523,traditionnelle
-1524,bon marché
-1525,pierrade-fondue
+1524,individuelle
+1525,multifonction
 1526,electrique
 1527,familiale
-1528,electrique
-1529,individuelle
-1530,multifonction
-1531,combinée
-1532,bon marché
-1533,individuelle
-1534,electrique
-1535,traditionnelle
-1536,multifonction
+1528,traditionnelle
+1529,traditionnelle
+1530,de table
+1531,bon marché
+1532,familiale
+1533,combinée
+1534,combinée
+1535,combinée
+1536,mini raclette
 1537,pierrade-fondue
-1538,familiale
-1539,bon marché
-1540,combinée
-1541,pierrade-fondue
-1542,combinée
-1543,individuelle
-1544,traditionnelle
-1545,pierrade-fondue
-1546,combinée
-1547,traditionnelle
-1548,combinée
-1549,de table
-1550,de table
-1551,traditionnelle
+1538,pierrade-fondue
+1539,combinée
+1540,pierrade-fondue
+1541,electrique
+1542,electrique
+1543,pierrade-fondue
+1544,mini raclette
+1545,de table
+1546,de table
+1547,individuelle
+1548,electrique
+1549,familiale
+1550,electrique
+1551,bon marché
 1552,electrique
 1553,bon marché
-1554,combinée
-1555,combinée
-1556,individuelle
-1557,pierrade-fondue
-1558,mini raclette
-1559,electrique
-1560,traditionnelle
+1554,traditionnelle
+1555,traditionnelle
+1556,bon marché
+1557,multifonction
+1558,combinée
+1559,traditionnelle
+1560,bon marché
 1561,pierrade-fondue
-1562,traditionnelle
-1563,de table
-1564,mini raclette
-1565,electrique
-1566,de table
-1567,bon marché
-1568,traditionnelle
-1569,pierrade-fondue
-1570,traditionnelle
-1571,combinée
-1572,multifonction
-1573,combinée
-1574,pierrade-fondue
-1575,bon marché
-1576,electrique
-1577,combinée
-1578,bon marché
-1579,electrique
-1580,mini raclette
-1581,familiale
-1582,individuelle
-1583,mini raclette
-1584,combinée
-1585,multifonction
+1562,electrique
+1563,multifonction
+1564,combinée
+1565,traditionnelle
+1566,bon marché
+1567,multifonction
+1568,bon marché
+1569,bon marché
+1570,de table
+1571,de table
+1572,pierrade-fondue
+1573,mini raclette
+1574,multifonction
+1575,mini raclette
+1576,traditionnelle
+1577,multifonction
+1578,combinée
+1579,multifonction
+1580,multifonction
+1581,pierrade-fondue
+1582,mini raclette
+1583,de table
+1584,bon marché
+1585,traditionnelle
 1586,bon marché
-1587,multifonction
+1587,pierrade-fondue
 1588,mini raclette
-1589,electrique
-1590,multifonction
-1591,individuelle
-1592,individuelle
-1593,combinée
-1594,familiale
-1595,electrique
-1596,de table
-1597,traditionnelle
+1589,traditionnelle
+1590,traditionnelle
+1591,traditionnelle
+1592,mini raclette
+1593,bon marché
+1594,combinée
+1595,combinée
+1596,mini raclette
+1597,bon marché
 1598,multifonction
-1599,combinée
-1600,combinée
-1601,pierrade-fondue
-1602,bon marché
-1603,individuelle
-1604,de table
-1605,familiale
+1599,familiale
+1600,traditionnelle
+1601,combinée
+1602,de table
+1603,bon marché
+1604,traditionnelle
+1605,traditionnelle
 1606,mini raclette
-1607,mini raclette
-1608,traditionnelle
-1609,pierrade-fondue
-1610,familiale
-1611,multifonction
-1612,traditionnelle
-1613,de table
-1614,pierrade-fondue
-1615,pierrade-fondue
-1616,mini raclette
+1607,familiale
+1608,bon marché
+1609,mini raclette
+1610,traditionnelle
+1611,traditionnelle
+1612,mini raclette
+1613,electrique
+1614,de table
+1615,multifonction
+1616,combinée
 1617,combinée
-1618,multifonction
-1619,bon marché
-1620,familiale
-1621,electrique
-1622,individuelle
-1623,mini raclette
-1624,electrique
-1625,bon marché
-1626,multifonction
-1627,pierrade-fondue
-1628,combinée
-1629,bon marché
-1630,individuelle
-1631,pierrade-fondue
-1632,pierrade-fondue
-1633,traditionnelle
-1634,individuelle
-1635,pierrade-fondue
-1636,familiale
-1637,combinée
-1638,de table
-1639,multifonction
-1640,traditionnelle
-1641,traditionnelle
-1642,bon marché
-1643,de table
-1644,electrique
-1645,de table
-1646,bon marché
-1647,de table
-1648,multifonction
-1649,traditionnelle
-1650,traditionnelle
-1651,individuelle
-1652,mini raclette
-1653,mini raclette
-1654,combinée
-1655,familiale
-1656,bon marché
-1657,pierrade-fondue
-1658,pierrade-fondue
-1659,combinée
-1660,electrique
-1661,electrique
-1662,familiale
-1663,electrique
-1664,familiale
-1665,mini raclette
-1666,multifonction
+1618,familiale
+1619,traditionnelle
+1620,individuelle
+1621,multifonction
+1622,mini raclette
+1623,pierrade-fondue
+1624,de table
+1625,individuelle
+1626,traditionnelle
+1627,individuelle
+1628,de table
+1629,individuelle
+1630,traditionnelle
+1631,traditionnelle
+1632,electrique
+1633,bon marché
+1634,pierrade-fondue
+1635,electrique
+1636,electrique
+1637,traditionnelle
+1638,pierrade-fondue
+1639,familiale
+1640,combinée
+1641,multifonction
+1642,electrique
+1643,electrique
+1644,mini raclette
+1645,multifonction
+1646,electrique
+1647,traditionnelle
+1648,electrique
+1649,combinée
+1650,mini raclette
+1651,bon marché
+1652,de table
+1653,bon marché
+1654,individuelle
+1655,individuelle
+1656,electrique
+1657,de table
+1658,mini raclette
+1659,multifonction
+1660,multifonction
+1661,individuelle
+1662,pierrade-fondue
+1663,combinée
+1664,pierrade-fondue
+1665,traditionnelle
+1666,mini raclette
 1667,familiale
-1668,de table
-1669,multifonction
-1670,combinée
-1671,traditionnelle
-1672,multifonction
-1673,de table
-1674,individuelle
-1675,electrique
-1676,individuelle
+1668,familiale
+1669,individuelle
+1670,multifonction
+1671,individuelle
+1672,individuelle
+1673,multifonction
+1674,combinée
+1675,individuelle
+1676,mini raclette
 1677,pierrade-fondue
-1678,pierrade-fondue
-1679,traditionnelle
-1680,multifonction
-1681,individuelle
-1682,pierrade-fondue
+1678,bon marché
+1679,combinée
+1680,mini raclette
+1681,multifonction
+1682,individuelle
 1683,bon marché
-1684,mini raclette
-1685,electrique
-1686,electrique
-1687,electrique
-1688,de table
-1689,familiale
-1690,multifonction
-1691,traditionnelle
-1692,traditionnelle
-1693,bon marché
+1684,individuelle
+1685,pierrade-fondue
+1686,individuelle
+1687,individuelle
+1688,familiale
+1689,mini raclette
+1690,familiale
+1691,familiale
+1692,pierrade-fondue
+1693,individuelle
 1694,traditionnelle
-1695,mini raclette
-1696,de table
+1695,electrique
+1696,pierrade-fondue
 1697,individuelle
-1698,traditionnelle
-1699,de table
-1700,combinée
-1701,multifonction
-1702,traditionnelle
-1703,bon marché
-1704,de table
-1705,traditionnelle
-1706,bon marché
-1707,traditionnelle
-1708,electrique
-1709,electrique
-1710,electrique
+1698,electrique
+1699,bon marché
+1700,traditionnelle
+1701,bon marché
+1702,combinée
+1703,de table
+1704,pierrade-fondue
+1705,multifonction
+1706,pierrade-fondue
+1707,mini raclette
+1708,bon marché
+1709,de table
+1710,bon marché
 1711,electrique
-1712,traditionnelle
-1713,combinée
-1714,traditionnelle
-1715,de table
-1716,traditionnelle
-1717,de table
+1712,multifonction
+1713,pierrade-fondue
+1714,multifonction
+1715,multifonction
+1716,de table
+1717,mini raclette
 1718,multifonction
-1719,familiale
-1720,mini raclette
-1721,pierrade-fondue
-1722,de table
-1723,familiale
-1724,individuelle
-1725,individuelle
-1726,mini raclette
-1727,traditionnelle
-1728,electrique
-1729,de table
-1730,familiale
-1731,pierrade-fondue
-1732,mini raclette
-1733,bon marché
-1734,bon marché
-1735,multifonction
+1719,traditionnelle
+1720,individuelle
+1721,mini raclette
+1722,mini raclette
+1723,combinée
+1724,bon marché
+1725,pierrade-fondue
+1726,combinée
+1727,pierrade-fondue
+1728,de table
+1729,traditionnelle
+1730,bon marché
+1731,familiale
+1732,combinée
+1733,traditionnelle
+1734,electrique
+1735,bon marché
 1736,multifonction
-1737,multifonction
-1738,combinée
+1737,combinée
+1738,mini raclette
 1739,traditionnelle
-1740,bon marché
-1741,pierrade-fondue
-1742,individuelle
-1743,familiale
-1744,bon marché
-1745,multifonction
-1746,familiale
-1747,de table
-1748,familiale
-1749,combinée
+1740,familiale
+1741,electrique
+1742,familiale
+1743,bon marché
+1744,individuelle
+1745,individuelle
+1746,pierrade-fondue
+1747,mini raclette
+1748,pierrade-fondue
+1749,mini raclette
 1750,mini raclette
-1751,pierrade-fondue
+1751,de table
 1752,multifonction
-1753,traditionnelle
-1754,bon marché
-1755,familiale
-1756,combinée
-1757,bon marché
-1758,traditionnelle
-1759,bon marché
-1760,combinée
-1761,de table
-1762,multifonction
-1763,combinée
-1764,de table
-1765,pierrade-fondue
-1766,bon marché
-1767,familiale
-1768,traditionnelle
-1769,traditionnelle
-1770,de table
-1771,pierrade-fondue
-1772,combinée
-1773,bon marché
-1774,multifonction
-1775,electrique
-1776,de table
-1777,pierrade-fondue
-1778,combinée
-1779,de table
-1780,bon marché
-1781,multifonction
-1782,pierrade-fondue
-1783,multifonction
-1784,bon marché
-1785,electrique
-1786,familiale
-1787,individuelle
-1788,mini raclette
-1789,combinée
-1790,electrique
-1791,de table
-1792,combinée
-1793,combinée
-1794,bon marché
+1753,bon marché
+1754,electrique
+1755,combinée
+1756,multifonction
+1757,mini raclette
+1758,pierrade-fondue
+1759,mini raclette
+1760,familiale
+1761,bon marché
+1762,bon marché
+1763,bon marché
+1764,electrique
+1765,individuelle
+1766,electrique
+1767,mini raclette
+1768,combinée
+1769,multifonction
+1770,combinée
+1771,familiale
+1772,electrique
+1773,electrique
+1774,combinée
+1775,traditionnelle
+1776,traditionnelle
+1777,mini raclette
+1778,individuelle
+1779,combinée
+1780,individuelle
+1781,de table
+1782,combinée
+1783,electrique
+1784,de table
+1785,traditionnelle
+1786,bon marché
+1787,familiale
+1788,multifonction
+1789,de table
+1790,individuelle
+1791,traditionnelle
+1792,bon marché
+1793,individuelle
+1794,familiale
 1795,bon marché
-1796,multifonction
-1797,traditionnelle
-1798,individuelle
-1799,multifonction
-1800,traditionnelle
-1801,combinée
-1802,mini raclette
-1803,electrique
+1796,bon marché
+1797,de table
+1798,traditionnelle
+1799,electrique
+1800,individuelle
+1801,familiale
+1802,de table
+1803,familiale
 1804,bon marché
-1805,mini raclette
-1806,de table
-1807,combinée
-1808,de table
-1809,individuelle
-1810,de table
-1811,mini raclette
-1812,bon marché
-1813,electrique
+1805,multifonction
+1806,pierrade-fondue
+1807,familiale
+1808,individuelle
+1809,electrique
+1810,combinée
+1811,traditionnelle
+1812,electrique
+1813,bon marché
 1814,combinée
-1815,familiale
-1816,combinée
+1815,mini raclette
+1816,bon marché
 1817,bon marché
-1818,pierrade-fondue
-1819,multifonction
-1820,electrique
-1821,traditionnelle
-1822,individuelle
-1823,individuelle
-1824,mini raclette
+1818,traditionnelle
+1819,familiale
+1820,traditionnelle
+1821,familiale
+1822,traditionnelle
+1823,traditionnelle
+1824,multifonction
 1825,individuelle
-1826,de table
-1827,pierrade-fondue
-1828,individuelle
-1829,multifonction
-1830,electrique
-1831,de table
+1826,traditionnelle
+1827,familiale
+1828,electrique
+1829,traditionnelle
+1830,bon marché
+1831,bon marché
 1832,familiale
-1833,bon marché
-1834,mini raclette
-1835,familiale
-1836,individuelle
-1837,de table
-1838,individuelle
-1839,de table
-1840,traditionnelle
-1841,de table
-1842,mini raclette
-1843,bon marché
-1844,familiale
-1845,familiale
-1846,familiale
-1847,traditionnelle
-1848,pierrade-fondue
-1849,de table
-1850,combinée
-1851,mini raclette
-1852,de table
-1853,multifonction
-1854,de table
-1855,traditionnelle
-1856,mini raclette
-1857,mini raclette
-1858,pierrade-fondue
-1859,mini raclette
-1860,traditionnelle
-1861,bon marché
-1862,combinée
-1863,bon marché
-1864,traditionnelle
-1865,mini raclette
-1866,traditionnelle
-1867,combinée
-1868,multifonction
-1869,bon marché
-1870,bon marché
-1871,individuelle
-1872,mini raclette
-1873,electrique
-1874,combinée
-1875,traditionnelle
-1876,electrique
-1877,combinée
+1833,pierrade-fondue
+1834,pierrade-fondue
+1835,combinée
+1836,familiale
+1837,electrique
+1838,bon marché
+1839,combinée
+1840,mini raclette
+1841,bon marché
+1842,electrique
+1843,multifonction
+1844,electrique
+1845,bon marché
+1846,individuelle
+1847,de table
+1848,de table
+1849,individuelle
+1850,mini raclette
+1851,bon marché
+1852,familiale
+1853,traditionnelle
+1854,traditionnelle
+1855,combinée
+1856,multifonction
+1857,multifonction
+1858,traditionnelle
+1859,multifonction
+1860,familiale
+1861,multifonction
+1862,bon marché
+1863,familiale
+1864,bon marché
+1865,pierrade-fondue
+1866,combinée
+1867,electrique
+1868,combinée
+1869,familiale
+1870,mini raclette
+1871,electrique
+1872,pierrade-fondue
+1873,bon marché
+1874,traditionnelle
+1875,bon marché
+1876,traditionnelle
+1877,individuelle
 1878,familiale
 1879,familiale
-1880,de table
-1881,combinée
-1882,multifonction
-1883,multifonction
-1884,individuelle
+1880,pierrade-fondue
+1881,electrique
+1882,traditionnelle
+1883,mini raclette
+1884,traditionnelle
 1885,mini raclette
 1886,mini raclette
-1887,combinée
-1888,combinée
-1889,mini raclette
-1890,individuelle
+1887,familiale
+1888,electrique
+1889,electrique
+1890,pierrade-fondue
 1891,electrique
-1892,traditionnelle
-1893,multifonction
-1894,bon marché
-1895,pierrade-fondue
-1896,mini raclette
-1897,electrique
-1898,de table
-1899,familiale
-1900,mini raclette
-1901,de table
-1902,bon marché
-1903,mini raclette
-1904,mini raclette
-1905,pierrade-fondue
-1906,bon marché
-1907,multifonction
-1908,bon marché
-1909,familiale
-1910,individuelle
-1911,combinée
-1912,pierrade-fondue
-1913,bon marché
-1914,bon marché
-1915,multifonction
-1916,individuelle
-1917,combinée
-1918,bon marché
+1892,mini raclette
+1893,combinée
+1894,mini raclette
+1895,bon marché
+1896,bon marché
+1897,pierrade-fondue
+1898,pierrade-fondue
+1899,combinée
+1900,individuelle
+1901,electrique
+1902,de table
+1903,pierrade-fondue
+1904,bon marché
+1905,electrique
+1906,traditionnelle
+1907,combinée
+1908,de table
+1909,mini raclette
+1910,bon marché
+1911,bon marché
+1912,traditionnelle
+1913,individuelle
+1914,pierrade-fondue
+1915,pierrade-fondue
+1916,electrique
+1917,individuelle
+1918,electrique
 1919,traditionnelle
-1920,de table
+1920,familiale
 1921,combinée
-1922,pierrade-fondue
-1923,individuelle
-1924,familiale
+1922,bon marché
+1923,mini raclette
+1924,de table
 1925,traditionnelle
-1926,de table
-1927,familiale
-1928,mini raclette
+1926,mini raclette
+1927,multifonction
+1928,electrique
 1929,familiale
-1930,mini raclette
-1931,de table
-1932,familiale
-1933,traditionnelle
-1934,de table
-1935,mini raclette
-1936,pierrade-fondue
-1937,combinée
-1938,bon marché
-1939,bon marché
-1940,individuelle
-1941,traditionnelle
-1942,bon marché
-1943,traditionnelle
-1944,traditionnelle
-1945,pierrade-fondue
-1946,de table
-1947,combinée
-1948,pierrade-fondue
-1949,mini raclette
-1950,familiale
+1930,pierrade-fondue
+1931,familiale
+1932,multifonction
+1933,combinée
+1934,multifonction
+1935,electrique
+1936,multifonction
+1937,bon marché
+1938,combinée
+1939,traditionnelle
+1940,combinée
+1941,mini raclette
+1942,multifonction
+1943,individuelle
+1944,pierrade-fondue
+1945,mini raclette
+1946,combinée
+1947,traditionnelle
+1948,traditionnelle
+1949,bon marché
+1950,pierrade-fondue
 1951,individuelle
-1952,electrique
-1953,familiale
-1954,pierrade-fondue
-1955,pierrade-fondue
-1956,individuelle
-1957,individuelle
-1958,individuelle
-1959,multifonction
-1960,individuelle
-1961,familiale
-1962,mini raclette
-1963,pierrade-fondue
-1964,mini raclette
-1965,bon marché
-1966,de table
-1967,de table
+1952,traditionnelle
+1953,mini raclette
+1954,de table
+1955,de table
+1956,mini raclette
+1957,mini raclette
+1958,de table
+1959,pierrade-fondue
+1960,pierrade-fondue
+1961,pierrade-fondue
+1962,bon marché
+1963,combinée
+1964,electrique
+1965,electrique
+1966,mini raclette
+1967,individuelle
 1968,multifonction
-1969,traditionnelle
-1970,traditionnelle
-1971,combinée
-1972,de table
-1973,pierrade-fondue
+1969,pierrade-fondue
+1970,mini raclette
+1971,mini raclette
+1972,multifonction
+1973,combinée
 1974,pierrade-fondue
-1975,traditionnelle
-1976,multifonction
-1977,bon marché
-1978,pierrade-fondue
+1975,pierrade-fondue
+1976,familiale
+1977,individuelle
+1978,electrique
 1979,electrique
 1980,mini raclette
-1981,de table
-1982,familiale
-1983,familiale
-1984,multifonction
-1985,multifonction
-1986,multifonction
-1987,de table
-1988,familiale
+1981,familiale
+1982,de table
+1983,mini raclette
+1984,pierrade-fondue
+1985,familiale
+1986,combinée
+1987,bon marché
+1988,multifonction
 1989,combinée
-1990,mini raclette
-1991,familiale
-1992,mini raclette
-1993,individuelle
-1994,mini raclette
-1995,familiale
-1996,combinée
-1997,traditionnelle
-1998,electrique
-1999,traditionnelle
-2000,bon marché
-2001,bon marché
+1990,familiale
+1991,individuelle
+1992,pierrade-fondue
+1993,mini raclette
+1994,de table
+1995,traditionnelle
+1996,electrique
+1997,familiale
+1998,combinée
+1999,multifonction
+2000,de table
+2001,mini raclette
 2002,traditionnelle
-2003,multifonction
-2004,electrique
-2005,individuelle
-2006,familiale
-2007,electrique
-2008,mini raclette
-2009,individuelle
+2003,familiale
+2004,mini raclette
+2005,combinée
+2006,electrique
+2007,multifonction
+2008,multifonction
+2009,combinée
 2010,familiale
-2011,electrique
-2012,electrique
+2011,mini raclette
+2012,pierrade-fondue
 2013,electrique
-2014,bon marché
-2015,bon marché
-2016,electrique
-2017,de table
-2018,mini raclette
-2019,mini raclette
-2020,bon marché
-2021,combinée
-2022,multifonction
+2014,traditionnelle
+2015,multifonction
+2016,bon marché
+2017,multifonction
+2018,pierrade-fondue
+2019,combinée
+2020,traditionnelle
+2021,mini raclette
+2022,mini raclette
 2023,multifonction
-2024,pierrade-fondue
-2025,individuelle
-2026,individuelle
-2027,combinée
-2028,traditionnelle
-2029,multifonction
-2030,familiale
-2031,familiale
-2032,familiale
-2033,individuelle
-2034,mini raclette
-2035,mini raclette
-2036,de table
-2037,electrique
-2038,multifonction
-2039,multifonction
-2040,traditionnelle
+2024,familiale
+2025,familiale
+2026,de table
+2027,pierrade-fondue
+2028,familiale
+2029,electrique
+2030,bon marché
+2031,pierrade-fondue
+2032,electrique
+2033,pierrade-fondue
+2034,pierrade-fondue
+2035,electrique
+2036,electrique
+2037,familiale
+2038,combinée
+2039,pierrade-fondue
+2040,electrique
 2041,traditionnelle
-2042,familiale
-2043,familiale
-2044,bon marché
+2042,electrique
+2043,mini raclette
+2044,electrique
 2045,electrique
-2046,traditionnelle
-2047,bon marché
-2048,de table
-2049,mini raclette
-2050,pierrade-fondue
-2051,bon marché
+2046,familiale
+2047,mini raclette
+2048,pierrade-fondue
+2049,multifonction
+2050,traditionnelle
+2051,combinée
 2052,electrique
 2053,traditionnelle
-2054,multifonction
-2055,multifonction
-2056,combinée
-2057,bon marché
-2058,pierrade-fondue
-2059,traditionnelle
-2060,combinée
+2054,electrique
+2055,bon marché
+2056,bon marché
+2057,individuelle
+2058,mini raclette
+2059,de table
+2060,bon marché
 2061,bon marché
-2062,combinée
-2063,combinée
-2064,electrique
-2065,electrique
-2066,familiale
-2067,electrique
-2068,pierrade-fondue
-2069,electrique
-2070,individuelle
+2062,pierrade-fondue
+2063,traditionnelle
+2064,combinée
+2065,bon marché
+2066,traditionnelle
+2067,traditionnelle
+2068,multifonction
+2069,combinée
+2070,multifonction
 2071,pierrade-fondue
-2072,mini raclette
-2073,familiale
-2074,de table
-2075,mini raclette
-2076,electrique
-2077,de table
-2078,mini raclette
-2079,familiale
-2080,electrique
-2081,electrique
+2072,electrique
+2073,bon marché
+2074,bon marché
+2075,traditionnelle
+2076,de table
+2077,multifonction
+2078,electrique
+2079,combinée
+2080,mini raclette
+2081,bon marché
 2082,pierrade-fondue
-2083,combinée
-2084,individuelle
-2085,mini raclette
-2086,individuelle
-2087,pierrade-fondue
-2088,de table
-2089,individuelle
-2090,traditionnelle
-2091,traditionnelle
-2092,bon marché
-2093,multifonction
-2094,bon marché
-2095,combinée
-2096,multifonction
-2097,mini raclette
-2098,familiale
-2099,bon marché
-2100,familiale
-2101,familiale
-2102,electrique
-2103,multifonction
-2104,familiale
-2105,combinée
-2106,individuelle
-2107,individuelle
-2108,combinée
+2083,traditionnelle
+2084,de table
+2085,pierrade-fondue
+2086,familiale
+2087,electrique
+2088,mini raclette
+2089,combinée
+2090,electrique
+2091,pierrade-fondue
+2092,traditionnelle
+2093,combinée
+2094,familiale
+2095,individuelle
+2096,traditionnelle
+2097,familiale
+2098,pierrade-fondue
+2099,combinée
+2100,electrique
+2101,de table
+2102,pierrade-fondue
+2103,bon marché
+2104,individuelle
+2105,mini raclette
+2106,bon marché
+2107,familiale
+2108,pierrade-fondue
 2109,de table
-2110,pierrade-fondue
-2111,mini raclette
+2110,de table
+2111,pierrade-fondue
 2112,pierrade-fondue
-2113,multifonction
-2114,individuelle
-2115,traditionnelle
-2116,de table
-2117,pierrade-fondue
-2118,multifonction
-2119,combinée
-2120,individuelle
-2121,traditionnelle
-2122,multifonction
-2123,multifonction
-2124,multifonction
-2125,bon marché
-2126,familiale
-2127,mini raclette
-2128,mini raclette
-2129,multifonction
-2130,traditionnelle
-2131,pierrade-fondue
-2132,bon marché
-2133,pierrade-fondue
-2134,mini raclette
-2135,de table
-2136,familiale
-2137,bon marché
-2138,traditionnelle
-2139,bon marché
-2140,de table
-2141,individuelle
-2142,electrique
-2143,individuelle
+2113,individuelle
+2114,de table
+2115,mini raclette
+2116,traditionnelle
+2117,bon marché
+2118,pierrade-fondue
+2119,multifonction
+2120,pierrade-fondue
+2121,mini raclette
+2122,combinée
+2123,combinée
+2124,individuelle
+2125,electrique
+2126,multifonction
+2127,traditionnelle
+2128,traditionnelle
+2129,individuelle
+2130,multifonction
+2131,bon marché
+2132,traditionnelle
+2133,multifonction
+2134,multifonction
+2135,traditionnelle
+2136,multifonction
+2137,electrique
+2138,bon marché
+2139,de table
+2140,pierrade-fondue
+2141,familiale
+2142,bon marché
+2143,pierrade-fondue
 2144,bon marché
 2145,combinée
-2146,individuelle
+2146,electrique
 2147,individuelle
-2148,electrique
-2149,combinée
+2148,familiale
+2149,de table
 2150,individuelle
-2151,mini raclette
-2152,multifonction
-2153,individuelle
-2154,combinée
-2155,combinée
-2156,de table
-2157,bon marché
-2158,familiale
-2159,multifonction
-2160,pierrade-fondue
-2161,individuelle
-2162,combinée
-2163,pierrade-fondue
-2164,individuelle
-2165,electrique
-2166,pierrade-fondue
-2167,familiale
-2168,individuelle
+2151,individuelle
+2152,combinée
+2153,traditionnelle
+2154,de table
+2155,familiale
+2156,mini raclette
+2157,electrique
+2158,individuelle
+2159,familiale
+2160,traditionnelle
+2161,pierrade-fondue
+2162,traditionnelle
+2163,mini raclette
+2164,familiale
+2165,pierrade-fondue
+2166,traditionnelle
+2167,bon marché
+2168,traditionnelle
 2169,electrique
-2170,multifonction
-2171,de table
-2172,multifonction
-2173,individuelle
-2174,bon marché
-2175,electrique
-2176,traditionnelle
-2177,familiale
+2170,combinée
+2171,traditionnelle
+2172,bon marché
+2173,traditionnelle
+2174,mini raclette
+2175,traditionnelle
+2176,de table
+2177,combinée
 2178,bon marché
-2179,pierrade-fondue
-2180,mini raclette
-2181,bon marché
-2182,traditionnelle
-2183,multifonction
-2184,combinée
-2185,combinée
-2186,traditionnelle
-2187,bon marché
-2188,electrique
-2189,pierrade-fondue
-2190,familiale
-2191,mini raclette
+2179,traditionnelle
+2180,de table
+2181,combinée
+2182,multifonction
+2183,electrique
+2184,mini raclette
+2185,mini raclette
+2186,mini raclette
+2187,traditionnelle
+2188,multifonction
+2189,traditionnelle
+2190,pierrade-fondue
+2191,familiale
 2192,familiale
-2193,pierrade-fondue
-2194,combinée
-2195,multifonction
+2193,electrique
+2194,multifonction
+2195,pierrade-fondue
 2196,de table
-2197,individuelle
-2198,de table
-2199,combinée
-2200,bon marché
-2201,de table
-2202,bon marché
-2203,traditionnelle
-2204,electrique
-2205,electrique
-2206,traditionnelle
-2207,bon marché
-2208,traditionnelle
+2197,pierrade-fondue
+2198,pierrade-fondue
+2199,traditionnelle
+2200,multifonction
+2201,multifonction
+2202,pierrade-fondue
+2203,familiale
+2204,familiale
+2205,de table
+2206,mini raclette
+2207,de table
+2208,combinée
 2209,bon marché
-2210,combinée
-2211,multifonction
-2212,mini raclette
-2213,pierrade-fondue
-2214,multifonction
-2215,familiale
+2210,mini raclette
+2211,bon marché
+2212,de table
+2213,individuelle
+2214,familiale
+2215,traditionnelle
 2216,familiale
-2217,individuelle
+2217,de table
 2218,bon marché
-2219,combinée
-2220,familiale
-2221,individuelle
+2219,bon marché
+2220,electrique
+2221,mini raclette
 2222,multifonction
-2223,pierrade-fondue
-2224,traditionnelle
-2225,bon marché
-2226,traditionnelle
-2227,multifonction
-2228,familiale
+2223,electrique
+2224,pierrade-fondue
+2225,electrique
+2226,individuelle
+2227,bon marché
+2228,bon marché
 2229,individuelle
-2230,electrique
-2231,individuelle
-2232,multifonction
-2233,familiale
-2234,traditionnelle
-2235,pierrade-fondue
-2236,electrique
-2237,individuelle
-2238,familiale
-2239,electrique
+2230,familiale
+2231,bon marché
+2232,bon marché
+2233,pierrade-fondue
+2234,mini raclette
+2235,mini raclette
+2236,familiale
+2237,bon marché
+2238,traditionnelle
+2239,combinée
 2240,traditionnelle
-2241,bon marché
-2242,traditionnelle
-2243,bon marché
-2244,individuelle
-2245,traditionnelle
-2246,electrique
+2241,multifonction
+2242,bon marché
+2243,traditionnelle
+2244,familiale
+2245,pierrade-fondue
+2246,individuelle
 2247,electrique
-2248,multifonction
-2249,familiale
-2250,multifonction
+2248,electrique
+2249,combinée
+2250,combinée
 2251,individuelle
-2252,de table
+2252,combinée
 2253,mini raclette
-2254,de table
-2255,electrique
-2256,individuelle
-2257,bon marché
-2258,traditionnelle
-2259,traditionnelle
-2260,de table
-2261,combinée
-2262,multifonction
-2263,multifonction
-2264,multifonction
-2265,pierrade-fondue
+2254,traditionnelle
+2255,mini raclette
+2256,mini raclette
+2257,familiale
+2258,familiale
+2259,individuelle
+2260,individuelle
+2261,familiale
+2262,familiale
+2263,mini raclette
+2264,pierrade-fondue
+2265,de table
 2266,multifonction
-2267,electrique
-2268,individuelle
-2269,traditionnelle
-2270,mini raclette
-2271,de table
-2272,multifonction
-2273,electrique
-2274,familiale
-2275,de table
-2276,bon marché
-2277,bon marché
-2278,traditionnelle
-2279,combinée
-2280,familiale
+2267,mini raclette
+2268,electrique
+2269,electrique
+2270,de table
+2271,individuelle
+2272,familiale
+2273,familiale
+2274,multifonction
+2275,multifonction
+2276,traditionnelle
+2277,familiale
+2278,multifonction
+2279,traditionnelle
+2280,multifonction
 2281,bon marché
-2282,de table
-2283,electrique
-2284,familiale
+2282,individuelle
+2283,pierrade-fondue
+2284,electrique
 2285,individuelle
-2286,familiale
-2287,multifonction
-2288,bon marché
+2286,mini raclette
+2287,pierrade-fondue
+2288,multifonction
 2289,combinée
-2290,traditionnelle
-2291,electrique
-2292,de table
-2293,combinée
-2294,electrique
-2295,pierrade-fondue
-2296,familiale
-2297,electrique
+2290,de table
+2291,de table
+2292,familiale
+2293,multifonction
+2294,pierrade-fondue
+2295,multifonction
+2296,bon marché
+2297,individuelle
 2298,traditionnelle
-2299,familiale
-2300,traditionnelle
-2301,traditionnelle
-2302,de table
-2303,mini raclette
-2304,electrique
-2305,multifonction
-2306,traditionnelle
-2307,de table
+2299,combinée
+2300,combinée
+2301,combinée
+2302,mini raclette
+2303,individuelle
+2304,individuelle
+2305,de table
+2306,combinée
+2307,electrique
 2308,traditionnelle
-2309,bon marché
+2309,de table
 2310,de table
-2311,bon marché
-2312,individuelle
-2313,familiale
-2314,combinée
+2311,combinée
+2312,bon marché
+2313,de table
+2314,electrique
 2315,individuelle
-2316,electrique
-2317,bon marché
-2318,de table
-2319,individuelle
-2320,traditionnelle
-2321,individuelle
-2322,mini raclette
-2323,bon marché
-2324,traditionnelle
-2325,bon marché
-2326,bon marché
-2327,bon marché
-2328,multifonction
-2329,combinée
-2330,electrique
-2331,mini raclette
-2332,mini raclette
-2333,familiale
-2334,mini raclette
-2335,multifonction
-2336,multifonction
+2316,individuelle
+2317,combinée
+2318,familiale
+2319,bon marché
+2320,pierrade-fondue
+2321,traditionnelle
+2322,pierrade-fondue
+2323,familiale
+2324,de table
+2325,individuelle
+2326,individuelle
+2327,mini raclette
+2328,mini raclette
+2329,de table
+2330,multifonction
+2331,de table
+2332,multifonction
+2333,multifonction
+2334,de table
+2335,mini raclette
+2336,de table
 2337,de table
-2338,mini raclette
-2339,bon marché
-2340,combinée
-2341,individuelle
-2342,pierrade-fondue
+2338,traditionnelle
+2339,familiale
+2340,mini raclette
+2341,de table
+2342,bon marché
 2343,bon marché
-2344,bon marché
-2345,individuelle
-2346,electrique
-2347,pierrade-fondue
-2348,mini raclette
-2349,pierrade-fondue
-2350,pierrade-fondue
-2351,electrique
-2352,de table
-2353,traditionnelle
-2354,bon marché
+2344,de table
+2345,de table
+2346,familiale
+2347,de table
+2348,bon marché
+2349,individuelle
+2350,multifonction
+2351,traditionnelle
+2352,pierrade-fondue
+2353,combinée
+2354,electrique
 2355,individuelle
 2356,mini raclette
-2357,familiale
-2358,individuelle
-2359,multifonction
-2360,bon marché
-2361,traditionnelle
-2362,mini raclette
-2363,mini raclette
-2364,combinée
-2365,de table
-2366,pierrade-fondue
-2367,bon marché
+2357,combinée
+2358,traditionnelle
+2359,combinée
+2360,multifonction
+2361,de table
+2362,multifonction
+2363,bon marché
+2364,bon marché
+2365,combinée
+2366,individuelle
+2367,pierrade-fondue
 2368,traditionnelle
-2369,de table
-2370,mini raclette
-2371,pierrade-fondue
-2372,multifonction
-2373,multifonction
-2374,electrique
-2375,combinée
-2376,traditionnelle
-2377,mini raclette
-2378,familiale
-2379,de table
-2380,multifonction
+2369,electrique
+2370,pierrade-fondue
+2371,combinée
+2372,de table
+2373,mini raclette
+2374,traditionnelle
+2375,traditionnelle
+2376,combinée
+2377,electrique
+2378,traditionnelle
+2379,pierrade-fondue
+2380,individuelle
 2381,multifonction
-2382,multifonction
-2383,individuelle
-2384,traditionnelle
-2385,mini raclette
-2386,pierrade-fondue
-2387,mini raclette
-2388,familiale
-2389,individuelle
-2390,familiale
-2391,combinée
-2392,bon marché
-2393,individuelle
-2394,bon marché
-2395,traditionnelle
-2396,combinée
-2397,pierrade-fondue
-2398,familiale
-2399,traditionnelle
-2400,de table
-2401,de table
-2402,bon marché
-2403,combinée
-2404,pierrade-fondue
+2382,electrique
+2383,familiale
+2384,mini raclette
+2385,individuelle
+2386,bon marché
+2387,combinée
+2388,combinée
+2389,combinée
+2390,traditionnelle
+2391,individuelle
+2392,familiale
+2393,electrique
+2394,pierrade-fondue
+2395,multifonction
+2396,multifonction
+2397,bon marché
+2398,pierrade-fondue
+2399,multifonction
+2400,multifonction
+2401,familiale
+2402,de table
+2403,de table
+2404,individuelle
 2405,electrique
 2406,familiale
-2407,bon marché
-2408,familiale
-2409,pierrade-fondue
-2410,electrique
-2411,traditionnelle
-2412,mini raclette
-2413,pierrade-fondue
-2414,multifonction
-2415,bon marché
-2416,multifonction
-2417,individuelle
-2418,traditionnelle
-2419,bon marché
-2420,individuelle
-2421,individuelle
-2422,multifonction
-2423,de table
-2424,traditionnelle
-2425,individuelle
+2407,combinée
+2408,traditionnelle
+2409,de table
+2410,traditionnelle
+2411,electrique
+2412,pierrade-fondue
+2413,de table
+2414,de table
+2415,individuelle
+2416,de table
+2417,pierrade-fondue
+2418,bon marché
+2419,de table
+2420,familiale
+2421,electrique
+2422,familiale
+2423,pierrade-fondue
+2424,de table
+2425,de table
 2426,bon marché
-2427,pierrade-fondue
-2428,electrique
-2429,individuelle
-2430,mini raclette
-2431,pierrade-fondue
-2432,mini raclette
-2433,familiale
+2427,multifonction
+2428,bon marché
+2429,traditionnelle
+2430,traditionnelle
+2431,multifonction
+2432,individuelle
+2433,mini raclette
 2434,individuelle
-2435,pierrade-fondue
-2436,multifonction
-2437,combinée
+2435,bon marché
+2436,bon marché
+2437,mini raclette
 2438,multifonction
 2439,de table
-2440,electrique
-2441,pierrade-fondue
-2442,mini raclette
-2443,multifonction
-2444,combinée
-2445,electrique
-2446,multifonction
-2447,bon marché
-2448,electrique
-2449,traditionnelle
-2450,individuelle
-2451,individuelle
-2452,combinée
-2453,mini raclette
-2454,traditionnelle
-2455,combinée
+2440,multifonction
+2441,multifonction
+2442,familiale
+2443,de table
+2444,pierrade-fondue
+2445,pierrade-fondue
+2446,pierrade-fondue
+2447,familiale
+2448,multifonction
+2449,familiale
+2450,de table
+2451,mini raclette
+2452,multifonction
+2453,combinée
+2454,familiale
+2455,multifonction
 2456,electrique
 2457,combinée
-2458,electrique
-2459,individuelle
-2460,multifonction
-2461,de table
-2462,combinée
-2463,bon marché
-2464,combinée
+2458,de table
+2459,electrique
+2460,traditionnelle
+2461,individuelle
+2462,multifonction
+2463,de table
+2464,mini raclette
 2465,multifonction
-2466,combinée
+2466,bon marché
 2467,familiale
-2468,mini raclette
-2469,de table
-2470,familiale
-2471,familiale
+2468,electrique
+2469,familiale
+2470,electrique
+2471,individuelle
 2472,multifonction
-2473,electrique
-2474,mini raclette
-2475,individuelle
-2476,de table
-2477,de table
-2478,traditionnelle
-2479,combinée
-2480,electrique
-2481,de table
-2482,individuelle
-2483,mini raclette
-2484,electrique
-2485,multifonction
-2486,de table
+2473,multifonction
+2474,combinée
+2475,electrique
+2476,electrique
+2477,traditionnelle
+2478,individuelle
+2479,de table
+2480,traditionnelle
+2481,bon marché
+2482,combinée
+2483,pierrade-fondue
+2484,pierrade-fondue
+2485,familiale
+2486,combinée
 2487,multifonction
-2488,de table
-2489,combinée
-2490,individuelle
-2491,multifonction
-2492,mini raclette
-2493,familiale
-2494,combinée
-2495,individuelle
-2496,multifonction
-2497,electrique
-2498,mini raclette
-2499,multifonction
+2488,pierrade-fondue
+2489,pierrade-fondue
+2490,electrique
+2491,bon marché
+2492,multifonction
+2493,combinée
+2494,multifonction
+2495,pierrade-fondue
+2496,traditionnelle
+2497,familiale
+2498,bon marché
+2499,pierrade-fondue

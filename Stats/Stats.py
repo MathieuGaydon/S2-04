@@ -93,13 +93,12 @@ with open("Legume.csv","w", newline='' ,encoding='utf-8') as Legume:
     writer.writerow(['idLegume','nomLegume'])
     nom_legume_possible=["Ail", "Brocoli", "Carotte", "Chou Rouge", "Epinard", "Maïs", "Melon", "Oignon", "Pomme de terre", "Radis", "Tomate", "Topinambour"]
     num_legume_list=[]
-    for i in range(125):
+    for i in range(len(nom_legume_possible)):
        idLegume = fake.unique.random_int(1,1000,1)
-       nomLegume = fake.random_element(elements=nom_legume_possible)
+       nomLegume = nom_legume_possible[i]
        num_legume_list.append(idLegume)
        #On met les Insert into dans un fichier 
        writer.writerow([idLegume,nomLegume])
-    num_legume_list = tuple(num_legume_list)
 
 #--------------------------------Sauce-------------------------------------
 with open("Sauce.csv","w", newline='' ,encoding='utf-8') as Sauce:
@@ -108,9 +107,9 @@ with open("Sauce.csv","w", newline='' ,encoding='utf-8') as Sauce:
     writer.writerow(['idSauce','nomSauce'])
     nom_sauce_possible=["Mayonnaise", "Blanche", "Moutarde", "Sauce du chef", "Ketchup", "Beurre", "BBQ", "Tartare", "Poivre", "Pesto", "Sauce Fromagère"]
     num_sauce_list=[]
-    for i in range(125):
+    for i in range(len(nom_sauce_possible)):
        idSauce = fake.unique.random_int(1,1000,1)
-       nomSauce = fake.random_element(elements=nom_sauce_possible)
+       nomSauce = nom_sauce_possible[i]
        num_sauce_list.append(idSauce)
        #On met les Insert into dans un fichier 
        writer.writerow([idSauce,nomSauce])
@@ -252,6 +251,8 @@ with open("Plat.csv","w", newline='' ,encoding='utf-8') as Plat:
     writer.writerow(['idPlat','nomPlat','idLegume'])
     nom_plat_possible=["Tenders", "Kebab", "Pizza", "Quiche", "Saumon", "Ananas", "Beurre", "Raclette", "Pasta Carbonara", "Poulet", "Fondue savoyarde", "Choucroute", "Foie gras"]
     num_plat_list=[]
+    for i in range(36):
+        num_legume_list.append("NULL")
     for i in range(250):
        idPlat = fake.unique.random_int(1,1000,1)
        nomPlat = fake.random_element(elements=nom_plat_possible)
